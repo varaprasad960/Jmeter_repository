@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+
+
+
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="content-signature-2.cdn.mozilla.net:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1408" sc="1" ec="1" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT content-signature-2.cdn.mozilla.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="aus5.mozilla.org:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1115" sc="1" ec="1" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT aus5.mozilla.org:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="content-signature-2.cdn.mozilla.net:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1408" sc="1" ec="1" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT content-signature-2.cdn.mozilla.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="content-signature-2.cdn.mozilla.net:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1408" sc="1" ec="1" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT content-signature-2.cdn.mozilla.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+</testResults>

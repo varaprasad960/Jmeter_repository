@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
+2024/08/08 20:52:45,379,HomePage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,true,,6133,1,1,0,1,0,CIN_Varaprasad
+2024/08/08 20:52:46,176,ClickSignUpNow,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,2669,1,1,0,1,0,CIN_Varaprasad
+2024/08/08 20:52:46,211,FillDetailsClickContinue,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,1904,1,1,0,1,0,CIN_Varaprasad
+2024/08/08 20:52:46,610,ClickOnContinue${C_extractedVal},200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,true,,3726,1,1,0,1,0,CIN_Varaprasad
+2024/08/08 20:52:47,364,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,2803,1,1,0,1,0,CIN_Varaprasad

@@ -1,0 +1,851 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+2024/07/23 21:24:09,30,Homepage-0,200,OK,Thread Group 1-1,text,true,,664,396,1,1,http://192.168.2.109:1080/WebTours/,30,0,19
+2024/07/23 21:24:10,2,Homepage-1,200,OK,Thread Group 1-1,text,true,,1007,453,1,1,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:10,115,Homepage-2,200,OK,Thread Group 1-1,text,true,,1087,464,1,1,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,114,0,0
+2024/07/23 21:24:10,58,Homepage-3,200,OK,Thread Group 1-1,text,true,,1659,563,1,1,http://192.168.2.109:1080/WebTours/home.html,58,0,0
+2024/07/23 21:24:10,145,Homepage-4,200,OK,Thread Group 1-1,text,true,,3157,567,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,143,0,0
+2024/07/23 21:24:09,350,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,7574,2443,1,1,null,347,82,19
+2024/07/23 21:24:10,4,Homepage-0,200,OK,Thread Group 1-2,text,true,,664,396,2,2,http://192.168.2.109:1080/WebTours/,4,0,2
+2024/07/23 21:24:10,4,Homepage-1,200,OK,Thread Group 1-2,text,true,,1007,453,2,2,http://192.168.2.109:1080/WebTours/header.html,4,0,0
+2024/07/23 21:24:10,165,ClickOnSignUp-0,200,OK,Thread Group 1-1,text,true,,2669,581,2,2,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,162,0,0
+2024/07/23 21:24:10,165,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2669,581,2,2,null,162,1,0
+2024/07/23 21:24:10,117,Homepage-2,200,OK,Thread Group 1-2,text,true,,1087,464,2,2,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,114,0,0
+2024/07/23 21:24:10,64,Homepage-3,200,OK,Thread Group 1-2,text,true,,1659,563,2,2,http://192.168.2.109:1080/WebTours/home.html,64,0,0
+2024/07/23 21:24:10,188,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-1,text,true,,1461,805,2,2,http://192.168.2.109:1080/cgi-bin/login.pl,185,0,0
+2024/07/23 21:24:10,188,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1461,805,2,2,null,185,0,0
+2024/07/23 21:24:10,117,Homepage-4,200,OK,Thread Group 1-2,text,true,,3157,567,2,2,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,115,0,0
+2024/07/23 21:24:10,306,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,7574,2443,2,2,null,301,6,2
+2024/07/23 21:24:10,189,ClickContinue-0,200,OK,Thread Group 1-1,text,true,,823,678,2,2,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,186,0,0
+2024/07/23 21:24:10,3,Homepage-0,200,OK,Thread Group 1-3,text,true,,664,396,3,3,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:10,2,Homepage-1,200,OK,Thread Group 1-3,text,true,,1007,453,3,3,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:10,195,ClickOnSignUp-0,200,OK,Thread Group 1-2,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,192,0,0
+2024/07/23 21:24:10,195,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2669,581,3,3,null,192,1,0
+2024/07/23 21:24:10,114,Homepage-2,200,OK,Thread Group 1-3,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,112,0,0
+2024/07/23 21:24:10,172,ClickContinue-1,200,OK,Thread Group 1-1,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,169,0,0
+2024/07/23 21:24:11,54,Homepage-3,200,OK,Thread Group 1-3,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,54,0,0
+2024/07/23 21:24:10,174,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-2,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,171,0,0
+2024/07/23 21:24:10,174,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,1461,805,3,3,null,171,1,0
+2024/07/23 21:24:11,112,Homepage-4,200,OK,Thread Group 1-3,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,109,0,0
+2024/07/23 21:24:10,285,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-3,,true,,7577,2443,3,3,null,280,5,1
+2024/07/23 21:24:11,168,ClickContinue-2,200,OK,Thread Group 1-1,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,166,0,0
+2024/07/23 21:24:10,529,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,3735,2061,3,3,null,521,2,0
+2024/07/23 21:24:11,157,ClickContinue-0,200,OK,Thread Group 1-2,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,155,0,0
+2024/07/23 21:24:11,172,ClickOnSignUp-0,200,OK,Thread Group 1-3,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,168,0,0
+2024/07/23 21:24:11,172,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,2669,581,3,3,null,168,2,0
+2024/07/23 21:24:11,6,Homepage-0,200,OK,Thread Group 1-4,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,6,0,2
+2024/07/23 21:24:11,3,Homepage-1,200,OK,Thread Group 1-4,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,3,0,0
+2024/07/23 21:24:11,177,ClickContinue-1,200,OK,Thread Group 1-2,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,174,0,0
+2024/07/23 21:24:11,196,SignOff-0,200,OK,Thread Group 1-1,text,true,,1087,693,4,4,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,192,0,0
+2024/07/23 21:24:11,134,Homepage-2,200,OK,Thread Group 1-4,text,true,,1087,464,4,4,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,130,0,0
+2024/07/23 21:24:11,188,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-3,text,true,,1461,805,4,4,http://192.168.2.109:1080/cgi-bin/login.pl,185,0,0
+2024/07/23 21:24:11,188,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,1461,805,4,4,null,185,1,0
+2024/07/23 21:24:11,162,ClickContinue-2,200,OK,Thread Group 1-2,text,true,,1749,694,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,159,0,0
+2024/07/23 21:24:11,496,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,3735,2061,4,4,null,488,2,0
+2024/07/23 21:24:11,48,Homepage-3,200,OK,Thread Group 1-4,text,true,,1659,563,4,4,http://192.168.2.109:1080/WebTours/home.html,48,0,0
+2024/07/23 21:24:11,168,SignOff-1,200,OK,Thread Group 1-1,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,166,0,0
+2024/07/23 21:24:11,364,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,4247,1257,4,4,null,358,2,0
+2024/07/23 21:24:11,118,Homepage-4,200,OK,Thread Group 1-4,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,115,0,0
+2024/07/23 21:24:11,309,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-4,,true,,7577,2443,3,3,null,302,3,2
+2024/07/23 21:24:11,164,ClickContinue-0,200,OK,Thread Group 1-3,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,162,0,0
+2024/07/23 21:24:11,166,SignOff-0,200,OK,Thread Group 1-2,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,163,0,0
+2024/07/23 21:24:11,169,ClickOnSignUp-0,200,OK,Thread Group 1-4,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,166,0,0
+2024/07/23 21:24:11,169,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,2669,581,3,3,null,166,2,0
+2024/07/23 21:24:11,177,ClickContinue-1,200,OK,Thread Group 1-3,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,175,0,0
+2024/07/23 21:24:11,3,Homepage-0,200,OK,Thread Group 1-5,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:11,3,Homepage-1,200,OK,Thread Group 1-5,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:11,180,SignOff-1,200,OK,Thread Group 1-2,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,177,0,0
+2024/07/23 21:24:11,346,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,4247,1257,4,4,null,340,2,0
+2024/07/23 21:24:11,129,Homepage-2,200,OK,Thread Group 1-5,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,123,0,0
+2024/07/23 21:24:11,181,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-4,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,177,0,0
+2024/07/23 21:24:11,181,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,1461,805,3,3,null,177,0,0
+2024/07/23 21:24:11,179,ClickContinue-2,200,OK,Thread Group 1-3,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,177,0,0
+2024/07/23 21:24:11,520,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,3735,2061,3,3,null,514,3,0
+2024/07/23 21:24:12,55,Homepage-3,200,OK,Thread Group 1-5,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,55,0,0
+2024/07/23 21:24:12,123,Homepage-4,200,OK,Thread Group 1-5,text,true,,3136,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,119,0,0
+2024/07/23 21:24:11,313,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-5,,true,,7553,2443,3,3,null,302,3,1
+2024/07/23 21:24:12,171,ClickContinue-0,200,OK,Thread Group 1-4,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,168,0,0
+2024/07/23 21:24:12,174,SignOff-0,200,OK,Thread Group 1-3,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,172,0,0
+2024/07/23 21:24:12,165,ClickOnSignUp-0,200,OK,Thread Group 1-5,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,162,0,0
+2024/07/23 21:24:12,165,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,2669,581,3,3,null,162,1,0
+2024/07/23 21:24:12,3,Homepage-0,200,OK,Thread Group 1-6,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:12,2,Homepage-1,200,OK,Thread Group 1-6,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:12,176,ClickContinue-1,200,OK,Thread Group 1-4,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,173,0,0
+2024/07/23 21:24:12,184,SignOff-1,200,OK,Thread Group 1-3,text,true,,3136,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,181,0,0
+2024/07/23 21:24:12,358,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,4223,1257,4,4,null,353,2,0
+2024/07/23 21:24:12,119,Homepage-2,200,OK,Thread Group 1-6,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,117,0,0
+2024/07/23 21:24:12,168,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-5,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,165,0,0
+2024/07/23 21:24:12,168,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,1461,805,3,3,null,165,0,0
+2024/07/23 21:24:12,158,ClickContinue-2,200,OK,Thread Group 1-4,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,155,0,0
+2024/07/23 21:24:12,505,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,3735,2061,3,3,null,496,3,0
+2024/07/23 21:24:12,49,Homepage-3,200,OK,Thread Group 1-6,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,49,0,0
+2024/07/23 21:24:12,160,Homepage-4,200,OK,Thread Group 1-6,text,true,,3136,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,153,0,0
+2024/07/23 21:24:12,333,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-6,,true,,7553,2443,3,3,null,324,4,1
+2024/07/23 21:24:12,198,ClickContinue-0,200,OK,Thread Group 1-5,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,195,0,0
+2024/07/23 21:24:12,211,SignOff-0,200,OK,Thread Group 1-4,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,209,0,0
+2024/07/23 21:24:12,12,Homepage-0,200,OK,Thread Group 1-7,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,12,0,1
+2024/07/23 21:24:12,2,Homepage-1,200,OK,Thread Group 1-7,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:12,193,ClickOnSignUp-0,200,OK,Thread Group 1-6,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,190,0,0
+2024/07/23 21:24:12,193,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,2669,581,4,4,null,190,1,0
+2024/07/23 21:24:12,196,ClickContinue-1,200,OK,Thread Group 1-5,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,192,0,0
+2024/07/23 21:24:12,196,SignOff-1,200,OK,Thread Group 1-4,text,true,,3136,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,192,0,0
+2024/07/23 21:24:12,407,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,4223,1257,4,4,null,401,2,0
+2024/07/23 21:24:12,138,Homepage-2,200,OK,Thread Group 1-7,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,134,0,0
+2024/07/23 21:24:12,170,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-6,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,168,0,0
+2024/07/23 21:24:12,170,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,1461,805,3,3,null,168,0,0
+2024/07/23 21:24:13,49,Homepage-3,200,OK,Thread Group 1-7,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,49,0,0
+2024/07/23 21:24:12,165,ClickContinue-2,200,OK,Thread Group 1-5,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,162,0,0
+2024/07/23 21:24:12,559,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,3735,2061,3,3,null,549,2,0
+2024/07/23 21:24:13,118,Homepage-4,200,OK,Thread Group 1-7,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,114,0,0
+2024/07/23 21:24:12,319,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-7,,true,,7577,2443,3,3,null,311,6,1
+2024/07/23 21:24:13,169,ClickContinue-0,200,OK,Thread Group 1-6,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,166,0,0
+2024/07/23 21:24:13,175,SignOff-0,200,OK,Thread Group 1-5,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,173,0,0
+2024/07/23 21:24:13,166,ClickOnSignUp-0,200,OK,Thread Group 1-7,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,163,0,0
+2024/07/23 21:24:13,166,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,2669,581,3,3,null,163,1,0
+2024/07/23 21:24:13,3,Homepage-0,200,OK,Thread Group 1-8,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,0
+2024/07/23 21:24:13,2,Homepage-1,200,OK,Thread Group 1-8,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:13,165,ClickContinue-1,200,OK,Thread Group 1-6,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,162,0,0
+2024/07/23 21:24:13,168,SignOff-1,200,OK,Thread Group 1-5,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,166,0,0
+2024/07/23 21:24:13,343,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,4247,1257,4,4,null,339,2,0
+2024/07/23 21:24:13,122,Homepage-2,200,OK,Thread Group 1-8,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,119,0,0
+2024/07/23 21:24:13,169,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-7,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,166,0,0
+2024/07/23 21:24:13,169,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,1461,805,3,3,null,166,0,0
+2024/07/23 21:24:13,53,Homepage-3,200,OK,Thread Group 1-8,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,53,0,0
+2024/07/23 21:24:13,155,ClickContinue-2,200,OK,Thread Group 1-6,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,152,0,0
+2024/07/23 21:24:13,489,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-6,,true,,3735,2061,3,3,null,480,3,0
+2024/07/23 21:24:13,123,Homepage-4,200,OK,Thread Group 1-8,text,true,,3159,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,120,0,0
+2024/07/23 21:24:13,303,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-8,,true,,7576,2443,3,3,null,297,4,0
+2024/07/23 21:24:13,171,ClickContinue-0,200,OK,Thread Group 1-7,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,168,0,0
+2024/07/23 21:24:13,186,SignOff-0,200,OK,Thread Group 1-6,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,183,0,0
+2024/07/23 21:24:13,7,Homepage-0,200,OK,Thread Group 1-9,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,7,0,1
+2024/07/23 21:24:13,2,Homepage-1,200,OK,Thread Group 1-9,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:13,215,ClickOnSignUp-0,200,OK,Thread Group 1-8,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,204,0,0
+2024/07/23 21:24:13,215,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,2669,581,4,4,null,204,0,0
+2024/07/23 21:24:13,193,ClickContinue-1,200,OK,Thread Group 1-7,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,187,0,0
+2024/07/23 21:24:13,254,SignOff-1,200,OK,Thread Group 1-6,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,251,0,0
+2024/07/23 21:24:13,440,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-6,,true,,4247,1257,4,4,null,434,2,0
+2024/07/23 21:24:13,167,Homepage-2,200,OK,Thread Group 1-9,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,163,0,0
+2024/07/23 21:24:13,198,ClickContinue-2,200,OK,Thread Group 1-7,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,195,0,0
+2024/07/23 21:24:13,562,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-7,,true,,3735,2061,3,3,null,550,3,0
+2024/07/23 21:24:13,206,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-8,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,203,0,0
+2024/07/23 21:24:14,50,Homepage-3,200,OK,Thread Group 1-9,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,50,0,0
+2024/07/23 21:24:13,206,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,1461,805,3,3,null,203,1,0
+2024/07/23 21:24:14,141,Homepage-4,200,OK,Thread Group 1-9,text,true,,3157,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,136,0,0
+2024/07/23 21:24:13,367,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-9,,true,,7574,2443,3,3,null,358,4,1
+2024/07/23 21:24:14,183,SignOff-0,200,OK,Thread Group 1-7,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,179,0,0
+2024/07/23 21:24:14,191,ClickContinue-0,200,OK,Thread Group 1-8,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,189,0,0
+2024/07/23 21:24:14,9,Homepage-0,200,OK,Thread Group 1-10,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,9,0,1
+2024/07/23 21:24:14,2,Homepage-1,200,OK,Thread Group 1-10,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:14,197,ClickOnSignUp-0,200,OK,Thread Group 1-9,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,194,0,0
+2024/07/23 21:24:14,197,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,2669,581,4,4,null,194,1,0
+2024/07/23 21:24:14,205,SignOff-1,200,OK,Thread Group 1-7,text,true,,3157,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,202,0,0
+2024/07/23 21:24:14,388,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-7,,true,,4244,1257,4,4,null,381,1,0
+2024/07/23 21:24:14,194,ClickContinue-1,200,OK,Thread Group 1-8,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,189,0,0
+2024/07/23 21:24:14,144,Homepage-2,200,OK,Thread Group 1-10,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,141,0,0
+2024/07/23 21:24:14,60,Homepage-3,200,OK,Thread Group 1-10,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,60,0,0
+2024/07/23 21:24:14,187,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-9,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,183,0,0
+2024/07/23 21:24:14,187,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,1461,805,3,3,null,183,0,0
+2024/07/23 21:24:14,204,ClickContinue-2,200,OK,Thread Group 1-8,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,201,0,0
+2024/07/23 21:24:14,589,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-8,,true,,3735,2061,3,3,null,579,3,0
+2024/07/23 21:24:14,138,Homepage-4,200,OK,Thread Group 1-10,text,true,,3157,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,135,0,0
+2024/07/23 21:24:14,353,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-10,,true,,7574,2443,3,3,null,347,4,1
+2024/07/23 21:24:14,172,ClickContinue-0,200,OK,Thread Group 1-9,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,168,0,0
+2024/07/23 21:24:14,168,SignOff-0,200,OK,Thread Group 1-8,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,165,0,0
+2024/07/23 21:24:14,3,Homepage-0,200,OK,Thread Group 1-11,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:14,2,Homepage-1,200,OK,Thread Group 1-11,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:14,166,ClickOnSignUp-0,200,OK,Thread Group 1-10,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,164,0,0
+2024/07/23 21:24:14,166,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,2669,581,4,4,null,164,2,0
+2024/07/23 21:24:14,184,ClickContinue-1,200,OK,Thread Group 1-9,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,181,0,0
+2024/07/23 21:24:14,150,Homepage-2,200,OK,Thread Group 1-11,text,true,,1087,464,4,4,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,147,0,0
+2024/07/23 21:24:14,175,SignOff-1,200,OK,Thread Group 1-8,text,true,,3157,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,172,0,0
+2024/07/23 21:24:14,343,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-8,,true,,4244,1257,4,4,null,337,1,0
+2024/07/23 21:24:14,179,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-10,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,177,0,0
+2024/07/23 21:24:14,179,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,1461,805,3,3,null,177,1,0
+2024/07/23 21:24:15,59,Homepage-3,200,OK,Thread Group 1-11,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,59,0,0
+2024/07/23 21:24:15,173,ClickContinue-2,200,OK,Thread Group 1-9,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,167,0,0
+2024/07/23 21:24:14,529,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-9,,true,,3735,2061,3,3,null,516,3,0
+2024/07/23 21:24:15,122,Homepage-4,200,OK,Thread Group 1-11,text,true,,3145,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,119,0,0
+2024/07/23 21:24:14,336,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-11,,true,,7562,2443,3,3,null,330,5,1
+2024/07/23 21:24:15,163,ClickContinue-0,200,OK,Thread Group 1-10,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,161,0,0
+2024/07/23 21:24:15,172,SignOff-0,200,OK,Thread Group 1-9,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,169,0,0
+2024/07/23 21:24:15,3,Homepage-0,200,OK,Thread Group 1-12,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:15,1,Homepage-1,200,OK,Thread Group 1-12,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,1,0,0
+2024/07/23 21:24:15,178,ClickOnSignUp-0,200,OK,Thread Group 1-11,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,175,0,0
+2024/07/23 21:24:15,178,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,2669,581,4,4,null,175,1,0
+2024/07/23 21:24:15,165,ClickContinue-1,200,OK,Thread Group 1-10,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,163,0,0
+2024/07/23 21:24:15,116,Homepage-2,200,OK,Thread Group 1-12,text,true,,1087,464,4,4,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,113,0,0
+2024/07/23 21:24:15,187,SignOff-1,200,OK,Thread Group 1-9,text,true,,3143,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,183,0,0
+2024/07/23 21:24:15,359,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-9,,true,,4230,1257,4,4,null,352,3,0
+2024/07/23 21:24:15,62,Homepage-3,200,OK,Thread Group 1-12,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,62,0,0
+2024/07/23 21:24:15,187,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-11,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,181,0,0
+2024/07/23 21:24:15,187,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,1461,805,3,3,null,181,0,0
+2024/07/23 21:24:15,185,ClickContinue-2,200,OK,Thread Group 1-10,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,182,0,0
+2024/07/23 21:24:15,513,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-10,,true,,3735,2061,3,3,null,506,2,0
+2024/07/23 21:24:15,146,Homepage-4,200,OK,Thread Group 1-12,text,true,,3145,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,142,0,0
+2024/07/23 21:24:15,328,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-12,,true,,7562,2443,3,3,null,321,4,1
+2024/07/23 21:24:15,202,ClickContinue-0,200,OK,Thread Group 1-11,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,200,0,0
+2024/07/23 21:24:15,194,SignOff-0,200,OK,Thread Group 1-10,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,191,0,0
+2024/07/23 21:24:15,158,ClickOnSignUp-0,200,OK,Thread Group 1-12,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,155,0,0
+2024/07/23 21:24:15,158,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,2669,581,3,3,null,155,0,0
+2024/07/23 21:24:15,3,Homepage-0,200,OK,Thread Group 1-13,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:15,2,Homepage-1,200,OK,Thread Group 1-13,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:15,187,ClickContinue-1,200,OK,Thread Group 1-11,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,184,0,0
+2024/07/23 21:24:15,187,SignOff-1,200,OK,Thread Group 1-10,text,true,,3145,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,184,0,0
+2024/07/23 21:24:15,381,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-10,,true,,4232,1257,4,4,null,375,1,0
+2024/07/23 21:24:15,123,Homepage-2,200,OK,Thread Group 1-13,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,121,0,0
+2024/07/23 21:24:15,166,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-12,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,163,0,0
+2024/07/23 21:24:15,166,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,1461,805,3,3,null,163,0,0
+2024/07/23 21:24:16,54,Homepage-3,200,OK,Thread Group 1-13,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,54,0,0
+2024/07/23 21:24:15,166,ClickContinue-2,200,OK,Thread Group 1-11,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,163,0,0
+2024/07/23 21:24:15,555,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-11,,true,,3735,2061,3,3,null,547,4,0
+2024/07/23 21:24:16,118,Homepage-4,200,OK,Thread Group 1-13,text,true,,3153,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,116,0,0
+2024/07/23 21:24:15,300,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-13,,true,,7570,2443,3,3,null,296,5,1
+2024/07/23 21:24:16,164,ClickContinue-0,200,OK,Thread Group 1-12,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,162,0,0
+2024/07/23 21:24:16,168,SignOff-0,200,OK,Thread Group 1-11,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,165,0,0
+2024/07/23 21:24:16,165,ClickOnSignUp-0,200,OK,Thread Group 1-13,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,162,0,0
+2024/07/23 21:24:16,165,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,2669,581,3,3,null,162,0,0
+2024/07/23 21:24:16,167,ClickContinue-1,200,OK,Thread Group 1-12,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,165,0,0
+2024/07/23 21:24:16,3,Homepage-0,200,OK,Thread Group 1-14,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:16,2,Homepage-1,200,OK,Thread Group 1-14,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:16,176,SignOff-1,200,OK,Thread Group 1-11,text,true,,3154,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,173,0,0
+2024/07/23 21:24:16,344,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-11,,true,,4241,1257,4,4,null,338,1,0
+2024/07/23 21:24:16,124,Homepage-2,200,OK,Thread Group 1-14,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,122,0,0
+2024/07/23 21:24:16,185,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-13,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,182,0,0
+2024/07/23 21:24:16,185,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,1461,805,3,3,null,182,1,0
+2024/07/23 21:24:16,172,ClickContinue-2,200,OK,Thread Group 1-12,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,170,0,0
+2024/07/23 21:24:16,503,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-12,,true,,3735,2061,3,3,null,497,2,0
+2024/07/23 21:24:16,59,Homepage-3,200,OK,Thread Group 1-14,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,59,0,0
+2024/07/23 21:24:16,118,Homepage-4,200,OK,Thread Group 1-14,text,true,,3154,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,111,0,0
+2024/07/23 21:24:16,306,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-14,,true,,7571,2443,3,3,null,297,5,1
+2024/07/23 21:24:16,181,ClickContinue-0,200,OK,Thread Group 1-13,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,179,0,0
+2024/07/23 21:24:16,171,SignOff-0,200,OK,Thread Group 1-12,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,165,0,0
+2024/07/23 21:24:16,5,Homepage-0,200,OK,Thread Group 1-15,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,5,0,1
+2024/07/23 21:24:16,179,ClickOnSignUp-0,200,OK,Thread Group 1-14,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,175,0,0
+2024/07/23 21:24:16,179,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,2669,581,4,4,null,175,1,0
+2024/07/23 21:24:16,2,Homepage-1,200,OK,Thread Group 1-15,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:16,182,ClickContinue-1,200,OK,Thread Group 1-13,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,179,0,0
+2024/07/23 21:24:16,186,SignOff-1,200,OK,Thread Group 1-12,text,true,,3154,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,183,0,0
+2024/07/23 21:24:16,357,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-12,,true,,4241,1257,4,4,null,348,1,0
+2024/07/23 21:24:16,121,Homepage-2,200,OK,Thread Group 1-15,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,118,0,0
+2024/07/23 21:24:16,168,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-14,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,165,0,0
+2024/07/23 21:24:16,168,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,1461,805,3,3,null,165,1,0
+2024/07/23 21:24:16,164,ClickContinue-2,200,OK,Thread Group 1-13,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,161,0,0
+2024/07/23 21:24:16,527,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-13,,true,,3735,2061,3,3,null,519,1,0
+2024/07/23 21:24:17,60,Homepage-3,200,OK,Thread Group 1-15,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,60,0,0
+2024/07/23 21:24:17,114,Homepage-4,200,OK,Thread Group 1-15,text,true,,3154,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,112,0,0
+2024/07/23 21:24:16,302,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-15,,true,,7571,2443,3,3,null,297,3,1
+2024/07/23 21:24:17,167,ClickContinue-0,200,OK,Thread Group 1-14,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,164,0,0
+2024/07/23 21:24:17,174,SignOff-0,200,OK,Thread Group 1-13,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,171,0,0
+2024/07/23 21:24:17,176,ClickOnSignUp-0,200,OK,Thread Group 1-15,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,173,0,0
+2024/07/23 21:24:17,176,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,2669,581,3,3,null,173,1,0
+2024/07/23 21:24:17,5,Homepage-0,200,OK,Thread Group 1-16,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,5,0,1
+2024/07/23 21:24:17,2,Homepage-1,200,OK,Thread Group 1-16,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:17,174,ClickContinue-1,200,OK,Thread Group 1-14,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,171,0,0
+2024/07/23 21:24:17,183,SignOff-1,200,OK,Thread Group 1-13,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,180,0,0
+2024/07/23 21:24:17,357,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-13,,true,,4247,1257,4,4,null,351,0,0
+2024/07/23 21:24:17,116,Homepage-2,200,OK,Thread Group 1-16,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,113,0,0
+2024/07/23 21:24:17,165,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-15,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,163,0,0
+2024/07/23 21:24:17,165,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,1461,805,3,3,null,163,1,0
+2024/07/23 21:24:17,157,ClickContinue-2,200,OK,Thread Group 1-14,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,154,0,0
+2024/07/23 21:24:17,498,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-14,,true,,3735,2061,3,3,null,489,0,0
+2024/07/23 21:24:17,50,Homepage-3,200,OK,Thread Group 1-16,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,50,0,0
+2024/07/23 21:24:17,112,Homepage-4,200,OK,Thread Group 1-16,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,109,0,0
+2024/07/23 21:24:17,285,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-16,,true,,7577,2443,3,3,null,279,5,1
+2024/07/23 21:24:17,160,ClickContinue-0,200,OK,Thread Group 1-15,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,157,0,0
+2024/07/23 21:24:17,160,SignOff-0,200,OK,Thread Group 1-14,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,158,0,0
+2024/07/23 21:24:17,172,ClickOnSignUp-0,200,OK,Thread Group 1-16,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,169,0,0
+2024/07/23 21:24:17,172,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,2669,581,3,3,null,169,1,0
+2024/07/23 21:24:17,180,ClickContinue-1,200,OK,Thread Group 1-15,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,176,0,0
+2024/07/23 21:24:17,3,Homepage-0,200,OK,Thread Group 1-17,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:17,2,Homepage-1,200,OK,Thread Group 1-17,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:17,174,SignOff-1,200,OK,Thread Group 1-14,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,172,0,0
+2024/07/23 21:24:17,334,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-14,,true,,4247,1257,4,4,null,330,2,0
+2024/07/23 21:24:17,118,Homepage-2,200,OK,Thread Group 1-17,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,116,0,0
+2024/07/23 21:24:17,175,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-16,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,172,0,0
+2024/07/23 21:24:17,175,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,1461,805,3,3,null,172,0,0
+2024/07/23 21:24:17,162,ClickContinue-2,200,OK,Thread Group 1-15,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,159,0,0
+2024/07/23 21:24:17,502,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-15,,true,,3735,2061,3,3,null,492,0,0
+2024/07/23 21:24:17,54,Homepage-3,200,OK,Thread Group 1-17,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,53,0,0
+2024/07/23 21:24:18,132,Homepage-4,200,OK,Thread Group 1-17,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,129,0,0
+2024/07/23 21:24:17,309,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-17,,true,,7577,2443,3,3,null,303,5,1
+2024/07/23 21:24:18,180,ClickContinue-0,200,OK,Thread Group 1-16,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,177,0,0
+2024/07/23 21:24:18,181,SignOff-0,200,OK,Thread Group 1-15,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,178,0,0
+2024/07/23 21:24:18,169,ClickOnSignUp-0,200,OK,Thread Group 1-17,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,166,0,0
+2024/07/23 21:24:18,169,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,2669,581,3,3,null,166,0,0
+2024/07/23 21:24:18,173,ClickContinue-1,200,OK,Thread Group 1-16,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,171,0,0
+2024/07/23 21:24:18,3,Homepage-0,200,OK,Thread Group 1-18,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:18,2,Homepage-1,200,OK,Thread Group 1-18,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:18,175,SignOff-1,200,OK,Thread Group 1-15,text,true,,3141,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,173,0,0
+2024/07/23 21:24:18,356,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-15,,true,,4228,1257,4,4,null,351,2,0
+2024/07/23 21:24:18,120,Homepage-2,200,OK,Thread Group 1-18,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,117,0,0
+2024/07/23 21:24:18,165,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-17,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,162,0,0
+2024/07/23 21:24:18,165,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,1461,805,3,3,null,162,2,0
+2024/07/23 21:24:18,166,ClickContinue-2,200,OK,Thread Group 1-16,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,164,0,0
+2024/07/23 21:24:18,519,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-16,,true,,3735,2061,3,3,null,512,2,0
+2024/07/23 21:24:18,48,Homepage-3,200,OK,Thread Group 1-18,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,48,0,0
+2024/07/23 21:24:18,117,Homepage-4,200,OK,Thread Group 1-18,text,true,,3142,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,115,0,0
+2024/07/23 21:24:18,290,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-18,,true,,7559,2443,3,3,null,285,4,1
+2024/07/23 21:24:18,170,ClickContinue-0,200,OK,Thread Group 1-17,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,168,0,0
+2024/07/23 21:24:18,176,SignOff-0,200,OK,Thread Group 1-16,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,173,0,0
+2024/07/23 21:24:18,171,ClickOnSignUp-0,200,OK,Thread Group 1-18,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,168,0,0
+2024/07/23 21:24:18,171,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,2669,581,3,3,null,168,1,0
+2024/07/23 21:24:18,172,ClickContinue-1,200,OK,Thread Group 1-17,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,169,0,0
+2024/07/23 21:24:18,3,Homepage-0,200,OK,Thread Group 1-19,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:18,166,SignOff-1,200,OK,Thread Group 1-16,text,true,,3142,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,163,0,0
+2024/07/23 21:24:18,342,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-16,,true,,4229,1257,4,4,null,336,1,0
+2024/07/23 21:24:18,2,Homepage-1,200,OK,Thread Group 1-19,text,true,,1007,453,3,3,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:18,117,Homepage-2,200,OK,Thread Group 1-19,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,115,0,0
+2024/07/23 21:24:18,176,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-18,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,173,0,0
+2024/07/23 21:24:18,176,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,1461,805,3,3,null,173,0,0
+2024/07/23 21:24:18,164,ClickContinue-2,200,OK,Thread Group 1-17,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,161,0,0
+2024/07/23 21:24:18,506,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-17,,true,,3735,2061,3,3,null,498,2,0
+2024/07/23 21:24:18,49,Homepage-3,200,OK,Thread Group 1-19,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,48,0,0
+2024/07/23 21:24:19,113,Homepage-4,200,OK,Thread Group 1-19,text,true,,3142,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,110,0,0
+2024/07/23 21:24:18,284,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-19,,true,,7559,2443,3,3,null,278,4,1
+2024/07/23 21:24:19,155,ClickContinue-0,200,OK,Thread Group 1-18,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,153,0,0
+2024/07/23 21:24:19,165,SignOff-0,200,OK,Thread Group 1-17,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,163,0,0
+2024/07/23 21:24:19,191,ClickOnSignUp-0,200,OK,Thread Group 1-19,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,187,0,0
+2024/07/23 21:24:19,191,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,2669,581,3,3,null,187,0,0
+2024/07/23 21:24:19,195,ClickContinue-1,200,OK,Thread Group 1-18,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,193,0,0
+2024/07/23 21:24:19,178,SignOff-1,200,OK,Thread Group 1-17,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,176,0,0
+2024/07/23 21:24:19,343,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-17,,true,,4247,1257,4,4,null,339,1,0
+2024/07/23 21:24:19,4,Homepage-0,200,OK,Thread Group 1-20,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,4,0,1
+2024/07/23 21:24:19,2,Homepage-1,200,OK,Thread Group 1-20,text,true,,1007,453,3,3,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:19,120,Homepage-2,200,OK,Thread Group 1-20,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,115,0,0
+2024/07/23 21:24:19,192,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-19,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,189,0,0
+2024/07/23 21:24:19,192,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,1461,805,3,3,null,189,0,0
+2024/07/23 21:24:19,178,ClickContinue-2,200,OK,Thread Group 1-18,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,175,0,0
+2024/07/23 21:24:19,528,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-18,,true,,3735,2061,3,3,null,521,3,0
+2024/07/23 21:24:19,60,Homepage-3,200,OK,Thread Group 1-20,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,60,0,0
+2024/07/23 21:24:19,116,Homepage-4,200,OK,Thread Group 1-20,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,113,0,0
+2024/07/23 21:24:19,302,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-20,,true,,7577,2443,3,3,null,294,3,1
+2024/07/23 21:24:19,155,ClickContinue-0,200,OK,Thread Group 1-19,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,153,0,0
+2024/07/23 21:24:19,177,SignOff-0,200,OK,Thread Group 1-18,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,175,0,0
+2024/07/23 21:24:19,175,ClickOnSignUp-0,200,OK,Thread Group 1-20,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,172,0,0
+2024/07/23 21:24:19,175,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,2669,581,3,3,null,172,1,0
+2024/07/23 21:24:19,166,ClickContinue-1,200,OK,Thread Group 1-19,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,163,0,0
+2024/07/23 21:24:19,3,Homepage-0,200,OK,Thread Group 1-21,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:19,2,Homepage-1,200,OK,Thread Group 1-21,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:19,172,SignOff-1,200,OK,Thread Group 1-18,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,169,0,0
+2024/07/23 21:24:19,349,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-18,,true,,4247,1257,4,4,null,344,1,0
+2024/07/23 21:24:19,117,Homepage-2,200,OK,Thread Group 1-21,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,114,0,0
+2024/07/23 21:24:19,172,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-20,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,169,0,0
+2024/07/23 21:24:19,172,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,1461,805,3,3,null,169,1,0
+2024/07/23 21:24:19,168,ClickContinue-2,200,OK,Thread Group 1-19,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,166,0,0
+2024/07/23 21:24:19,489,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-19,,true,,3735,2061,3,3,null,482,2,0
+2024/07/23 21:24:19,51,Homepage-3,200,OK,Thread Group 1-21,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,51,0,0
+2024/07/23 21:24:20,117,Homepage-4,200,OK,Thread Group 1-21,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,114,0,0
+2024/07/23 21:24:19,290,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-21,,true,,7577,2443,3,3,null,284,4,1
+2024/07/23 21:24:20,158,ClickContinue-0,200,OK,Thread Group 1-20,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,155,0,0
+2024/07/23 21:24:20,171,SignOff-0,200,OK,Thread Group 1-19,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,168,0,0
+2024/07/23 21:24:20,173,ClickOnSignUp-0,200,OK,Thread Group 1-21,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,170,0,0
+2024/07/23 21:24:20,173,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,2669,581,3,3,null,170,0,0
+2024/07/23 21:24:20,182,ClickContinue-1,200,OK,Thread Group 1-20,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,179,0,0
+2024/07/23 21:24:20,167,SignOff-1,200,OK,Thread Group 1-19,text,true,,3154,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,164,0,0
+2024/07/23 21:24:20,338,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-19,,true,,4241,1257,4,4,null,332,1,0
+2024/07/23 21:24:20,4,Homepage-0,200,OK,Thread Group 1-22,text,true,,664,396,3,3,http://192.168.2.109:1080/WebTours/,4,0,1
+2024/07/23 21:24:20,2,Homepage-1,200,OK,Thread Group 1-22,text,true,,1007,453,3,3,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:20,117,Homepage-2,200,OK,Thread Group 1-22,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,114,0,0
+2024/07/23 21:24:20,169,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-21,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,166,0,0
+2024/07/23 21:24:20,169,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,1461,805,3,3,null,166,1,0
+2024/07/23 21:24:20,169,ClickContinue-2,200,OK,Thread Group 1-20,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,166,0,0
+2024/07/23 21:24:20,509,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-20,,true,,3735,2061,3,3,null,500,0,0
+2024/07/23 21:24:20,50,Homepage-3,200,OK,Thread Group 1-22,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,50,0,0
+2024/07/23 21:24:20,131,Homepage-4,200,OK,Thread Group 1-22,text,true,,3154,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,128,0,0
+2024/07/23 21:24:20,304,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-22,,true,,7571,2443,3,3,null,298,2,1
+2024/07/23 21:24:20,178,ClickContinue-0,200,OK,Thread Group 1-21,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,175,0,0
+2024/07/23 21:24:20,177,SignOff-0,200,OK,Thread Group 1-20,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,174,0,0
+2024/07/23 21:24:20,183,ClickOnSignUp-0,200,OK,Thread Group 1-22,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,180,0,0
+2024/07/23 21:24:20,183,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,2669,581,3,3,null,180,1,0
+2024/07/23 21:24:20,182,ClickContinue-1,200,OK,Thread Group 1-21,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,179,0,0
+2024/07/23 21:24:20,3,Homepage-0,200,OK,Thread Group 1-23,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:20,2,Homepage-1,200,OK,Thread Group 1-23,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:20,171,SignOff-1,200,OK,Thread Group 1-20,text,true,,3154,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,168,0,0
+2024/07/23 21:24:20,348,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-20,,true,,4241,1257,4,4,null,342,0,0
+2024/07/23 21:24:20,112,Homepage-2,200,OK,Thread Group 1-23,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,109,0,0
+2024/07/23 21:24:20,179,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-22,text,true,,1462,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,176,0,0
+2024/07/23 21:24:20,179,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,1462,805,3,3,null,176,0,0
+2024/07/23 21:24:20,51,Homepage-3,200,OK,Thread Group 1-23,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,51,0,0
+2024/07/23 21:24:20,178,ClickContinue-2,200,OK,Thread Group 1-21,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,176,0,0
+2024/07/23 21:24:20,538,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-21,,true,,3735,2061,3,3,null,530,2,0
+2024/07/23 21:24:21,127,Homepage-4,200,OK,Thread Group 1-23,text,true,,3154,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,124,0,0
+2024/07/23 21:24:20,295,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-23,,true,,7571,2443,3,3,null,289,6,1
+2024/07/23 21:24:21,176,ClickContinue-0,200,OK,Thread Group 1-22,text,true,,823,679,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,173,0,0
+2024/07/23 21:24:21,181,SignOff-0,200,OK,Thread Group 1-21,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,178,0,0
+2024/07/23 21:24:21,190,ClickOnSignUp-0,200,OK,Thread Group 1-23,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,187,0,0
+2024/07/23 21:24:21,190,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,2669,581,3,3,null,187,1,0
+2024/07/23 21:24:21,3,Homepage-0,200,OK,Thread Group 1-24,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:21,3,Homepage-1,200,OK,Thread Group 1-24,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,3,0,0
+2024/07/23 21:24:21,191,SignOff-1,200,OK,Thread Group 1-21,text,true,,3148,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,186,0,0
+2024/07/23 21:24:21,372,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-21,,true,,4235,1257,4,4,null,364,0,0
+2024/07/23 21:24:21,235,ClickContinue-1,200,OK,Thread Group 1-22,text,true,,1163,690,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,230,0,0
+2024/07/23 21:24:21,137,Homepage-2,200,OK,Thread Group 1-24,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,134,0,0
+2024/07/23 21:24:21,184,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-23,text,true,,1462,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,181,0,0
+2024/07/23 21:24:21,184,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,1462,805,3,3,null,181,1,0
+2024/07/23 21:24:21,61,Homepage-3,200,OK,Thread Group 1-24,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,61,0,0
+2024/07/23 21:24:21,192,ClickContinue-2,200,OK,Thread Group 1-22,text,true,,1749,695,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,188,0,0
+2024/07/23 21:24:21,603,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-22,,true,,3735,2064,3,3,null,591,1,0
+2024/07/23 21:24:21,142,Homepage-4,200,OK,Thread Group 1-24,text,true,,3148,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,138,0,0
+2024/07/23 21:24:21,346,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-24,,true,,7565,2443,3,3,null,339,5,1
+2024/07/23 21:24:21,195,ClickContinue-0,200,OK,Thread Group 1-23,text,true,,823,679,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,192,0,0
+2024/07/23 21:24:21,212,SignOff-0,200,OK,Thread Group 1-22,text,true,,1087,694,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,203,0,0
+2024/07/23 21:24:21,8,Homepage-0,200,OK,Thread Group 1-25,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,8,0,2
+2024/07/23 21:24:21,2,Homepage-1,200,OK,Thread Group 1-25,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:21,219,ClickOnSignUp-0,200,OK,Thread Group 1-24,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,211,0,0
+2024/07/23 21:24:21,219,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,2669,581,4,4,null,211,0,0
+2024/07/23 21:24:21,206,ClickContinue-1,200,OK,Thread Group 1-23,text,true,,1163,690,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,202,0,0
+2024/07/23 21:24:21,133,Homepage-2,200,OK,Thread Group 1-25,text,true,,1087,464,4,4,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,129,0,0
+2024/07/23 21:24:21,194,SignOff-1,200,OK,Thread Group 1-22,text,true,,3148,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,191,0,0
+2024/07/23 21:24:21,406,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-22,,true,,4235,1258,4,4,null,394,2,0
+2024/07/23 21:24:22,58,Homepage-3,200,OK,Thread Group 1-25,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,58,0,0
+2024/07/23 21:24:21,195,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-24,text,true,,1462,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,192,0,0
+2024/07/23 21:24:21,195,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,1462,805,3,3,null,192,1,0
+2024/07/23 21:24:21,197,ClickContinue-2,200,OK,Thread Group 1-23,text,true,,1749,695,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,194,0,0
+2024/07/23 21:24:21,598,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-23,,true,,3735,2064,3,3,null,588,1,0
+2024/07/23 21:24:22,125,Homepage-4,200,OK,Thread Group 1-25,text,true,,3148,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,122,0,0
+2024/07/23 21:24:21,326,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-25,,true,,7565,2443,3,3,null,319,5,2
+2024/07/23 21:24:22,181,ClickContinue-0,200,OK,Thread Group 1-24,text,true,,823,679,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,179,0,0
+2024/07/23 21:24:22,171,SignOff-0,200,OK,Thread Group 1-23,text,true,,1087,694,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,168,0,0
+2024/07/23 21:24:22,2,Homepage-0,200,OK,Thread Group 1-26,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,2,0,0
+2024/07/23 21:24:22,2,Homepage-1,200,OK,Thread Group 1-26,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:22,177,ClickOnSignUp-0,200,OK,Thread Group 1-25,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,174,0,0
+2024/07/23 21:24:22,177,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,2669,581,4,4,null,174,0,0
+2024/07/23 21:24:22,180,ClickContinue-1,200,OK,Thread Group 1-24,text,true,,1163,690,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,177,0,0
+2024/07/23 21:24:22,187,SignOff-1,200,OK,Thread Group 1-23,text,true,,3156,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,185,0,0
+2024/07/23 21:24:22,358,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-23,,true,,4243,1258,4,4,null,353,5,0
+2024/07/23 21:24:22,151,Homepage-2,200,OK,Thread Group 1-26,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,149,0,0
+2024/07/23 21:24:22,183,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-25,text,true,,1462,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,180,0,0
+2024/07/23 21:24:22,183,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,1462,805,3,3,null,180,1,0
+2024/07/23 21:24:22,49,Homepage-3,200,OK,Thread Group 1-26,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,49,0,0
+2024/07/23 21:24:22,179,ClickContinue-2,200,OK,Thread Group 1-24,text,true,,1749,695,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,176,0,0
+2024/07/23 21:24:22,540,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-24,,true,,3735,2064,3,3,null,532,3,0
+2024/07/23 21:24:22,117,Homepage-4,200,OK,Thread Group 1-26,text,true,,3157,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,114,0,0
+2024/07/23 21:24:22,321,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-26,,true,,7574,2443,3,3,null,316,4,0
+2024/07/23 21:24:22,172,ClickContinue-0,200,OK,Thread Group 1-25,text,true,,823,679,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,169,0,0
+2024/07/23 21:24:22,188,SignOff-0,200,OK,Thread Group 1-24,text,true,,1087,694,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,185,0,0
+2024/07/23 21:24:22,173,ClickOnSignUp-0,200,OK,Thread Group 1-26,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,171,0,0
+2024/07/23 21:24:22,173,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,2669,581,4,4,null,171,2,0
+2024/07/23 21:24:22,3,Homepage-0,200,OK,Thread Group 1-27,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:22,2,Homepage-1,200,OK,Thread Group 1-27,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:22,173,ClickContinue-1,200,OK,Thread Group 1-25,text,true,,1163,690,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,170,0,0
+2024/07/23 21:24:22,132,Homepage-2,200,OK,Thread Group 1-27,text,true,,1087,464,4,4,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,129,0,0
+2024/07/23 21:24:22,171,SignOff-1,200,OK,Thread Group 1-24,text,true,,3157,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,168,0,0
+2024/07/23 21:24:22,359,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-24,,true,,4244,1258,4,4,null,353,1,0
+2024/07/23 21:24:22,184,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-26,text,true,,1462,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,182,0,0
+2024/07/23 21:24:22,184,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,1462,805,3,3,null,182,1,0
+2024/07/23 21:24:22,51,Homepage-3,200,OK,Thread Group 1-27,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,51,0,0
+2024/07/23 21:24:22,176,ClickContinue-2,200,OK,Thread Group 1-25,text,true,,1749,695,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,173,0,0
+2024/07/23 21:24:22,521,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-25,,true,,3735,2064,3,3,null,512,1,0
+2024/07/23 21:24:23,115,Homepage-4,200,OK,Thread Group 1-27,text,true,,3157,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,111,0,0
+2024/07/23 21:24:22,303,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-27,,true,,7574,2443,3,3,null,296,2,1
+2024/07/23 21:24:23,160,ClickContinue-0,200,OK,Thread Group 1-26,text,true,,823,679,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,158,0,0
+2024/07/23 21:24:23,163,SignOff-0,200,OK,Thread Group 1-25,text,true,,1087,694,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,160,0,0
+2024/07/23 21:24:23,179,ClickOnSignUp-0,200,OK,Thread Group 1-27,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,175,0,0
+2024/07/23 21:24:23,179,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,2669,581,3,3,null,175,0,0
+2024/07/23 21:24:23,3,Homepage-0,200,OK,Thread Group 1-28,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:23,2,Homepage-1,200,OK,Thread Group 1-28,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:23,181,ClickContinue-1,200,OK,Thread Group 1-26,text,true,,1163,690,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,178,0,0
+2024/07/23 21:24:23,177,SignOff-1,200,OK,Thread Group 1-25,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,174,0,0
+2024/07/23 21:24:23,340,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-25,,true,,4247,1258,4,4,null,334,2,0
+2024/07/23 21:24:23,124,Homepage-2,200,OK,Thread Group 1-28,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,121,0,0
+2024/07/23 21:24:23,171,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-27,text,true,,1462,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,168,0,0
+2024/07/23 21:24:23,171,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,1462,805,3,3,null,168,1,0
+2024/07/23 21:24:23,56,Homepage-3,200,OK,Thread Group 1-28,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,56,0,0
+2024/07/23 21:24:23,158,ClickContinue-2,200,OK,Thread Group 1-26,text,true,,1749,695,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,156,0,0
+2024/07/23 21:24:23,499,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-26,,true,,3735,2064,3,3,null,492,3,0
+2024/07/23 21:24:23,116,Homepage-4,200,OK,Thread Group 1-28,text,true,,3159,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,113,0,0
+2024/07/23 21:24:23,301,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-28,,true,,7576,2443,3,3,null,295,3,1
+2024/07/23 21:24:23,172,ClickContinue-0,200,OK,Thread Group 1-27,text,true,,823,679,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,170,0,0
+2024/07/23 21:24:23,174,SignOff-0,200,OK,Thread Group 1-26,text,true,,1087,694,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,171,0,0
+2024/07/23 21:24:23,3,Homepage-0,200,OK,Thread Group 1-29,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:23,200,ClickOnSignUp-0,200,OK,Thread Group 1-28,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,195,0,0
+2024/07/23 21:24:23,200,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,2669,581,4,4,null,195,0,0
+2024/07/23 21:24:23,1,Homepage-1,200,OK,Thread Group 1-29,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,1,0,0
+2024/07/23 21:24:23,189,ClickContinue-1,200,OK,Thread Group 1-27,text,true,,1163,690,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,186,0,0
+2024/07/23 21:24:23,182,SignOff-1,200,OK,Thread Group 1-26,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,179,0,0
+2024/07/23 21:24:23,356,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-26,,true,,4247,1258,4,4,null,350,0,0
+2024/07/23 21:24:23,118,Homepage-2,200,OK,Thread Group 1-29,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,116,0,0
+2024/07/23 21:24:23,48,Homepage-3,200,OK,Thread Group 1-29,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,48,0,0
+2024/07/23 21:24:23,172,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-28,text,true,,1462,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,169,0,0
+2024/07/23 21:24:23,172,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,1462,805,3,3,null,169,0,0
+2024/07/23 21:24:23,174,ClickContinue-2,200,OK,Thread Group 1-27,text,true,,1749,695,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,172,0,0
+2024/07/23 21:24:23,535,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-27,,true,,3735,2064,3,3,null,528,3,0
+2024/07/23 21:24:24,120,Homepage-4,200,OK,Thread Group 1-29,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,117,0,0
+2024/07/23 21:24:23,290,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-29,,true,,7577,2443,3,3,null,285,4,1
+2024/07/23 21:24:24,173,ClickContinue-0,200,OK,Thread Group 1-28,text,true,,823,679,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,170,0,0
+2024/07/23 21:24:24,169,SignOff-0,200,OK,Thread Group 1-27,text,true,,1087,694,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,166,0,0
+2024/07/23 21:24:24,160,ClickOnSignUp-0,200,OK,Thread Group 1-29,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,157,0,0
+2024/07/23 21:24:24,160,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,2669,581,3,3,null,157,1,0
+2024/07/23 21:24:24,4,Homepage-0,200,OK,Thread Group 1-30,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,4,0,1
+2024/07/23 21:24:24,1,Homepage-1,200,OK,Thread Group 1-30,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,1,0,0
+2024/07/23 21:24:24,176,ClickContinue-1,200,OK,Thread Group 1-28,text,true,,1163,690,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,171,0,0
+2024/07/23 21:24:24,175,SignOff-1,200,OK,Thread Group 1-27,text,true,,3127,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,172,0,0
+2024/07/23 21:24:24,344,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-27,,true,,4214,1258,4,4,null,338,0,0
+2024/07/23 21:24:24,117,Homepage-2,200,OK,Thread Group 1-30,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,114,0,0
+2024/07/23 21:24:24,183,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-29,text,true,,1462,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,180,0,0
+2024/07/23 21:24:24,183,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,1462,805,3,3,null,180,0,0
+2024/07/23 21:24:24,152,ClickContinue-2,200,OK,Thread Group 1-28,text,true,,1749,695,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,150,0,0
+2024/07/23 21:24:24,501,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-28,,true,,3735,2064,3,3,null,491,2,0
+2024/07/23 21:24:24,62,Homepage-3,200,OK,Thread Group 1-30,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,62,0,0
+2024/07/23 21:24:24,164,ClickContinue-0,200,OK,Thread Group 1-29,text,true,,823,679,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,161,0,0
+2024/07/23 21:24:24,124,Homepage-4,200,OK,Thread Group 1-30,text,true,,3130,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,121,0,0
+2024/07/23 21:24:24,308,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-30,,true,,7547,2443,3,3,null,302,4,1
+2024/07/23 21:24:24,166,SignOff-0,200,OK,Thread Group 1-28,text,true,,1087,694,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,164,0,0
+2024/07/23 21:24:24,184,ClickContinue-1,200,OK,Thread Group 1-29,text,true,,1163,690,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,181,0,0
+2024/07/23 21:24:24,4,Homepage-0,200,OK,Thread Group 1-31,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,4,0,1
+2024/07/23 21:24:24,2,Homepage-1,200,OK,Thread Group 1-31,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:24,197,ClickOnSignUp-0,200,OK,Thread Group 1-30,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,194,0,0
+2024/07/23 21:24:24,197,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,2669,581,4,4,null,194,1,0
+2024/07/23 21:24:24,200,SignOff-1,200,OK,Thread Group 1-28,text,true,,3130,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,197,0,0
+2024/07/23 21:24:24,366,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-28,,true,,4217,1258,4,4,null,361,1,0
+2024/07/23 21:24:24,136,Homepage-2,200,OK,Thread Group 1-31,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,133,0,0
+2024/07/23 21:24:24,173,ClickContinue-2,200,OK,Thread Group 1-29,text,true,,1749,695,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,171,0,0
+2024/07/23 21:24:24,521,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-29,,true,,3735,2064,3,3,null,513,2,0
+2024/07/23 21:24:24,167,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-30,text,true,,1462,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,165,0,0
+2024/07/23 21:24:24,167,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,1462,805,3,3,null,165,1,0
+2024/07/23 21:24:25,58,Homepage-3,200,OK,Thread Group 1-31,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,58,0,0
+2024/07/23 21:24:25,120,Homepage-4,200,OK,Thread Group 1-31,text,true,,3130,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,117,0,0
+2024/07/23 21:24:24,320,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-31,,true,,7547,2443,3,3,null,314,3,1
+2024/07/23 21:24:25,182,SignOff-0,200,OK,Thread Group 1-29,text,true,,1087,694,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,179,0,0
+2024/07/23 21:24:25,178,ClickContinue-0,200,OK,Thread Group 1-30,text,true,,823,679,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,175,0,0
+2024/07/23 21:24:25,163,ClickOnSignUp-0,200,OK,Thread Group 1-31,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,159,0,0
+2024/07/23 21:24:25,163,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,2669,581,3,3,null,159,0,0
+2024/07/23 21:24:25,3,Homepage-0,200,OK,Thread Group 1-32,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:25,1,Homepage-1,200,OK,Thread Group 1-32,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,1,0,0
+2024/07/23 21:24:25,177,SignOff-1,200,OK,Thread Group 1-29,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,174,0,0
+2024/07/23 21:24:25,359,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-29,,true,,4247,1258,4,4,null,353,2,0
+2024/07/23 21:24:25,181,ClickContinue-1,200,OK,Thread Group 1-30,text,true,,1163,690,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,179,0,0
+2024/07/23 21:24:25,119,Homepage-2,200,OK,Thread Group 1-32,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,116,0,0
+2024/07/23 21:24:25,183,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-31,text,true,,1462,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,180,0,0
+2024/07/23 21:24:25,183,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,1462,805,3,3,null,180,1,0
+2024/07/23 21:24:25,60,Homepage-3,200,OK,Thread Group 1-32,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,60,0,0
+2024/07/23 21:24:25,163,ClickContinue-2,200,OK,Thread Group 1-30,text,true,,1749,695,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,161,0,0
+2024/07/23 21:24:25,522,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-30,,true,,3735,2064,3,3,null,515,2,0
+2024/07/23 21:24:25,111,Homepage-4,200,OK,Thread Group 1-32,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,108,0,0
+2024/07/23 21:24:25,294,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-32,,true,,7577,2443,3,3,null,288,3,1
+2024/07/23 21:24:25,172,ClickContinue-0,200,OK,Thread Group 1-31,text,true,,823,679,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,169,0,0
+2024/07/23 21:24:25,173,SignOff-0,200,OK,Thread Group 1-30,text,true,,1087,694,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,170,0,0
+2024/07/23 21:24:25,172,ClickOnSignUp-0,200,OK,Thread Group 1-32,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,169,0,0
+2024/07/23 21:24:25,172,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,2669,581,3,3,null,169,2,0
+2024/07/23 21:24:25,3,Homepage-0,200,OK,Thread Group 1-33,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,2
+2024/07/23 21:24:25,2,Homepage-1,200,OK,Thread Group 1-33,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:25,203,ClickContinue-1,200,OK,Thread Group 1-31,text,true,,1163,690,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,198,0,0
+2024/07/23 21:24:25,187,SignOff-1,200,OK,Thread Group 1-30,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,185,0,0
+2024/07/23 21:24:25,360,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-30,,true,,4247,1258,4,4,null,355,1,0
+2024/07/23 21:24:25,133,Homepage-2,200,OK,Thread Group 1-33,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,130,0,0
+2024/07/23 21:24:25,182,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-32,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,177,0,0
+2024/07/23 21:24:25,182,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,1461,805,3,3,null,177,0,0
+2024/07/23 21:24:25,58,Homepage-3,200,OK,Thread Group 1-33,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,58,0,0
+2024/07/23 21:24:25,169,ClickContinue-2,200,OK,Thread Group 1-31,text,true,,1749,695,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,167,0,0
+2024/07/23 21:24:25,544,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-31,,true,,3735,2064,3,3,null,534,2,0
+2024/07/23 21:24:26,116,Homepage-4,200,OK,Thread Group 1-33,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,114,0,0
+2024/07/23 21:24:25,312,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-33,,true,,7577,2443,3,3,null,307,3,2
+2024/07/23 21:24:26,174,ClickContinue-0,200,OK,Thread Group 1-32,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,172,0,0
+2024/07/23 21:24:26,176,SignOff-0,200,OK,Thread Group 1-31,text,true,,1087,694,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,173,0,0
+2024/07/23 21:24:26,173,ClickOnSignUp-0,200,OK,Thread Group 1-33,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,170,0,0
+2024/07/23 21:24:26,173,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,2669,581,3,3,null,170,1,0
+2024/07/23 21:24:26,171,ClickContinue-1,200,OK,Thread Group 1-32,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,169,0,0
+2024/07/23 21:24:26,3,Homepage-0,200,OK,Thread Group 1-34,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:26,2,Homepage-1,200,OK,Thread Group 1-34,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:26,172,SignOff-1,200,OK,Thread Group 1-31,text,true,,3157,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,167,0,0
+2024/07/23 21:24:26,348,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-31,,true,,4244,1258,4,4,null,340,2,0
+2024/07/23 21:24:26,122,Homepage-2,200,OK,Thread Group 1-34,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,116,0,0
+2024/07/23 21:24:26,183,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-33,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,180,0,0
+2024/07/23 21:24:26,183,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,1461,805,3,3,null,180,0,0
+2024/07/23 21:24:26,178,ClickContinue-2,200,OK,Thread Group 1-32,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,176,0,0
+2024/07/23 21:24:26,523,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-32,,true,,3735,2061,3,3,null,517,2,0
+2024/07/23 21:24:26,57,Homepage-3,200,OK,Thread Group 1-34,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,56,0,0
+2024/07/23 21:24:26,114,Homepage-4,200,OK,Thread Group 1-34,text,true,,3157,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,112,0,0
+2024/07/23 21:24:26,298,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-34,,true,,7574,2443,3,3,null,289,4,1
+2024/07/23 21:24:26,170,ClickContinue-0,200,OK,Thread Group 1-33,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,168,0,0
+2024/07/23 21:24:26,175,SignOff-0,200,OK,Thread Group 1-32,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,173,0,0
+2024/07/23 21:24:26,180,ClickOnSignUp-0,200,OK,Thread Group 1-34,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,177,0,0
+2024/07/23 21:24:26,180,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,2669,581,3,3,null,177,1,0
+2024/07/23 21:24:26,3,Homepage-0,200,OK,Thread Group 1-35,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:26,2,Homepage-1,200,OK,Thread Group 1-35,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:26,200,SignOff-1,200,OK,Thread Group 1-32,text,true,,3157,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,196,0,0
+2024/07/23 21:24:26,375,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-32,,true,,4244,1257,4,4,null,369,0,0
+2024/07/23 21:24:26,227,ClickContinue-1,200,OK,Thread Group 1-33,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,224,0,0
+2024/07/23 21:24:26,120,Homepage-2,200,OK,Thread Group 1-35,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,117,0,0
+2024/07/23 21:24:26,172,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-34,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,170,0,0
+2024/07/23 21:24:26,172,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,1461,805,3,3,null,170,1,0
+2024/07/23 21:24:26,50,Homepage-3,200,OK,Thread Group 1-35,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,50,0,0
+2024/07/23 21:24:26,174,ClickContinue-2,200,OK,Thread Group 1-33,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,171,0,0
+2024/07/23 21:24:26,571,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-33,,true,,3735,2061,3,3,null,563,2,0
+2024/07/23 21:24:27,119,Homepage-4,200,OK,Thread Group 1-35,text,true,,3157,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,117,0,0
+2024/07/23 21:24:26,294,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-35,,true,,7574,2443,3,3,null,289,3,1
+2024/07/23 21:24:27,158,ClickContinue-0,200,OK,Thread Group 1-34,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,156,0,0
+2024/07/23 21:24:27,168,SignOff-0,200,OK,Thread Group 1-33,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,166,0,0
+2024/07/23 21:24:27,164,ClickOnSignUp-0,200,OK,Thread Group 1-35,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,161,0,0
+2024/07/23 21:24:27,164,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,2669,581,3,3,null,161,1,0
+2024/07/23 21:24:27,164,ClickContinue-1,200,OK,Thread Group 1-34,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,161,0,0
+2024/07/23 21:24:27,3,Homepage-0,200,OK,Thread Group 1-36,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:27,2,Homepage-1,200,OK,Thread Group 1-36,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:27,188,SignOff-1,200,OK,Thread Group 1-33,text,true,,3148,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,185,0,0
+2024/07/23 21:24:27,356,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-33,,true,,4235,1257,4,4,null,351,2,0
+2024/07/23 21:24:27,133,Homepage-2,200,OK,Thread Group 1-36,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,130,0,0
+2024/07/23 21:24:27,200,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-35,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,197,0,0
+2024/07/23 21:24:27,200,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,1461,805,3,3,null,197,0,0
+2024/07/23 21:24:27,184,ClickContinue-2,200,OK,Thread Group 1-34,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,182,0,0
+2024/07/23 21:24:27,506,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-34,,true,,3735,2061,3,3,null,499,1,0
+2024/07/23 21:24:27,56,Homepage-3,200,OK,Thread Group 1-36,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,56,0,0
+2024/07/23 21:24:27,125,Homepage-4,200,OK,Thread Group 1-36,text,true,,3148,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,123,0,0
+2024/07/23 21:24:27,319,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-36,,true,,7565,2443,3,3,null,314,2,1
+2024/07/23 21:24:27,184,ClickContinue-0,200,OK,Thread Group 1-35,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,182,0,0
+2024/07/23 21:24:27,184,SignOff-0,200,OK,Thread Group 1-34,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,181,0,0
+2024/07/23 21:24:27,6,Homepage-0,200,OK,Thread Group 1-37,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,6,0,2
+2024/07/23 21:24:27,2,Homepage-1,200,OK,Thread Group 1-37,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:27,216,ClickOnSignUp-0,200,OK,Thread Group 1-36,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,213,0,0
+2024/07/23 21:24:27,216,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,2669,581,4,4,null,213,1,0
+2024/07/23 21:24:27,192,ClickContinue-1,200,OK,Thread Group 1-35,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,188,0,0
+2024/07/23 21:24:27,227,SignOff-1,200,OK,Thread Group 1-34,text,true,,3148,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,224,0,0
+2024/07/23 21:24:27,411,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-34,,true,,4235,1257,4,4,null,405,1,0
+2024/07/23 21:24:27,115,Homepage-2,200,OK,Thread Group 1-37,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,111,0,0
+2024/07/23 21:24:27,55,Homepage-3,200,OK,Thread Group 1-37,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,55,0,0
+2024/07/23 21:24:27,172,ClickContinue-2,200,OK,Thread Group 1-35,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,169,0,0
+2024/07/23 21:24:27,548,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-35,,true,,3735,2061,3,3,null,539,2,0
+2024/07/23 21:24:27,193,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-36,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,190,0,0
+2024/07/23 21:24:27,193,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,1461,805,3,3,null,190,0,0
+2024/07/23 21:24:28,104,Homepage-4,200,OK,Thread Group 1-37,text,true,,3148,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,102,0,0
+2024/07/23 21:24:27,282,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-37,,true,,7565,2443,3,3,null,276,1,2
+2024/07/23 21:24:28,179,SignOff-0,200,OK,Thread Group 1-35,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,176,0,0
+2024/07/23 21:24:28,170,ClickContinue-0,200,OK,Thread Group 1-36,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,167,0,0
+2024/07/23 21:24:28,160,ClickOnSignUp-0,200,OK,Thread Group 1-37,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,157,0,0
+2024/07/23 21:24:28,160,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,2669,581,3,3,null,157,0,0
+2024/07/23 21:24:28,4,Homepage-0,200,OK,Thread Group 1-38,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,4,0,1
+2024/07/23 21:24:28,2,Homepage-1,200,OK,Thread Group 1-38,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:28,169,SignOff-1,200,OK,Thread Group 1-35,text,true,,3153,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,166,0,0
+2024/07/23 21:24:28,348,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-35,,true,,4240,1257,4,4,null,342,0,0
+2024/07/23 21:24:28,181,ClickContinue-1,200,OK,Thread Group 1-36,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,178,0,0
+2024/07/23 21:24:28,122,Homepage-2,200,OK,Thread Group 1-38,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,120,0,0
+2024/07/23 21:24:28,192,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-37,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,190,0,0
+2024/07/23 21:24:28,192,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,1461,805,3,3,null,190,0,0
+2024/07/23 21:24:28,49,Homepage-3,200,OK,Thread Group 1-38,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,49,0,0
+2024/07/23 21:24:28,183,ClickContinue-2,200,OK,Thread Group 1-36,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,180,0,0
+2024/07/23 21:24:28,534,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-36,,true,,3735,2061,3,3,null,525,2,0
+2024/07/23 21:24:28,121,Homepage-4,200,OK,Thread Group 1-38,text,true,,3154,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,118,0,0
+2024/07/23 21:24:28,298,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-38,,true,,7571,2443,3,3,null,293,3,1
+2024/07/23 21:24:28,167,ClickContinue-0,200,OK,Thread Group 1-37,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,165,0,0
+2024/07/23 21:24:28,177,SignOff-0,200,OK,Thread Group 1-36,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,173,0,0
+2024/07/23 21:24:28,186,ClickOnSignUp-0,200,OK,Thread Group 1-38,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,183,0,0
+2024/07/23 21:24:28,186,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,2669,581,3,3,null,183,2,0
+2024/07/23 21:24:28,3,Homepage-0,200,OK,Thread Group 1-39,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:28,2,Homepage-1,200,OK,Thread Group 1-39,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:28,200,ClickContinue-1,200,OK,Thread Group 1-37,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,196,0,0
+2024/07/23 21:24:28,181,SignOff-1,200,OK,Thread Group 1-36,text,true,,3154,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,178,0,0
+2024/07/23 21:24:28,358,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-36,,true,,4241,1257,4,4,null,351,1,0
+2024/07/23 21:24:28,136,Homepage-2,200,OK,Thread Group 1-39,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,133,0,0
+2024/07/23 21:24:28,188,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-38,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,185,0,0
+2024/07/23 21:24:28,188,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,1461,805,3,3,null,185,0,0
+2024/07/23 21:24:28,182,ClickContinue-2,200,OK,Thread Group 1-37,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,179,0,0
+2024/07/23 21:24:28,549,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-37,,true,,3735,2061,3,3,null,540,1,0
+2024/07/23 21:24:28,50,Homepage-3,200,OK,Thread Group 1-39,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,50,0,0
+2024/07/23 21:24:29,122,Homepage-4,200,OK,Thread Group 1-39,text,true,,3154,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,119,0,0
+2024/07/23 21:24:28,313,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-39,,true,,7571,2443,3,3,null,307,2,1
+2024/07/23 21:24:29,174,ClickContinue-0,200,OK,Thread Group 1-38,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,171,0,0
+2024/07/23 21:24:29,172,SignOff-0,200,OK,Thread Group 1-37,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,170,0,0
+2024/07/23 21:24:29,163,ClickOnSignUp-0,200,OK,Thread Group 1-39,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,160,0,0
+2024/07/23 21:24:29,163,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,2669,581,3,3,null,160,2,0
+2024/07/23 21:24:29,3,Homepage-0,200,OK,Thread Group 1-40,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:29,1,Homepage-1,200,OK,Thread Group 1-40,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,1,0,0
+2024/07/23 21:24:29,167,SignOff-1,200,OK,Thread Group 1-37,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,164,0,0
+2024/07/23 21:24:29,339,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-37,,true,,4247,1257,4,4,null,334,0,0
+2024/07/23 21:24:29,192,ClickContinue-1,200,OK,Thread Group 1-38,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,189,0,0
+2024/07/23 21:24:29,116,Homepage-2,200,OK,Thread Group 1-40,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,113,0,0
+2024/07/23 21:24:29,169,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-39,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,167,0,0
+2024/07/23 21:24:29,169,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,1461,805,3,3,null,167,1,0
+2024/07/23 21:24:29,53,Homepage-3,200,OK,Thread Group 1-40,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,53,0,0
+2024/07/23 21:24:29,168,ClickContinue-2,200,OK,Thread Group 1-38,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,165,0,0
+2024/07/23 21:24:29,534,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-38,,true,,3735,2061,3,3,null,525,0,0
+2024/07/23 21:24:29,116,Homepage-4,200,OK,Thread Group 1-40,text,true,,3159,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,112,0,0
+2024/07/23 21:24:29,289,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-40,,true,,7576,2443,3,3,null,282,5,1
+2024/07/23 21:24:29,166,ClickContinue-0,200,OK,Thread Group 1-39,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,163,0,0
+2024/07/23 21:24:29,176,SignOff-0,200,OK,Thread Group 1-38,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,173,0,0
+2024/07/23 21:24:29,200,ClickOnSignUp-0,200,OK,Thread Group 1-40,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,182,0,0
+2024/07/23 21:24:29,200,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,2669,581,3,3,null,182,1,0
+2024/07/23 21:24:29,3,Homepage-0,200,OK,Thread Group 1-41,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:29,3,Homepage-1,200,OK,Thread Group 1-41,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,3,0,0
+2024/07/23 21:24:29,190,ClickContinue-1,200,OK,Thread Group 1-39,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,187,0,0
+2024/07/23 21:24:29,203,SignOff-1,200,OK,Thread Group 1-38,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,192,0,0
+2024/07/23 21:24:29,379,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-38,,true,,4247,1257,4,4,null,365,3,0
+2024/07/23 21:24:29,120,Homepage-2,200,OK,Thread Group 1-41,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,117,0,0
+2024/07/23 21:24:29,173,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-40,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,170,0,0
+2024/07/23 21:24:29,173,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,1461,805,3,3,null,170,2,0
+2024/07/23 21:24:29,49,Homepage-3,200,OK,Thread Group 1-41,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,49,0,0
+2024/07/23 21:24:29,176,ClickContinue-2,200,OK,Thread Group 1-39,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,174,0,0
+2024/07/23 21:24:29,532,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-39,,true,,3735,2061,3,3,null,524,1,0
+2024/07/23 21:24:30,115,Homepage-4,200,OK,Thread Group 1-41,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,112,0,0
+2024/07/23 21:24:29,290,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-41,,true,,7577,2443,3,3,null,284,4,1
+2024/07/23 21:24:30,163,ClickContinue-0,200,OK,Thread Group 1-40,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,161,0,0
+2024/07/23 21:24:30,168,SignOff-0,200,OK,Thread Group 1-39,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,166,0,0
+2024/07/23 21:24:30,173,ClickOnSignUp-0,200,OK,Thread Group 1-41,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,170,0,0
+2024/07/23 21:24:30,173,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,2669,581,3,3,null,170,1,0
+2024/07/23 21:24:30,3,Homepage-0,200,OK,Thread Group 1-42,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:30,2,Homepage-1,200,OK,Thread Group 1-42,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:30,176,ClickContinue-1,200,OK,Thread Group 1-40,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,173,0,0
+2024/07/23 21:24:30,178,SignOff-1,200,OK,Thread Group 1-39,text,true,,3142,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,175,0,0
+2024/07/23 21:24:30,346,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-39,,true,,4229,1257,4,4,null,341,1,0
+2024/07/23 21:24:30,119,Homepage-2,200,OK,Thread Group 1-42,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,116,0,0
+2024/07/23 21:24:30,169,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-41,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,166,0,0
+2024/07/23 21:24:30,169,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,1461,805,3,3,null,166,0,0
+2024/07/23 21:24:30,162,ClickContinue-2,200,OK,Thread Group 1-40,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,160,0,0
+2024/07/23 21:24:30,501,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-40,,true,,3735,2061,3,3,null,494,3,0
+2024/07/23 21:24:30,61,Homepage-3,200,OK,Thread Group 1-42,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,61,0,0
+2024/07/23 21:24:30,172,ClickContinue-0,200,OK,Thread Group 1-41,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,169,0,0
+2024/07/23 21:24:30,135,Homepage-4,200,OK,Thread Group 1-42,text,true,,3142,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,132,0,0
+2024/07/23 21:24:30,320,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-42,,true,,7559,2443,3,3,null,314,3,1
+2024/07/23 21:24:30,171,SignOff-0,200,OK,Thread Group 1-40,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,169,0,0
+2024/07/23 21:24:30,194,ClickContinue-1,200,OK,Thread Group 1-41,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,188,0,0
+2024/07/23 21:24:30,6,Homepage-0,200,OK,Thread Group 1-43,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,6,0,0
+2024/07/23 21:24:30,183,ClickOnSignUp-0,200,OK,Thread Group 1-42,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,179,0,0
+2024/07/23 21:24:30,183,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,2669,581,4,4,null,179,1,0
+2024/07/23 21:24:30,2,Homepage-1,200,OK,Thread Group 1-43,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:30,194,SignOff-1,200,OK,Thread Group 1-40,text,true,,3142,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,191,0,0
+2024/07/23 21:24:30,365,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-40,,true,,4229,1257,4,4,null,360,1,0
+2024/07/23 21:24:30,127,Homepage-2,200,OK,Thread Group 1-43,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,125,0,0
+2024/07/23 21:24:30,183,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-42,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,180,0,0
+2024/07/23 21:24:30,183,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,1461,805,3,3,null,180,0,0
+2024/07/23 21:24:30,52,Homepage-3,200,OK,Thread Group 1-43,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,52,0,0
+2024/07/23 21:24:30,192,ClickContinue-2,200,OK,Thread Group 1-41,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,190,0,0
+2024/07/23 21:24:30,558,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-41,,true,,3735,2061,3,3,null,547,2,0
+2024/07/23 21:24:31,106,Homepage-4,200,OK,Thread Group 1-43,text,true,,3142,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,104,0,0
+2024/07/23 21:24:30,293,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-43,,true,,7559,2443,3,3,null,289,6,0
+2024/07/23 21:24:31,161,ClickContinue-0,200,OK,Thread Group 1-42,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,158,0,0
+2024/07/23 21:24:31,169,SignOff-0,200,OK,Thread Group 1-41,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,166,0,0
+2024/07/23 21:24:31,165,ClickOnSignUp-0,200,OK,Thread Group 1-43,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,162,0,0
+2024/07/23 21:24:31,165,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,2669,581,3,3,null,162,0,0
+2024/07/23 21:24:31,4,Homepage-0,200,OK,Thread Group 1-44,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,4,0,1
+2024/07/23 21:24:31,2,Homepage-1,200,OK,Thread Group 1-44,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:31,190,ClickContinue-1,200,OK,Thread Group 1-42,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,181,0,0
+2024/07/23 21:24:31,201,SignOff-1,200,OK,Thread Group 1-41,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,198,0,0
+2024/07/23 21:24:31,370,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-41,,true,,4247,1257,4,4,null,364,1,0
+2024/07/23 21:24:31,134,Homepage-2,200,OK,Thread Group 1-44,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,132,0,0
+2024/07/23 21:24:31,183,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-43,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,180,0,0
+2024/07/23 21:24:31,183,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,1461,805,3,3,null,180,1,0
+2024/07/23 21:24:31,50,Homepage-3,200,OK,Thread Group 1-44,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,50,0,0
+2024/07/23 21:24:31,161,ClickContinue-2,200,OK,Thread Group 1-42,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,158,0,0
+2024/07/23 21:24:31,512,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-42,,true,,3735,2061,3,3,null,497,2,0
+2024/07/23 21:24:31,114,Homepage-4,200,OK,Thread Group 1-44,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,111,0,0
+2024/07/23 21:24:31,304,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-44,,true,,7577,2443,3,3,null,299,4,1
+2024/07/23 21:24:31,168,ClickContinue-0,200,OK,Thread Group 1-43,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,165,0,0
+2024/07/23 21:24:31,169,SignOff-0,200,OK,Thread Group 1-42,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,166,0,0
+2024/07/23 21:24:31,176,ClickOnSignUp-0,200,OK,Thread Group 1-44,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,173,0,0
+2024/07/23 21:24:31,176,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,2669,581,3,3,null,173,0,0
+2024/07/23 21:24:31,191,ClickContinue-1,200,OK,Thread Group 1-43,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,186,0,0
+2024/07/23 21:24:31,6,Homepage-0,200,OK,Thread Group 1-45,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,6,0,1
+2024/07/23 21:24:31,2,Homepage-1,200,OK,Thread Group 1-45,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:31,182,SignOff-1,200,OK,Thread Group 1-42,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,179,0,0
+2024/07/23 21:24:31,351,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-42,,true,,4247,1257,4,4,null,345,0,0
+2024/07/23 21:24:31,136,Homepage-2,200,OK,Thread Group 1-45,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,133,0,0
+2024/07/23 21:24:31,174,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-44,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,171,0,0
+2024/07/23 21:24:31,174,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,1461,805,3,3,null,171,0,0
+2024/07/23 21:24:31,174,ClickContinue-2,200,OK,Thread Group 1-43,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,172,0,0
+2024/07/23 21:24:31,533,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-43,,true,,3735,2061,3,3,null,523,1,0
+2024/07/23 21:24:31,56,Homepage-3,200,OK,Thread Group 1-45,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,56,0,0
+2024/07/23 21:24:31,168,ClickContinue-0,200,OK,Thread Group 1-44,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,165,0,0
+2024/07/23 21:24:32,141,Homepage-4,200,OK,Thread Group 1-45,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,139,0,0
+2024/07/23 21:24:31,341,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-45,,true,,7577,2443,3,3,null,336,1,1
+2024/07/23 21:24:32,173,SignOff-0,200,OK,Thread Group 1-43,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,171,0,0
+2024/07/23 21:24:32,4,Homepage-0,200,OK,Thread Group 1-46,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,4,0,1
+2024/07/23 21:24:32,2,Homepage-1,200,OK,Thread Group 1-46,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:32,183,ClickContinue-1,200,OK,Thread Group 1-44,text,true,,1163,689,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,178,0,0
+2024/07/23 21:24:32,175,ClickOnSignUp-0,200,OK,Thread Group 1-45,text,true,,2669,581,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,172,0,0
+2024/07/23 21:24:32,175,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,2669,581,4,4,null,172,0,0
+2024/07/23 21:24:32,180,SignOff-1,200,OK,Thread Group 1-43,text,true,,3154,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,177,0,0
+2024/07/23 21:24:32,353,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-43,,true,,4241,1257,4,4,null,348,1,0
+2024/07/23 21:24:32,120,Homepage-2,200,OK,Thread Group 1-46,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,118,0,0
+2024/07/23 21:24:32,51,Homepage-3,200,OK,Thread Group 1-46,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,50,0,0
+2024/07/23 21:24:32,178,ClickContinue-2,200,OK,Thread Group 1-44,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,176,0,0
+2024/07/23 21:24:31,529,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-44,,true,,3735,2061,3,3,null,519,3,0
+2024/07/23 21:24:32,177,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-45,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,174,0,0
+2024/07/23 21:24:32,177,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,1461,805,3,3,null,174,0,0
+2024/07/23 21:24:32,110,Homepage-4,200,OK,Thread Group 1-46,text,true,,3154,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,107,0,0
+2024/07/23 21:24:32,287,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-46,,true,,7571,2443,3,3,null,281,1,1
+2024/07/23 21:24:32,157,SignOff-0,200,OK,Thread Group 1-44,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,155,0,0
+2024/07/23 21:24:32,163,ClickContinue-0,200,OK,Thread Group 1-45,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,160,0,0
+2024/07/23 21:24:32,176,ClickOnSignUp-0,200,OK,Thread Group 1-46,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,173,0,0
+2024/07/23 21:24:32,176,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,2669,581,3,3,null,173,0,0
+2024/07/23 21:24:32,15,Homepage-0,200,OK,Thread Group 1-47,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,15,0,1
+2024/07/23 21:24:32,2,Homepage-1,200,OK,Thread Group 1-47,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:32,177,SignOff-1,200,OK,Thread Group 1-44,text,true,,3154,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,174,0,0
+2024/07/23 21:24:32,334,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-44,,true,,4241,1257,4,4,null,329,2,0
+2024/07/23 21:24:32,201,ClickContinue-1,200,OK,Thread Group 1-45,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,198,0,0
+2024/07/23 21:24:32,174,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-46,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,171,0,0
+2024/07/23 21:24:32,174,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,1461,805,3,3,null,171,0,0
+2024/07/23 21:24:32,124,Homepage-2,200,OK,Thread Group 1-47,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,121,0,0
+2024/07/23 21:24:32,62,Homepage-3,200,OK,Thread Group 1-47,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,62,0,0
+2024/07/23 21:24:32,178,ClickContinue-2,200,OK,Thread Group 1-45,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,175,0,0
+2024/07/23 21:24:32,542,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-45,,true,,3735,2061,3,3,null,533,2,0
+2024/07/23 21:24:32,162,ClickContinue-0,200,OK,Thread Group 1-46,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,159,0,0
+2024/07/23 21:24:33,115,Homepage-4,200,OK,Thread Group 1-47,text,true,,3154,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,112,0,0
+2024/07/23 21:24:32,318,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-47,,true,,7571,2443,3,3,null,312,3,1
+2024/07/23 21:24:33,168,SignOff-0,200,OK,Thread Group 1-45,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,165,0,0
+2024/07/23 21:24:33,177,ClickContinue-1,200,OK,Thread Group 1-46,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,174,0,0
+2024/07/23 21:24:33,169,ClickOnSignUp-0,200,OK,Thread Group 1-47,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,166,0,0
+2024/07/23 21:24:33,169,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,2669,581,3,3,null,166,1,0
+2024/07/23 21:24:33,3,Homepage-0,200,OK,Thread Group 1-48,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:33,2,Homepage-1,200,OK,Thread Group 1-48,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:33,185,SignOff-1,200,OK,Thread Group 1-45,text,true,,3145,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,181,0,0
+2024/07/23 21:24:33,353,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-45,,true,,4232,1257,4,4,null,346,0,0
+2024/07/23 21:24:33,134,Homepage-2,200,OK,Thread Group 1-48,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,131,0,0
+2024/07/23 21:24:33,184,ClickContinue-2,200,OK,Thread Group 1-46,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,181,0,0
+2024/07/23 21:24:32,523,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-46,,true,,3735,2061,3,3,null,514,0,0
+2024/07/23 21:24:33,176,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-47,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,174,0,0
+2024/07/23 21:24:33,176,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,1461,805,3,3,null,174,1,0
+2024/07/23 21:24:33,49,Homepage-3,200,OK,Thread Group 1-48,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,49,0,0
+2024/07/23 21:24:33,119,Homepage-4,200,OK,Thread Group 1-48,text,true,,3145,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,117,0,0
+2024/07/23 21:24:33,307,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-48,,true,,7562,2443,3,3,null,302,4,1
+2024/07/23 21:24:33,174,SignOff-0,200,OK,Thread Group 1-46,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,171,0,0
+2024/07/23 21:24:33,173,ClickContinue-0,200,OK,Thread Group 1-47,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,171,0,0
+2024/07/23 21:24:33,175,ClickOnSignUp-0,200,OK,Thread Group 1-48,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,172,0,0
+2024/07/23 21:24:33,175,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,2669,581,3,3,null,172,0,0
+2024/07/23 21:24:33,3,Homepage-0,200,OK,Thread Group 1-49,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:33,1,Homepage-1,200,OK,Thread Group 1-49,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,1,0,0
+2024/07/23 21:24:33,182,SignOff-1,200,OK,Thread Group 1-46,text,true,,3145,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,174,0,0
+2024/07/23 21:24:33,356,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-46,,true,,4232,1257,4,4,null,345,1,0
+2024/07/23 21:24:33,192,ClickContinue-1,200,OK,Thread Group 1-47,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,186,0,0
+2024/07/23 21:24:33,123,Homepage-2,200,OK,Thread Group 1-49,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,120,0,0
+2024/07/23 21:24:33,169,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-48,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,166,0,0
+2024/07/23 21:24:33,169,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,1461,805,3,3,null,166,0,0
+2024/07/23 21:24:33,62,Homepage-3,200,OK,Thread Group 1-49,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,62,0,0
+2024/07/23 21:24:33,164,ClickContinue-2,200,OK,Thread Group 1-47,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,162,0,0
+2024/07/23 21:24:33,529,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-47,,true,,3735,2061,3,3,null,519,2,0
+2024/07/23 21:24:34,117,Homepage-4,200,OK,Thread Group 1-49,text,true,,3145,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,114,0,0
+2024/07/23 21:24:33,306,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-49,,true,,7562,2443,3,3,null,300,4,1
+2024/07/23 21:24:33,164,ClickContinue-0,200,OK,Thread Group 1-48,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,161,0,0
+2024/07/23 21:24:34,165,SignOff-0,200,OK,Thread Group 1-47,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,163,0,0
+2024/07/23 21:24:34,167,ClickOnSignUp-0,200,OK,Thread Group 1-49,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,164,0,0
+2024/07/23 21:24:34,167,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,2669,581,3,3,null,164,1,0
+2024/07/23 21:24:34,175,ClickContinue-1,200,OK,Thread Group 1-48,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,173,0,0
+2024/07/23 21:24:34,3,Homepage-0,200,OK,Thread Group 1-50,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:24:34,2,Homepage-1,200,OK,Thread Group 1-50,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:24:34,172,SignOff-1,200,OK,Thread Group 1-47,text,true,,3157,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,170,0,0
+2024/07/23 21:24:34,337,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-47,,true,,4244,1257,4,4,null,333,2,0
+2024/07/23 21:24:34,120,Homepage-2,200,OK,Thread Group 1-50,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,117,0,0
+2024/07/23 21:24:34,180,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-49,text,true,,1461,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,177,0,0
+2024/07/23 21:24:34,180,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,1461,805,3,3,null,177,1,0
+2024/07/23 21:24:34,170,ClickContinue-2,200,OK,Thread Group 1-48,text,true,,1749,694,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,167,0,0
+2024/07/23 21:24:33,509,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-48,,true,,3735,2061,3,3,null,501,2,0
+2024/07/23 21:24:34,51,Homepage-3,200,OK,Thread Group 1-50,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,51,0,0
+2024/07/23 21:24:34,121,Homepage-4,200,OK,Thread Group 1-50,text,true,,3157,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,118,0,0
+2024/07/23 21:24:34,297,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-50,,true,,7574,2443,3,3,null,291,2,1
+2024/07/23 21:24:34,171,ClickContinue-0,200,OK,Thread Group 1-49,text,true,,823,678,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,169,0,0
+2024/07/23 21:24:34,187,SignOff-0,200,OK,Thread Group 1-48,text,true,,1087,693,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,185,0,0
+2024/07/23 21:24:34,172,ClickOnSignUp-0,200,OK,Thread Group 1-50,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,169,0,0
+2024/07/23 21:24:34,172,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,2669,581,3,3,null,169,1,0
+2024/07/23 21:24:34,168,ClickContinue-1,200,OK,Thread Group 1-49,text,true,,1163,689,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,166,0,0
+2024/07/23 21:24:34,174,SignOff-1,200,OK,Thread Group 1-48,text,true,,3156,564,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,170,0,0
+2024/07/23 21:24:34,361,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-48,,true,,4243,1257,3,3,null,355,1,0
+2024/07/23 21:24:34,164,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-50,text,true,,1461,805,2,2,http://192.168.2.109:1080/cgi-bin/login.pl,162,0,0
+2024/07/23 21:24:34,164,FillDetailsAndClickContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,1461,805,2,2,null,162,2,0
+2024/07/23 21:24:34,158,ClickContinue-2,200,OK,Thread Group 1-49,text,true,,1749,694,2,2,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,156,0,0
+2024/07/23 21:24:34,497,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-49,,true,,3735,2061,2,2,null,491,2,0
+2024/07/23 21:24:34,160,ClickContinue-0,200,OK,Thread Group 1-50,text,true,,823,678,2,2,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,158,0,0
+2024/07/23 21:24:34,155,SignOff-0,200,OK,Thread Group 1-49,text,true,,1087,693,2,2,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,153,0,0
+2024/07/23 21:24:35,168,ClickContinue-1,200,OK,Thread Group 1-50,text,true,,1163,689,2,2,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,165,0,0
+2024/07/23 21:24:35,176,SignOff-1,200,OK,Thread Group 1-49,text,true,,3160,564,2,2,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,174,0,0
+2024/07/23 21:24:34,331,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-49,,true,,4247,1257,2,2,null,327,2,0
+2024/07/23 21:24:35,155,ClickContinue-2,200,OK,Thread Group 1-50,text,true,,1749,694,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,153,0,0
+2024/07/23 21:24:34,483,ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-50,,true,,3735,2061,1,1,null,476,2,0
+2024/07/23 21:24:35,168,SignOff-0,200,OK,Thread Group 1-50,text,true,,1087,693,1,1,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,166,0,0
+2024/07/23 21:24:35,179,SignOff-1,200,OK,Thread Group 1-50,text,true,,3160,564,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,177,0,0
+2024/07/23 21:24:35,347,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-50,,true,,4247,1257,1,1,null,343,2,0

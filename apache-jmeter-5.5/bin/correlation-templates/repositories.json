@@ -1,0 +1,15 @@
+{
+  "repositories" : [ {
+    "installedTemplates" : { },
+    "name" : "central",
+    "url" : "https://raw.githubusercontent.com/Blazemeter/CorrelationsRecorderTemplates/master/central/central-repository.json"
+  }, {
+    "installedTemplates" : { },
+    "name" : "local",
+    "url" : "D:\\Jmeter\\apache-jmeter-5.5\\apache-jmeter-5.5\\bin\\correlation-templates\\local-repository.json"
+  }, {
+    "installedTemplates" : { },
+    "name" : "bzm-central",
+    "url" : "We couldn't load the API ID. Please, review the logs."
+  } ]
+}

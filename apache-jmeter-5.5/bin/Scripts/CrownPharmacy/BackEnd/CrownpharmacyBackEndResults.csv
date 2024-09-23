@@ -1,0 +1,631 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1704290597720,1473,DashBoard_Navigation_T01_HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,113542,1563,3,3,null,0,5,605
+1704290597721,833,DashBoard_Navigation_T01_HomePage-0,200,OK,DashBoard_Navigation 1-1,text,true,,10269,656,2,2,https://crownpharmacywebadmin.azurewebsites.net/,832,0,605
+1704290598557,640,DashBoard_Navigation_T01_HomePage-1,200,OK,DashBoard_Navigation 1-1,text,true,,103273,907,3,3,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,229,0,0
+1704290598223,1390,DashBoard_Navigation_T01_HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,113542,1563,4,4,null,0,4,508
+1704290598225,743,DashBoard_Navigation_T01_HomePage-0,200,OK,DashBoard_Navigation 1-2,text,true,,10269,656,3,3,https://crownpharmacywebadmin.azurewebsites.net/,743,0,508
+1704290598970,647,DashBoard_Navigation_T01_HomePage-1,200,OK,DashBoard_Navigation 1-2,text,true,,103273,907,4,4,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,221,0,0
+1704290598724,1413,DashBoard_Navigation_T01_HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,113542,1563,5,5,null,0,4,512
+1704290598726,772,DashBoard_Navigation_T01_HomePage-0,200,OK,DashBoard_Navigation 1-3,text,true,,10269,656,4,4,https://crownpharmacywebadmin.azurewebsites.net/,772,0,512
+1704290599500,641,DashBoard_Navigation_T01_HomePage-1,200,OK,DashBoard_Navigation 1-3,text,true,,103273,907,5,5,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,216,0,0
+1704290599200,1377,DashBoard_Navigation_T02_Login,200,"Number of samples in transaction : 3, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,56147,3313,6,6,null,0,6,0
+1704290599200,924,DashBoard_Navigation_T02_Login-0,200,OK,DashBoard_Navigation 1-1,text,true,,28057,2224,5,5,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,539,0,0
+1704290599200,539,DashBoard_Navigation_T02_Login-0-0,302,Found,DashBoard_Navigation 1-1,,true,,511,1135,5,5,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,539,0,0
+1704290599740,384,DashBoard_Navigation_T02_Login-0-1,200,OK,DashBoard_Navigation 1-1,text,true,,27546,1089,5,5,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,377,0,0
+1704290600125,452,DashBoard_Navigation_T02_Login-1,200,OK,DashBoard_Navigation 1-1,text,true,,27532,1089,6,6,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,450,0,0
+1704290600581,1,DashBoard_Navigation_T02_Login-2,200,OK,DashBoard_Navigation 1-1,text,true,,558,0,6,6,null,0,0,0
+1704290599226,1577,DashBoard_Navigation_T01_HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,113542,1563,7,7,null,0,4,529
+1704290599228,803,DashBoard_Navigation_T01_HomePage-0,200,OK,DashBoard_Navigation 1-4,text,true,,10269,656,5,5,https://crownpharmacywebadmin.azurewebsites.net/,803,0,529
+1704290600033,774,DashBoard_Navigation_T01_HomePage-1,200,OK,DashBoard_Navigation 1-4,text,true,,103273,907,7,7,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,268,0,0
+1704290599725,1400,DashBoard_Navigation_T01_HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,113542,1563,7,7,null,0,4,460
+1704290599727,739,DashBoard_Navigation_T01_HomePage-0,200,OK,DashBoard_Navigation 1-5,text,true,,10269,656,6,6,https://crownpharmacywebadmin.azurewebsites.net/,738,0,460
+1704290600467,661,DashBoard_Navigation_T01_HomePage-1,200,OK,DashBoard_Navigation 1-5,text,true,,103273,907,7,7,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,227,0,0
+1704290599618,1670,DashBoard_Navigation_T02_Login,200,"Number of samples in transaction : 3, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,56135,3317,8,8,null,0,2,0
+1704290599619,1268,DashBoard_Navigation_T02_Login-0,200,OK,DashBoard_Navigation 1-2,text,true,,28045,2226,7,7,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,618,0,0
+1704290599619,618,DashBoard_Navigation_T02_Login-0-0,302,Found,DashBoard_Navigation 1-2,,true,,513,1135,7,7,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,618,0,0
+1704290600237,650,DashBoard_Navigation_T02_Login-0-1,200,OK,DashBoard_Navigation 1-2,text,true,,27532,1091,7,7,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,649,0,0
+1704290600887,402,DashBoard_Navigation_T02_Login-1,200,OK,DashBoard_Navigation 1-2,text,true,,27532,1091,8,8,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,400,0,0
+1704290601290,0,DashBoard_Navigation_T02_Login-2,200,OK,DashBoard_Navigation 1-2,text,true,,558,0,8,8,null,0,0,0
+1704290600583,946,DashBoard_Navigation_T03_ClickOnSetUp,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,61280,3799,8,8,null,0,3,0
+1704290600584,250,DashBoard_Navigation_T03_ClickOnSetUp-0,200,OK,DashBoard_Navigation 1-1,text,true,,34254,1081,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,235,0,0
+1704290600835,696,DashBoard_Navigation_T03_ClickOnSetUp-1,200,OK,DashBoard_Navigation 1-1,text,true,,27026,2718,8,8,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,690,0,0
+1704290601532,261,DashBoard_Navigation_T04_ClickOnOpeningHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,20458,1097,9,9,null,0,1,0
+1704290601533,261,DashBoard_Navigation_T04_ClickOnOpeningHours-0,200,OK,DashBoard_Navigation 1-1,text,true,,20458,1097,9,9,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/OpeningHoursList,260,0,0
+1704290601290,627,DashBoard_Navigation_T03_ClickOnSetUp,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,61266,3803,9,9,null,0,2,0
+1704290601291,263,DashBoard_Navigation_T03_ClickOnSetUp-0,200,OK,DashBoard_Navigation 1-2,text,true,,34247,1083,8,8,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,260,0,0
+1704290601555,364,DashBoard_Navigation_T03_ClickOnSetUp-1,200,OK,DashBoard_Navigation 1-2,text,true,,27019,2720,9,9,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,362,0,0
+1704290600224,1841,DashBoard_Navigation_T01_HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,113542,1563,9,9,null,0,5,538
+1704290600226,806,DashBoard_Navigation_T01_HomePage-0,200,OK,DashBoard_Navigation 1-6,text,true,,10269,656,7,7,https://crownpharmacywebadmin.azurewebsites.net/,806,0,538
+1704290601034,1035,DashBoard_Navigation_T01_HomePage-1,200,OK,DashBoard_Navigation 1-6,text,true,,103273,907,9,9,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,523,0,0
+1704290601795,315,DashBoard_Navigation_T05_ClickOnClosingHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,25401,1093,9,9,null,0,1,0
+1704290601795,315,DashBoard_Navigation_T05_ClickOnClosingHours-0,200,OK,DashBoard_Navigation 1-1,text,true,,25401,1093,9,9,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/StoreTimings,300,0,0
+1704290600142,2013,DashBoard_Navigation_T02_Login,200,"Number of samples in transaction : 3, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,56128,3305,9,9,null,0,2,0
+1704290600142,1401,DashBoard_Navigation_T02_Login-0,200,OK,DashBoard_Navigation 1-3,text,true,,28039,2220,8,8,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,876,0,0
+1704290600142,876,DashBoard_Navigation_T02_Login-0-0,302,Found,DashBoard_Navigation 1-3,,true,,507,1135,8,8,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,876,0,0
+1704290601018,525,DashBoard_Navigation_T02_Login-0-1,200,OK,DashBoard_Navigation 1-3,text,true,,27532,1085,8,8,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,523,0,0
+1704290601544,612,DashBoard_Navigation_T02_Login-1,200,OK,DashBoard_Navigation 1-3,text,true,,27531,1085,9,9,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,605,0,0
+1704290602157,0,DashBoard_Navigation_T02_Login-2,200,OK,DashBoard_Navigation 1-3,text,true,,558,0,9,9,null,0,0,0
+1704290601919,346,DashBoard_Navigation_T04_ClickOnOpeningHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,20451,1099,10,10,null,0,2,0
+1704290601920,346,DashBoard_Navigation_T04_ClickOnOpeningHours-0,200,OK,DashBoard_Navigation 1-2,text,true,,20451,1099,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/OpeningHoursList,345,0,0
+1704290602112,252,DashBoard_Navigation_T06_ClickOnServices,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,51617,1091,10,10,null,0,1,0
+1704290602112,252,DashBoard_Navigation_T06_ClickOnServices-0,200,OK,DashBoard_Navigation 1-1,text,true,,51617,1091,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,248,0,0
+1704290600724,1677,DashBoard_Navigation_T01_HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,113542,1563,10,10,null,0,5,555
+1704290600726,865,DashBoard_Navigation_T01_HomePage-0,200,OK,DashBoard_Navigation 1-7,text,true,,10269,656,8,8,https://crownpharmacywebadmin.azurewebsites.net/,864,0,555
+1704290601593,812,DashBoard_Navigation_T01_HomePage-1,200,OK,DashBoard_Navigation 1-7,text,true,,103273,907,10,10,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,285,0,0
+1704290602267,251,DashBoard_Navigation_T05_ClickOnClosingHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,25401,1095,10,10,null,0,2,0
+1704290602268,251,DashBoard_Navigation_T05_ClickOnClosingHours-0,200,OK,DashBoard_Navigation 1-2,text,true,,25401,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/StoreTimings,245,0,0
+1704290601226,1654,DashBoard_Navigation_T01_HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,113542,1563,10,10,null,0,2,527
+1704290601227,845,DashBoard_Navigation_T01_HomePage-0,200,OK,DashBoard_Navigation 1-8,text,true,,10269,656,9,9,https://crownpharmacywebadmin.azurewebsites.net/,844,0,527
+1704290602073,809,DashBoard_Navigation_T01_HomePage-1,200,OK,DashBoard_Navigation 1-8,text,true,,103273,907,10,10,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,299,0,0
+1704290602520,361,DashBoard_Navigation_T06_ClickOnServices,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,51622,1093,10,10,null,0,2,0
+1704290602521,361,DashBoard_Navigation_T06_ClickOnServices-0,200,OK,DashBoard_Navigation 1-2,text,true,,51622,1093,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,328,0,0
+1704290602365,569,DashBoard_Navigation_T07_ClickOnEPSNomination,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,167115,1099,10,10,null,0,3,0
+1704290602366,569,DashBoard_Navigation_T07_ClickOnEPSNomination-0,200,OK,DashBoard_Navigation 1-1,text,true,,167115,1099,10,10,https://crownpharmacywebadmin.azurewebsites.net/EPSNominations/EPSNominations,362,0,0
+1704290602158,879,DashBoard_Navigation_T03_ClickOnSetUp,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,61274,3836,10,10,null,0,2,0
+1704290602159,267,DashBoard_Navigation_T03_ClickOnSetUp-0,200,OK,DashBoard_Navigation 1-3,text,true,,34254,1077,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,264,0,0
+1704290602427,612,DashBoard_Navigation_T03_ClickOnSetUp-1,200,OK,DashBoard_Navigation 1-3,text,true,,27020,2759,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,611,0,0
+1704290600807,2346,DashBoard_Navigation_T02_Login,200,"Number of samples in transaction : 3, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,56134,3305,10,10,null,0,2,0
+1704290600808,1466,DashBoard_Navigation_T02_Login-0,200,OK,DashBoard_Navigation 1-4,text,true,,28039,2220,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,875,0,0
+1704290600808,875,DashBoard_Navigation_T02_Login-0-0,302,Found,DashBoard_Navigation 1-4,,true,,507,1135,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,875,0,0
+1704290601684,590,DashBoard_Navigation_T02_Login-0-1,200,OK,DashBoard_Navigation 1-4,text,true,,27532,1085,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,588,0,0
+1704290602275,880,DashBoard_Navigation_T02_Login-1,200,OK,DashBoard_Navigation 1-4,text,true,,27538,1085,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,864,0,0
+1704290603155,0,DashBoard_Navigation_T02_Login-2,200,OK,DashBoard_Navigation 1-4,text,true,,557,0,10,10,null,0,0,0
+1704290601723,1684,DashBoard_Navigation_T01_HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,113542,1563,10,10,null,0,2,551
+1704290601724,839,DashBoard_Navigation_T01_HomePage-0,200,OK,DashBoard_Navigation 1-9,text,true,,10269,656,10,10,https://crownpharmacywebadmin.azurewebsites.net/,838,0,551
+1704290602564,845,DashBoard_Navigation_T01_HomePage-1,200,OK,DashBoard_Navigation 1-9,text,true,,103273,907,10,10,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,323,0,0
+1704290602883,553,DashBoard_Navigation_T07_ClickOnEPSNomination,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,167115,1101,10,10,null,0,3,0
+1704290602884,553,DashBoard_Navigation_T07_ClickOnEPSNomination-0,200,OK,DashBoard_Navigation 1-2,text,true,,167115,1101,10,10,https://crownpharmacywebadmin.azurewebsites.net/EPSNominations/EPSNominations,338,0,0
+1704290603039,812,DashBoard_Navigation_T04_ClickOnOpeningHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,20458,1093,10,10,null,0,2,0
+1704290603040,812,DashBoard_Navigation_T04_ClickOnOpeningHours-0,200,OK,DashBoard_Navigation 1-3,text,true,,20458,1093,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/OpeningHoursList,812,0,0
+1704290601129,2755,DashBoard_Navigation_T02_Login,200,"Number of samples in transaction : 3, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,56135,3317,10,10,null,0,2,0
+1704290601130,2066,DashBoard_Navigation_T02_Login-0,200,OK,DashBoard_Navigation 1-5,text,true,,28045,2226,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1259,0,0
+1704290601130,1259,DashBoard_Navigation_T02_Login-0-0,302,Found,DashBoard_Navigation 1-5,,true,,513,1135,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1259,0,0
+1704290602390,806,DashBoard_Navigation_T02_Login-0-1,200,OK,DashBoard_Navigation 1-5,text,true,,27532,1091,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,805,0,0
+1704290603197,688,DashBoard_Navigation_T02_Login-1,200,OK,DashBoard_Navigation 1-5,text,true,,27532,1091,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,686,0,0
+1704290603885,1,DashBoard_Navigation_T02_Login-2,200,OK,DashBoard_Navigation 1-5,text,true,,558,0,10,10,null,0,0,0
+1704290603854,278,DashBoard_Navigation_T05_ClickOnClosingHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,25401,1089,10,10,null,0,3,0
+1704290602937,1193,DashBoard_Navigation_T08_ClickOnBookings,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,288054,1087,10,10,null,0,5,0
+1704290603855,278,DashBoard_Navigation_T05_ClickOnClosingHours-0,200,OK,DashBoard_Navigation 1-3,text,true,,25401,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/StoreTimings,277,0,0
+1704290602938,1193,DashBoard_Navigation_T08_ClickOnBookings-0,200,OK,DashBoard_Navigation 1-1,text,true,,288054,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Bookings/Bookings,591,0,0
+1704290603439,707,DashBoard_Navigation_T08_ClickOnBookings,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,288052,1089,10,10,null,0,3,0
+1704290603440,707,DashBoard_Navigation_T08_ClickOnBookings-0,200,OK,DashBoard_Navigation 1-2,text,true,,288052,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/Bookings/Bookings,663,0,0
+1704290603156,1023,DashBoard_Navigation_T03_ClickOnSetUp,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,61266,3776,10,10,null,0,1,0
+1704290603156,714,DashBoard_Navigation_T03_ClickOnSetUp-0,200,OK,DashBoard_Navigation 1-4,text,true,,34247,1077,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,712,0,0
+1704290603871,309,DashBoard_Navigation_T03_ClickOnSetUp-1,200,OK,DashBoard_Navigation 1-4,text,true,,27019,2699,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,307,0,0
+1704290602221,2162,DashBoard_Navigation_T01_HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,113542,1563,10,10,null,0,4,524
+1704290602223,812,DashBoard_Navigation_T01_HomePage-0,200,OK,DashBoard_Navigation 1-10,text,true,,10269,656,10,10,https://crownpharmacywebadmin.azurewebsites.net/,803,0,524
+1704290603037,1350,DashBoard_Navigation_T01_HomePage-1,200,OK,DashBoard_Navigation 1-10,text,true,,103273,907,10,10,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,834,0,0
+1704290604149,253,DashBoard_Navigation_T09_ClickOnContactList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,34162,1095,10,10,null,0,1,0
+1704290604149,253,DashBoard_Navigation_T09_ClickOnContactList-0,200,OK,DashBoard_Navigation 1-2,text,true,,34162,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/ContactUsList,251,0,0
+1704290604135,280,DashBoard_Navigation_T06_ClickOnServices,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,51610,1087,10,10,null,0,2,0
+1704290604136,280,DashBoard_Navigation_T06_ClickOnServices-0,200,OK,DashBoard_Navigation 1-3,text,true,,51610,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,279,0,0
+1704290604135,305,DashBoard_Navigation_T09_ClickOnContactList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,34162,1093,10,10,null,0,2,0
+1704290604136,305,DashBoard_Navigation_T09_ClickOnContactList-0,200,OK,DashBoard_Navigation 1-1,text,true,,34162,1093,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/ContactUsList,303,0,0
+1704290604180,335,DashBoard_Navigation_T04_ClickOnOpeningHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,20451,1093,10,10,null,0,2,0
+1704290604181,335,DashBoard_Navigation_T04_ClickOnOpeningHours-0,200,OK,DashBoard_Navigation 1-4,text,true,,20451,1093,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/OpeningHoursList,334,0,0
+1704290604517,422,DashBoard_Navigation_T05_ClickOnClosingHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,25401,1089,10,10,null,0,1,0
+1704290604517,422,DashBoard_Navigation_T05_ClickOnClosingHours-0,200,OK,DashBoard_Navigation 1-4,text,true,,25401,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/StoreTimings,421,0,0
+1704290604404,545,DashBoard_Navigation_T10_ClickOnRequestCallBackList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,57581,1101,10,10,null,0,1,0
+1704290604404,545,DashBoard_Navigation_T10_ClickOnRequestCallBackList-0,200,OK,DashBoard_Navigation 1-2,text,true,,57581,1101,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/RequestCallBackList,535,0,0
+1704290604418,538,DashBoard_Navigation_T07_ClickOnEPSNomination,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,167100,1095,10,10,null,0,3,0
+1704290604419,538,DashBoard_Navigation_T07_ClickOnEPSNomination-0,200,OK,DashBoard_Navigation 1-3,text,true,,167100,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/EPSNominations/EPSNominations,323,0,0
+1704290604442,660,DashBoard_Navigation_T10_ClickOnRequestCallBackList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,57581,1099,10,10,null,0,2,0
+1704290604443,660,DashBoard_Navigation_T10_ClickOnRequestCallBackList-0,200,OK,DashBoard_Navigation 1-1,text,true,,57581,1099,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/RequestCallBackList,656,0,0
+1704290602070,3040,DashBoard_Navigation_T02_Login,200,"Number of samples in transaction : 3, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,56136,3305,10,10,null,0,2,0
+1704290602071,2070,DashBoard_Navigation_T02_Login-0,200,OK,DashBoard_Navigation 1-6,text,true,,28046,2220,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1461,0,0
+1704290602071,1461,DashBoard_Navigation_T02_Login-0-0,302,Found,DashBoard_Navigation 1-6,,true,,507,1135,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1461,0,0
+1704290603533,608,DashBoard_Navigation_T02_Login-0-1,200,OK,DashBoard_Navigation 1-6,text,true,,27539,1085,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,606,0,0
+1704290604142,970,DashBoard_Navigation_T02_Login-1,200,OK,DashBoard_Navigation 1-6,text,true,,27532,1085,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,965,0,0
+1704290605112,0,DashBoard_Navigation_T02_Login-2,200,OK,DashBoard_Navigation 1-6,text,true,,558,0,10,10,null,0,0,0
+1704290603886,1240,DashBoard_Navigation_T03_ClickOnSetUp,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,61288,3788,10,10,null,0,2,0
+1704290603887,271,DashBoard_Navigation_T03_ClickOnSetUp-0,200,OK,DashBoard_Navigation 1-5,text,true,,34268,1083,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,269,0,0
+1704290604159,969,DashBoard_Navigation_T03_ClickOnSetUp-1,200,OK,DashBoard_Navigation 1-5,text,true,,27020,2705,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,962,0,0
+1704290604959,280,DashBoard_Navigation_T08_ClickOnBookings,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,288031,1083,10,10,null,0,5,0
+1704290604960,280,DashBoard_Navigation_T08_ClickOnBookings-0,200,OK,DashBoard_Navigation 1-3,text,true,,288031,1083,10,10,https://crownpharmacywebadmin.azurewebsites.net/Bookings/Bookings,235,0,0
+1704290604941,323,DashBoard_Navigation_T06_ClickOnServices,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,51610,1087,10,10,null,0,1,0
+1704290604941,323,DashBoard_Navigation_T06_ClickOnServices-0,200,OK,DashBoard_Navigation 1-4,text,true,,51610,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,318,0,0
+1704290605128,228,DashBoard_Navigation_T04_ClickOnOpeningHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,20458,1099,10,10,null,0,2,0
+1704290605129,228,DashBoard_Navigation_T04_ClickOnOpeningHours-0,200,OK,DashBoard_Navigation 1-5,text,true,,20458,1099,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/OpeningHoursList,226,0,0
+1704290604950,563,DashBoard_Navigation_T11_ClickOnUsers,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,229105,1087,10,10,null,0,2,0
+1704290604950,563,DashBoard_Navigation_T11_ClickOnUsers-0,200,OK,DashBoard_Navigation 1-2,text,true,,229105,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Users/UsersList,544,0,0
+1704290605244,350,DashBoard_Navigation_T09_ClickOnContactList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,34162,1089,10,10,null,0,2,0
+1704290605245,350,DashBoard_Navigation_T09_ClickOnContactList-0,200,OK,DashBoard_Navigation 1-3,text,true,,34162,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/ContactUsList,348,0,0
+1704290605105,498,DashBoard_Navigation_T11_ClickOnUsers,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,229131,1085,10,10,null,0,2,0
+1704290605105,498,DashBoard_Navigation_T11_ClickOnUsers-0,200,OK,DashBoard_Navigation 1-1,text,true,,229131,1085,10,10,https://crownpharmacywebadmin.azurewebsites.net/Users/UsersList,411,0,0
+1704290605358,253,DashBoard_Navigation_T05_ClickOnClosingHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,25401,1095,10,10,null,0,1,0
+1704290605358,253,DashBoard_Navigation_T05_ClickOnClosingHours-0,200,OK,DashBoard_Navigation 1-5,text,true,,25401,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/StoreTimings,249,0,0
+1704290605113,612,DashBoard_Navigation_T03_ClickOnSetUp,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,61273,3806,10,10,null,0,1,0
+1704290605113,295,DashBoard_Navigation_T03_ClickOnSetUp-0,200,OK,DashBoard_Navigation 1-6,text,true,,34254,1077,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,277,0,0
+1704290605409,317,DashBoard_Navigation_T03_ClickOnSetUp-1,200,OK,DashBoard_Navigation 1-6,text,true,,27019,2729,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,316,0,0
+1704290602406,3453,DashBoard_Navigation_T02_Login,200,"Number of samples in transaction : 3, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,56139,3313,10,10,null,0,3,0
+1704290602407,2534,DashBoard_Navigation_T02_Login-0,200,OK,DashBoard_Navigation 1-7,text,true,,28049,2224,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1679,0,0
+1704290602407,1679,DashBoard_Navigation_T02_Login-0-0,302,Found,DashBoard_Navigation 1-7,,true,,511,1135,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1679,0,0
+1704290604087,854,DashBoard_Navigation_T02_Login-0-1,200,OK,DashBoard_Navigation 1-7,text,true,,27538,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,852,0,0
+1704290604942,919,DashBoard_Navigation_T02_Login-1,200,OK,DashBoard_Navigation 1-7,text,true,,27532,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,918,0,0
+1704290605862,0,DashBoard_Navigation_T02_Login-2,200,OK,DashBoard_Navigation 1-7,text,true,,558,0,10,10,null,0,0,0
+1704290605266,611,DashBoard_Navigation_T07_ClickOnEPSNomination,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,167101,1095,10,10,null,0,2,0
+1704290605266,611,DashBoard_Navigation_T07_ClickOnEPSNomination-0,200,OK,DashBoard_Navigation 1-4,text,true,,167101,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/EPSNominations/EPSNominations,354,0,0
+1704290605596,338,DashBoard_Navigation_T10_ClickOnRequestCallBackList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,57567,1095,10,10,null,0,2,0
+1704290605597,338,DashBoard_Navigation_T10_ClickOnRequestCallBackList-0,200,OK,DashBoard_Navigation 1-3,text,true,,57567,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/RequestCallBackList,334,0,0
+1704290605727,360,DashBoard_Navigation_T04_ClickOnOpeningHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,20451,1093,10,10,null,0,0,0
+1704290605727,360,DashBoard_Navigation_T04_ClickOnOpeningHours-0,200,OK,DashBoard_Navigation 1-6,text,true,,20451,1093,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/OpeningHoursList,358,0,0
+1704290605612,512,DashBoard_Navigation_T06_ClickOnServices,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,51623,1093,10,10,null,0,2,0
+1704290605613,512,DashBoard_Navigation_T06_ClickOnServices-0,200,OK,DashBoard_Navigation 1-5,text,true,,51623,1093,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,505,0,0
+1704290603409,2805,DashBoard_Navigation_T02_Login,200,"Number of samples in transaction : 3, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,56133,3313,10,10,null,0,2,0
+1704290603410,1768,DashBoard_Navigation_T02_Login-0,200,OK,DashBoard_Navigation 1-9,text,true,,28043,2224,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1182,0,0
+1704290603410,1182,DashBoard_Navigation_T02_Login-0-0,302,Found,DashBoard_Navigation 1-9,,true,,511,1135,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1182,0,0
+1704290604592,586,DashBoard_Navigation_T02_Login-0-1,200,OK,DashBoard_Navigation 1-9,text,true,,27532,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,585,0,0
+1704290605179,1036,DashBoard_Navigation_T02_Login-1,200,OK,DashBoard_Navigation 1-9,text,true,,27532,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1034,0,0
+1704290606215,1,DashBoard_Navigation_T02_Login-2,200,OK,DashBoard_Navigation 1-9,text,true,,558,0,10,10,null,0,0,0
+1704290602883,3389,DashBoard_Navigation_T02_Login,200,"Number of samples in transaction : 3, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,56143,3305,10,10,null,0,2,0
+1704290602884,2220,DashBoard_Navigation_T02_Login-0,200,OK,DashBoard_Navigation 1-8,text,true,,28053,2220,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1212,0,0
+1704290602884,1212,DashBoard_Navigation_T02_Login-0-0,302,Found,DashBoard_Navigation 1-8,,true,,507,1135,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1212,0,0
+1704290604097,1007,DashBoard_Navigation_T02_Login-0-1,200,OK,DashBoard_Navigation 1-8,text,true,,27546,1085,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1006,0,0
+1704290605104,1169,DashBoard_Navigation_T02_Login-1,200,OK,DashBoard_Navigation 1-8,text,true,,27532,1085,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1166,0,0
+1704290605879,392,DashBoard_Navigation_T08_ClickOnBookings,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,288039,1083,10,10,null,0,3,0
+1704290606274,0,DashBoard_Navigation_T02_Login-2,200,OK,DashBoard_Navigation 1-8,text,true,,558,0,10,10,null,0,0,0
+1704290605880,392,DashBoard_Navigation_T08_ClickOnBookings-0,200,OK,DashBoard_Navigation 1-4,text,true,,288039,1083,10,10,https://crownpharmacywebadmin.azurewebsites.net/Bookings/Bookings,358,0,0
+1704290605936,404,DashBoard_Navigation_T11_ClickOnUsers,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,229112,1081,10,10,null,0,3,0
+1704290605937,404,DashBoard_Navigation_T11_ClickOnUsers-0,200,OK,DashBoard_Navigation 1-3,text,true,,229112,1081,10,10,https://crownpharmacywebadmin.azurewebsites.net/Users/UsersList,376,0,0
+1704290605606,766,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,63785,15405,10,10,null,0,1,0
+1704290605606,275,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-0,200,OK,DashBoard_Navigation 1-1,text,true,,31814,1091,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/PrivacyPolicies,269,0,0
+1704290605882,491,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-1,200,OK,DashBoard_Navigation 1-1,text,true,,31971,14314,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,484,0,0
+1704290606088,310,DashBoard_Navigation_T05_ClickOnClosingHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,25401,1089,10,10,null,0,0,0
+1704290606088,310,DashBoard_Navigation_T05_ClickOnClosingHours-0,200,OK,DashBoard_Navigation 1-6,text,true,,25401,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/StoreTimings,308,0,0
+1704290605516,905,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,63779,15409,10,10,null,0,2,0
+1704290605516,424,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-0,200,OK,DashBoard_Navigation 1-2,text,true,,31808,1093,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/PrivacyPolicies,422,0,0
+1704290605942,481,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-1,200,OK,DashBoard_Navigation 1-2,text,true,,31971,14316,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,479,0,0
+1704290606274,283,DashBoard_Navigation_T09_ClickOnContactList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,34162,1089,10,10,null,0,1,0
+1704290606274,283,DashBoard_Navigation_T09_ClickOnContactList-0,200,OK,DashBoard_Navigation 1-4,text,true,,34162,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/ContactUsList,281,0,0
+1704290605863,713,DashBoard_Navigation_T03_ClickOnSetUp,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,61266,3724,10,10,null,0,1,0
+1704290605863,353,DashBoard_Navigation_T03_ClickOnSetUp-0,200,OK,DashBoard_Navigation 1-7,text,true,,34247,1081,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,347,0,0
+1704290606217,360,DashBoard_Navigation_T03_ClickOnSetUp-1,200,OK,DashBoard_Navigation 1-7,text,true,,27019,2643,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,359,0,0
+1704290606127,498,DashBoard_Navigation_T07_ClickOnEPSNomination,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,167136,1101,10,10,null,0,1,0
+1704290606127,498,DashBoard_Navigation_T07_ClickOnEPSNomination-0,200,OK,DashBoard_Navigation 1-5,text,true,,167136,1101,10,10,https://crownpharmacywebadmin.azurewebsites.net/EPSNominations/EPSNominations,298,0,0
+1704290606399,289,DashBoard_Navigation_T06_ClickOnServices,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,51610,1087,10,10,null,0,1,0
+1704290606399,289,DashBoard_Navigation_T06_ClickOnServices-0,200,OK,DashBoard_Navigation 1-6,text,true,,51610,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,286,0,0
+1704290606216,578,DashBoard_Navigation_T03_ClickOnSetUp,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,61266,3784,10,10,null,0,0,0
+1704290606216,287,DashBoard_Navigation_T03_ClickOnSetUp-0,200,OK,DashBoard_Navigation 1-9,text,true,,34247,1081,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,285,0,0
+1704290606503,291,DashBoard_Navigation_T03_ClickOnSetUp-1,200,OK,DashBoard_Navigation 1-9,text,true,,27019,2703,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,291,0,0
+1704290606558,273,DashBoard_Navigation_T10_ClickOnRequestCallBackList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,57574,1095,10,10,null,0,0,0
+1704290606558,273,DashBoard_Navigation_T10_ClickOnRequestCallBackList-0,200,OK,DashBoard_Navigation 1-4,text,true,,57574,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/RequestCallBackList,269,0,0
+1704290606626,264,DashBoard_Navigation_T08_ClickOnBookings,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,288074,1089,10,10,null,0,3,0
+1704290606626,264,DashBoard_Navigation_T08_ClickOnBookings-0,200,OK,DashBoard_Navigation 1-5,text,true,,288074,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/Bookings/Bookings,236,0,0
+1704290606578,329,DashBoard_Navigation_T04_ClickOnOpeningHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,20451,1097,10,10,null,0,0,0
+1704290606578,329,DashBoard_Navigation_T04_ClickOnOpeningHours-0,200,OK,DashBoard_Navigation 1-7,text,true,,20451,1097,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/OpeningHoursList,327,0,0
+1704290606373,551,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,63847,15408,10,10,null,0,0,0
+1704290606373,254,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-0,200,OK,DashBoard_Navigation 1-1,text,true,,31876,1094,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,237,0,0
+1704290606627,297,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-1,200,OK,DashBoard_Navigation 1-1,text,true,,31971,14314,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,295,0,0
+1704290606274,657,DashBoard_Navigation_T03_ClickOnSetUp,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,61267,3686,10,10,null,0,1,0
+1704290606274,338,DashBoard_Navigation_T03_ClickOnSetUp-0,200,OK,DashBoard_Navigation 1-8,text,true,,34247,1077,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,336,0,0
+1704290606613,319,DashBoard_Navigation_T03_ClickOnSetUp-1,200,OK,DashBoard_Navigation 1-8,text,true,,27020,2609,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,313,0,0
+1704290606423,522,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,63840,15412,10,10,null,0,1,0
+1704290606423,235,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-0,200,OK,DashBoard_Navigation 1-2,text,true,,31869,1096,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,233,0,0
+1704290606659,287,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-1,200,OK,DashBoard_Navigation 1-2,text,true,,31971,14316,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,285,0,0
+1704290606795,288,DashBoard_Navigation_T04_ClickOnOpeningHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,20451,1097,10,10,null,0,1,0
+1704290606795,288,DashBoard_Navigation_T04_ClickOnOpeningHours-0,200,OK,DashBoard_Navigation 1-9,text,true,,20451,1097,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/OpeningHoursList,287,0,0
+1704290606343,796,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,63786,15397,10,10,null,0,2,0
+1704290606343,287,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-0,200,OK,DashBoard_Navigation 1-3,text,true,,31808,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/PrivacyPolicies,285,0,0
+1704290606631,509,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-1,200,OK,DashBoard_Navigation 1-3,text,true,,31978,14310,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,482,0,0
+1704290606893,260,DashBoard_Navigation_T09_ClickOnContactList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,34162,1095,10,10,null,0,1,0
+1704290606894,260,DashBoard_Navigation_T09_ClickOnContactList-0,200,OK,DashBoard_Navigation 1-5,text,true,,34162,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/ContactUsList,257,0,0
+1704290604388,2807,DashBoard_Navigation_T02_Login,200,"Number of samples in transaction : 3, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,56145,3310,10,10,null,0,3,0
+1704290604389,2371,DashBoard_Navigation_T02_Login-0,200,OK,DashBoard_Navigation 1-10,text,true,,28053,2223,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1989,0,0
+1704290604389,1989,DashBoard_Navigation_T02_Login-0-0,302,Found,DashBoard_Navigation 1-10,,true,,509,1136,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1989,0,0
+1704290606378,382,DashBoard_Navigation_T02_Login-0-1,200,OK,DashBoard_Navigation 1-10,text,true,,27544,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,380,0,0
+1704290606761,436,DashBoard_Navigation_T02_Login-1,200,OK,DashBoard_Navigation 1-10,text,true,,27532,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,435,0,0
+1704290607198,0,DashBoard_Navigation_T02_Login-2,200,OK,DashBoard_Navigation 1-10,text,true,,560,0,10,10,null,0,0,0
+1704290606689,536,DashBoard_Navigation_T07_ClickOnEPSNomination,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,167107,1095,10,10,null,0,1,0
+1704290606689,536,DashBoard_Navigation_T07_ClickOnEPSNomination-0,200,OK,DashBoard_Navigation 1-6,text,true,,167107,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/EPSNominations/EPSNominations,273,0,0
+1704290606933,305,DashBoard_Navigation_T04_ClickOnOpeningHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,20451,1093,10,10,null,0,1,0
+1704290606933,305,DashBoard_Navigation_T04_ClickOnOpeningHours-0,200,OK,DashBoard_Navigation 1-8,text,true,,20451,1093,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/OpeningHoursList,304,0,0
+1704290606908,337,DashBoard_Navigation_T05_ClickOnClosingHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,25401,1093,10,10,null,0,2,0
+1704290606908,337,DashBoard_Navigation_T05_ClickOnClosingHours-0,200,OK,DashBoard_Navigation 1-7,text,true,,25401,1093,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/StoreTimings,335,0,0
+1704290606832,420,DashBoard_Navigation_T11_ClickOnUsers,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,229112,1081,10,10,null,0,2,0
+1704290606832,420,DashBoard_Navigation_T11_ClickOnUsers-0,200,OK,DashBoard_Navigation 1-4,text,true,,229112,1081,10,10,https://crownpharmacywebadmin.azurewebsites.net/Users/UsersList,400,0,0
+1704290607085,272,DashBoard_Navigation_T05_ClickOnClosingHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,25401,1093,10,10,null,0,1,0
+1704290607085,272,DashBoard_Navigation_T05_ClickOnClosingHours-0,200,OK,DashBoard_Navigation 1-9,text,true,,25401,1093,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/StoreTimings,271,0,0
+1704290607154,237,DashBoard_Navigation_T10_ClickOnRequestCallBackList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,57567,1101,10,10,null,0,1,0
+1704290607155,237,DashBoard_Navigation_T10_ClickOnRequestCallBackList-0,200,OK,DashBoard_Navigation 1-5,text,true,,57567,1101,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/RequestCallBackList,231,0,0
+1704290606924,522,DashBoard_Navigation_T14_ClickOnAboutUs,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,39135,3397,10,10,null,0,2,0
+1704290606924,298,DashBoard_Navigation_T14_ClickOnAboutUs-0,200,OK,DashBoard_Navigation 1-1,text,true,,19516,1083,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,297,0,0
+1704290607223,224,DashBoard_Navigation_T14_ClickOnAboutUs-1,200,OK,DashBoard_Navigation 1-1,text,true,,19619,2314,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,223,0,0
+1704290606946,529,DashBoard_Navigation_T14_ClickOnAboutUs,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,39135,3401,10,10,null,0,2,0
+1704290606947,288,DashBoard_Navigation_T14_ClickOnAboutUs-0,200,OK,DashBoard_Navigation 1-2,text,true,,19516,1085,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,286,0,0
+1704290607236,241,DashBoard_Navigation_T14_ClickOnAboutUs-1,200,OK,DashBoard_Navigation 1-2,text,true,,19619,2316,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,240,0,0
+1704290607227,325,DashBoard_Navigation_T08_ClickOnBookings,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,288039,1083,10,10,null,0,3,0
+1704290607227,325,DashBoard_Navigation_T08_ClickOnBookings-0,200,OK,DashBoard_Navigation 1-6,text,true,,288039,1083,10,10,https://crownpharmacywebadmin.azurewebsites.net/Bookings/Bookings,288,0,0
+1704290607239,326,DashBoard_Navigation_T05_ClickOnClosingHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,25401,1089,10,10,null,0,1,0
+1704290607239,326,DashBoard_Navigation_T05_ClickOnClosingHours-0,200,OK,DashBoard_Navigation 1-8,text,true,,25401,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/StoreTimings,324,0,0
+1704290607247,320,DashBoard_Navigation_T06_ClickOnServices,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,51617,1091,10,10,null,0,1,0
+1704290607247,320,DashBoard_Navigation_T06_ClickOnServices-0,200,OK,DashBoard_Navigation 1-7,text,true,,51617,1091,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,316,0,0
+1704290607141,454,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,63840,15400,10,10,null,0,1,0
+1704290607141,222,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-0,200,OK,DashBoard_Navigation 1-3,text,true,,31869,1090,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,220,0,0
+1704290607364,232,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-1,200,OK,DashBoard_Navigation 1-3,text,true,,31971,14310,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,230,0,0
+1704290607358,409,DashBoard_Navigation_T06_ClickOnServices,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,51610,1091,10,10,null,0,1,0
+1704290607358,409,DashBoard_Navigation_T06_ClickOnServices-0,200,OK,DashBoard_Navigation 1-9,text,true,,51610,1091,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,405,0,0
+1704290607392,392,DashBoard_Navigation_T11_ClickOnUsers,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,229161,1087,10,10,null,0,1,0
+1704290607392,392,DashBoard_Navigation_T11_ClickOnUsers-0,200,OK,DashBoard_Navigation 1-5,text,true,,229161,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Users/UsersList,368,0,0
+1704290607199,589,DashBoard_Navigation_T03_ClickOnSetUp,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,61266,3780,10,10,null,0,1,0
+1704290607199,284,DashBoard_Navigation_T03_ClickOnSetUp-0,200,OK,DashBoard_Navigation 1-10,text,true,,34247,1079,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,277,0,0
+1704290607484,305,DashBoard_Navigation_T03_ClickOnSetUp-1,200,OK,DashBoard_Navigation 1-10,text,true,,27019,2701,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/Index,305,0,0
+1704290607556,271,DashBoard_Navigation_T09_ClickOnContactList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,34162,1089,10,10,null,0,0,0
+1704290607556,271,DashBoard_Navigation_T09_ClickOnContactList-0,200,OK,DashBoard_Navigation 1-6,text,true,,34162,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/ContactUsList,264,0,0
+1704290607566,288,DashBoard_Navigation_T06_ClickOnServices,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,51617,1087,10,10,null,0,1,0
+1704290607566,288,DashBoard_Navigation_T06_ClickOnServices-0,200,OK,DashBoard_Navigation 1-8,text,true,,51617,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,281,0,0
+1704290607448,564,DashBoard_Navigation_T15_ClickOnFooter,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,45410,3573,10,10,null,0,2,0
+1704290607449,307,DashBoard_Navigation_T15_ClickOnFooter-0,200,OK,DashBoard_Navigation 1-1,text,true,,22659,1088,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,305,0,0
+1704290607757,257,DashBoard_Navigation_T15_ClickOnFooter-1,200,OK,DashBoard_Navigation 1-1,text,true,,22751,2485,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,251,0,0
+1704290607477,554,DashBoard_Navigation_T15_ClickOnFooter,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,45397,3577,10,10,null,0,3,0
+1704290607478,306,DashBoard_Navigation_T15_ClickOnFooter-0,200,OK,DashBoard_Navigation 1-2,text,true,,22659,1090,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,305,0,0
+1704290607785,248,DashBoard_Navigation_T15_ClickOnFooter-1,200,OK,DashBoard_Navigation 1-2,text,true,,22738,2487,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,243,0,0
+1704290607790,281,DashBoard_Navigation_T04_ClickOnOpeningHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,20451,1095,10,10,null,0,0,0
+1704290607790,281,DashBoard_Navigation_T04_ClickOnOpeningHours-0,200,OK,DashBoard_Navigation 1-10,text,true,,20451,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/OpeningHoursList,279,0,0
+1704290607827,275,DashBoard_Navigation_T10_ClickOnRequestCallBackList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,57567,1095,10,10,null,0,1,0
+1704290607828,275,DashBoard_Navigation_T10_ClickOnRequestCallBackList-0,200,OK,DashBoard_Navigation 1-6,text,true,,57567,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/RequestCallBackList,273,0,0
+1704290607597,508,DashBoard_Navigation_T14_ClickOnAboutUs,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,39135,3389,10,10,null,0,1,0
+1704290607597,233,DashBoard_Navigation_T14_ClickOnAboutUs-0,200,OK,DashBoard_Navigation 1-3,text,true,,19516,1079,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,232,0,0
+1704290607831,275,DashBoard_Navigation_T14_ClickOnAboutUs-1,200,OK,DashBoard_Navigation 1-3,text,true,,19619,2310,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,275,0,0
+1704290607254,867,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,63779,15397,10,10,null,0,1,0
+1704290607254,301,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-0,200,OK,DashBoard_Navigation 1-4,text,true,,31808,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/PrivacyPolicies,299,0,0
+1704290607556,566,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-1,200,OK,DashBoard_Navigation 1-4,text,true,,31971,14310,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,564,0,0
+1704290607568,554,DashBoard_Navigation_T07_ClickOnEPSNomination,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,167115,1099,10,10,null,0,2,0
+1704290607569,554,DashBoard_Navigation_T07_ClickOnEPSNomination-0,200,OK,DashBoard_Navigation 1-7,text,true,,167115,1099,10,10,https://crownpharmacywebadmin.azurewebsites.net/EPSNominations/EPSNominations,287,0,0
+1704290607768,545,DashBoard_Navigation_T07_ClickOnEPSNomination,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,167101,1099,10,10,null,0,1,0
+1704290607768,545,DashBoard_Navigation_T07_ClickOnEPSNomination-0,200,OK,DashBoard_Navigation 1-9,text,true,,167101,1099,10,10,https://crownpharmacywebadmin.azurewebsites.net/EPSNominations/EPSNominations,281,0,0
+1704290608071,266,DashBoard_Navigation_T05_ClickOnClosingHours,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,25401,1091,10,10,null,0,2,0
+1704290608072,266,DashBoard_Navigation_T05_ClickOnClosingHours-0,200,OK,DashBoard_Navigation 1-10,text,true,,25401,1091,10,10,https://crownpharmacywebadmin.azurewebsites.net/StoreSetup/StoreTimings,264,0,0
+1704290607855,542,DashBoard_Navigation_T07_ClickOnEPSNomination,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,167129,1095,10,10,null,0,1,0
+1704290607855,542,DashBoard_Navigation_T07_ClickOnEPSNomination-0,200,OK,DashBoard_Navigation 1-8,text,true,,167129,1095,10,10,https://crownpharmacywebadmin.azurewebsites.net/EPSNominations/EPSNominations,286,0,0
+1704290608125,310,DashBoard_Navigation_T08_ClickOnBookings,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,288045,1087,10,10,null,0,2,0
+1704290608125,310,DashBoard_Navigation_T08_ClickOnBookings-0,200,OK,DashBoard_Navigation 1-7,text,true,,288045,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Bookings/Bookings,286,0,0
+1704290608104,364,DashBoard_Navigation_T11_ClickOnUsers,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,229105,1081,10,10,null,0,1,0
+1704290608104,364,DashBoard_Navigation_T11_ClickOnUsers-0,200,OK,DashBoard_Navigation 1-6,text,true,,229105,1081,10,10,https://crownpharmacywebadmin.azurewebsites.net/Users/UsersList,345,0,0
+1704290607786,707,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,63786,15409,10,10,null,0,1,0
+1704290607786,256,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-0,200,OK,DashBoard_Navigation 1-5,text,true,,31808,1093,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/PrivacyPolicies,255,0,0
+1704290608043,451,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-1,200,OK,DashBoard_Navigation 1-5,text,true,,31978,14316,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,449,0,0
+1704290608106,500,DashBoard_Navigation_T15_ClickOnFooter,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,45383,3565,10,10,null,0,3,0
+1704290608107,258,DashBoard_Navigation_T15_ClickOnFooter-0,200,OK,DashBoard_Navigation 1-3,text,true,,22652,1084,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,256,0,0
+1704290608366,242,DashBoard_Navigation_T15_ClickOnFooter-1,200,OK,DashBoard_Navigation 1-3,text,true,,22731,2481,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,241,0,0
+1704290608315,308,DashBoard_Navigation_T08_ClickOnBookings,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,288039,1087,10,10,null,0,3,0
+1704290608315,308,DashBoard_Navigation_T08_ClickOnBookings-0,200,OK,DashBoard_Navigation 1-9,text,true,,288039,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Bookings/Bookings,282,0,0
+1704290608339,290,DashBoard_Navigation_T06_ClickOnServices,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,51610,1089,10,10,null,0,2,0
+1704290608340,290,DashBoard_Navigation_T06_ClickOnServices-0,200,OK,DashBoard_Navigation 1-10,text,true,,51610,1089,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,289,0,0
+1704290608015,657,DashBoard_Navigation_T16_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-1,,true,,20403,3253,10,10,null,0,2,0
+1704290608015,444,DashBoard_Navigation_T16_Logout-0,200,OK,DashBoard_Navigation 1-1,text,true,,10403,2169,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,213,0,0
+1704290608015,213,DashBoard_Navigation_T16_Logout-0-0,302,Found,DashBoard_Navigation 1-1,,true,,396,1085,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Logout,213,0,0
+1704290608229,230,DashBoard_Navigation_T16_Logout-0-1,200,OK,DashBoard_Navigation 1-1,text,true,,10007,1084,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,230,0,0
+1704290608460,213,DashBoard_Navigation_T16_Logout-1,200,OK,DashBoard_Navigation 1-1,text,true,,10000,1084,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,213,0,0
+1704290608398,291,DashBoard_Navigation_T08_ClickOnBookings,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,288060,1083,9,9,null,0,4,0
+1704290608399,291,DashBoard_Navigation_T08_ClickOnBookings-0,200,OK,DashBoard_Navigation 1-8,text,true,,288060,1083,9,9,https://crownpharmacywebadmin.azurewebsites.net/Bookings/Bookings,268,0,0
+1704290608034,675,DashBoard_Navigation_T16_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-2,,true,,20396,3259,9,9,null,0,3,0
+1704290608035,443,DashBoard_Navigation_T16_Logout-0,200,OK,DashBoard_Navigation 1-2,text,true,,10396,2173,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,221,0,0
+1704290608035,221,DashBoard_Navigation_T16_Logout-0-0,302,Found,DashBoard_Navigation 1-2,,true,,396,1087,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Logout,221,0,0
+1704290608257,221,DashBoard_Navigation_T16_Logout-0-1,200,OK,DashBoard_Navigation 1-2,text,true,,10000,1086,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,221,0,0
+1704290608479,232,DashBoard_Navigation_T16_Logout-1,200,OK,DashBoard_Navigation 1-2,text,true,,10000,1086,9,9,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,232,0,0
+1704290608122,601,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,63840,15400,8,8,null,0,1,0
+1704290608123,292,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-0,200,OK,DashBoard_Navigation 1-4,text,true,,31869,1090,10,10,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,289,0,0
+1704290608415,309,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-1,200,OK,DashBoard_Navigation 1-4,text,true,,31971,14310,8,8,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,307,0,0
+1704290608437,288,DashBoard_Navigation_T09_ClickOnContactList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,34169,1093,8,8,null,0,1,0
+1704290608437,288,DashBoard_Navigation_T09_ClickOnContactList-0,200,OK,DashBoard_Navigation 1-7,text,true,,34169,1093,8,8,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/ContactUsList,286,0,0
+1704290608627,299,DashBoard_Navigation_T09_ClickOnContactList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,34162,1093,8,8,null,0,1,0
+1704290608627,299,DashBoard_Navigation_T09_ClickOnContactList-0,200,OK,DashBoard_Navigation 1-9,text,true,,34162,1093,8,8,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/ContactUsList,296,0,0
+1704290608694,273,DashBoard_Navigation_T09_ClickOnContactList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,34162,1089,8,8,null,0,1,0
+1704290608694,273,DashBoard_Navigation_T09_ClickOnContactList-0,200,OK,DashBoard_Navigation 1-8,text,true,,34162,1089,8,8,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/ContactUsList,271,0,0
+1704290608495,482,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,63847,15412,8,8,null,0,1,0
+1704290608495,238,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-0,200,OK,DashBoard_Navigation 1-5,text,true,,31869,1096,8,8,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,237,0,0
+1704290608734,244,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-1,200,OK,DashBoard_Navigation 1-5,text,true,,31978,14316,8,8,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,241,0,0
+1704290608726,290,DashBoard_Navigation_T10_ClickOnRequestCallBackList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,57574,1099,8,8,null,0,1,0
+1704290608727,290,DashBoard_Navigation_T10_ClickOnRequestCallBackList-0,200,OK,DashBoard_Navigation 1-7,text,true,,57574,1099,8,8,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/RequestCallBackList,276,0,0
+1704290608631,532,DashBoard_Navigation_T07_ClickOnEPSNomination,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,167108,1097,8,8,null,0,2,0
+1704290608631,532,DashBoard_Navigation_T07_ClickOnEPSNomination-0,200,OK,DashBoard_Navigation 1-10,text,true,,167108,1097,8,8,https://crownpharmacywebadmin.azurewebsites.net/EPSNominations/EPSNominations,287,0,0
+1704290608927,326,DashBoard_Navigation_T10_ClickOnRequestCallBackList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,57567,1099,8,8,null,0,1,0
+1704290608927,326,DashBoard_Navigation_T10_ClickOnRequestCallBackList-0,200,OK,DashBoard_Navigation 1-9,text,true,,57567,1099,8,8,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/RequestCallBackList,308,0,0
+1704290608968,287,DashBoard_Navigation_T10_ClickOnRequestCallBackList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,57567,1095,8,8,null,0,0,0
+1704290608968,287,DashBoard_Navigation_T10_ClickOnRequestCallBackList-0,200,OK,DashBoard_Navigation 1-8,text,true,,57567,1095,8,8,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/RequestCallBackList,281,0,0
+1704290608724,545,DashBoard_Navigation_T14_ClickOnAboutUs,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,39135,3389,8,8,null,0,2,0
+1704290608724,268,DashBoard_Navigation_T14_ClickOnAboutUs-0,200,OK,DashBoard_Navigation 1-4,text,true,,19516,1079,8,8,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,267,0,0
+1704290608993,277,DashBoard_Navigation_T14_ClickOnAboutUs-1,200,OK,DashBoard_Navigation 1-4,text,true,,19619,2310,8,8,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,276,0,0
+1704290608470,811,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,63779,15397,8,8,null,0,1,0
+1704290608470,273,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-0,200,OK,DashBoard_Navigation 1-6,text,true,,31808,1087,8,8,https://crownpharmacywebadmin.azurewebsites.net/Setup/PrivacyPolicies,271,0,0
+1704290608744,538,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-1,200,OK,DashBoard_Navigation 1-6,text,true,,31971,14310,8,8,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,536,0,0
+1704290608609,681,DashBoard_Navigation_T16_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-3,,true,,20396,3241,8,8,null,0,2,0
+1704290608609,445,DashBoard_Navigation_T16_Logout-0,200,OK,DashBoard_Navigation 1-3,text,true,,10396,2161,8,8,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,225,0,0
+1704290608609,225,DashBoard_Navigation_T16_Logout-0-0,302,Found,DashBoard_Navigation 1-3,,true,,396,1081,8,8,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Logout,225,0,0
+1704290608835,219,DashBoard_Navigation_T16_Logout-0-1,200,OK,DashBoard_Navigation 1-3,text,true,,10000,1080,8,8,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,219,0,0
+1704290609055,236,DashBoard_Navigation_T16_Logout-1,200,OK,DashBoard_Navigation 1-3,text,true,,10000,1080,8,8,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,236,0,0
+1704290609018,348,DashBoard_Navigation_T11_ClickOnUsers,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,229119,1085,7,7,null,0,2,0
+1704290609018,348,DashBoard_Navigation_T11_ClickOnUsers-0,200,OK,DashBoard_Navigation 1-7,text,true,,229119,1085,7,7,https://crownpharmacywebadmin.azurewebsites.net/Users/UsersList,328,0,0
+1704290609165,286,DashBoard_Navigation_T08_ClickOnBookings,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,288032,1085,7,7,null,0,3,0
+1704290609166,286,DashBoard_Navigation_T08_ClickOnBookings-0,200,OK,DashBoard_Navigation 1-10,text,true,,288032,1085,7,7,https://crownpharmacywebadmin.azurewebsites.net/Bookings/Bookings,264,0,0
+1704290608978,488,DashBoard_Navigation_T14_ClickOnAboutUs,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,39135,3401,7,7,null,0,3,0
+1704290608979,254,DashBoard_Navigation_T14_ClickOnAboutUs-0,200,OK,DashBoard_Navigation 1-5,text,true,,19516,1085,8,8,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,254,0,0
+1704290609235,234,DashBoard_Navigation_T14_ClickOnAboutUs-1,200,OK,DashBoard_Navigation 1-5,text,true,,19619,2316,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,233,0,0
+1704290609254,376,DashBoard_Navigation_T11_ClickOnUsers,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,229118,1085,7,7,null,0,1,0
+1704290609254,376,DashBoard_Navigation_T11_ClickOnUsers-0,200,OK,DashBoard_Navigation 1-9,text,true,,229118,1085,7,7,https://crownpharmacywebadmin.azurewebsites.net/Users/UsersList,358,0,0
+1704290609256,396,DashBoard_Navigation_T11_ClickOnUsers,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,229127,1081,7,7,null,0,2,0
+1704290609256,396,DashBoard_Navigation_T11_ClickOnUsers-0,200,OK,DashBoard_Navigation 1-8,text,true,,229127,1081,7,7,https://crownpharmacywebadmin.azurewebsites.net/Users/UsersList,374,0,0
+1704290609454,266,DashBoard_Navigation_T09_ClickOnContactList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,34162,1091,7,7,null,0,1,0
+1704290609455,266,DashBoard_Navigation_T09_ClickOnContactList-0,200,OK,DashBoard_Navigation 1-10,text,true,,34162,1091,7,7,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/ContactUsList,263,0,0
+1704290609271,570,DashBoard_Navigation_T15_ClickOnFooter,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,45395,3565,7,7,null,0,2,0
+1704290609271,294,DashBoard_Navigation_T15_ClickOnFooter-0,200,OK,DashBoard_Navigation 1-4,text,true,,22658,1084,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,288,0,0
+1704290609566,276,DashBoard_Navigation_T15_ClickOnFooter-1,200,OK,DashBoard_Navigation 1-4,text,true,,22737,2481,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,275,0,0
+1704290609282,577,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,63840,15400,7,7,null,0,2,0
+1704290609282,280,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-0,200,OK,DashBoard_Navigation 1-6,text,true,,31869,1090,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,278,0,0
+1704290609563,297,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-1,200,OK,DashBoard_Navigation 1-6,text,true,,31971,14310,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,295,0,0
+1704290609470,472,DashBoard_Navigation_T15_ClickOnFooter,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,45383,3577,7,7,null,0,2,0
+1704290609470,243,DashBoard_Navigation_T15_ClickOnFooter-0,200,OK,DashBoard_Navigation 1-5,text,true,,22652,1090,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,242,0,0
+1704290609714,229,DashBoard_Navigation_T15_ClickOnFooter-1,200,OK,DashBoard_Navigation 1-5,text,true,,22731,2487,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,228,0,0
+1704290609722,272,DashBoard_Navigation_T10_ClickOnRequestCallBackList,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,57567,1097,7,7,null,0,1,0
+1704290609722,272,DashBoard_Navigation_T10_ClickOnRequestCallBackList-0,200,OK,DashBoard_Navigation 1-10,text,true,,57567,1097,7,7,https://crownpharmacywebadmin.azurewebsites.net/ContactUs/RequestCallBackList,269,0,0
+1704290609369,831,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,63779,15405,7,7,null,0,1,0
+1704290609369,282,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-0,200,OK,DashBoard_Navigation 1-7,text,true,,31808,1091,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/PrivacyPolicies,280,0,0
+1704290609652,549,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-1,200,OK,DashBoard_Navigation 1-7,text,true,,31971,14314,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,547,0,0
+1704290609995,356,DashBoard_Navigation_T11_ClickOnUsers,200,"Number of samples in transaction : 1, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,229111,1083,7,7,null,0,2,0
+1704290609995,356,DashBoard_Navigation_T11_ClickOnUsers-0,200,OK,DashBoard_Navigation 1-10,text,true,,229111,1083,7,7,https://crownpharmacywebadmin.azurewebsites.net/Users/UsersList,328,0,0
+1704290609861,547,DashBoard_Navigation_T14_ClickOnAboutUs,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,39135,3389,7,7,null,0,2,0
+1704290609861,264,DashBoard_Navigation_T14_ClickOnAboutUs-0,200,OK,DashBoard_Navigation 1-6,text,true,,19516,1079,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,264,0,0
+1704290610126,283,DashBoard_Navigation_T14_ClickOnAboutUs-1,200,OK,DashBoard_Navigation 1-6,text,true,,19619,2310,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,283,0,0
+1704290609631,813,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,63779,15405,7,7,null,0,1,0
+1704290609631,271,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-0,200,OK,DashBoard_Navigation 1-9,text,true,,31808,1091,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/PrivacyPolicies,267,0,0
+1704290609903,542,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-1,200,OK,DashBoard_Navigation 1-9,text,true,,31971,14314,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,539,0,0
+1704290609654,807,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,63792,15397,7,7,null,0,2,0
+1704290609655,264,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-0,200,OK,DashBoard_Navigation 1-8,text,true,,31814,1087,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/PrivacyPolicies,262,0,0
+1704290609920,543,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-1,200,OK,DashBoard_Navigation 1-8,text,true,,31978,14310,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,542,0,0
+1704290609944,664,DashBoard_Navigation_T16_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-5,,true,,20396,3259,7,7,null,0,3,0
+1704290609945,445,DashBoard_Navigation_T16_Logout-0,200,OK,DashBoard_Navigation 1-5,text,true,,10396,2173,7,7,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,218,0,0
+1704290609945,218,DashBoard_Navigation_T16_Logout-0-0,302,Found,DashBoard_Navigation 1-5,,true,,396,1087,7,7,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Logout,218,0,0
+1704290610164,226,DashBoard_Navigation_T16_Logout-0-1,200,OK,DashBoard_Navigation 1-5,text,true,,10000,1086,7,7,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,225,0,0
+1704290610391,219,DashBoard_Navigation_T16_Logout-1,200,OK,DashBoard_Navigation 1-5,text,true,,10000,1086,7,7,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,219,0,0
+1704290609843,795,DashBoard_Navigation_T16_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-4,,true,,20396,3241,6,6,null,0,3,0
+1704290609844,528,DashBoard_Navigation_T16_Logout-0,200,OK,DashBoard_Navigation 1-4,text,true,,10396,2161,7,7,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,261,0,0
+1704290609844,261,DashBoard_Navigation_T16_Logout-0-0,302,Found,DashBoard_Navigation 1-4,,true,,396,1081,7,7,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Logout,261,0,0
+1704290610106,266,DashBoard_Navigation_T16_Logout-0-1,200,OK,DashBoard_Navigation 1-4,text,true,,10000,1080,7,7,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,266,0,0
+1704290610373,267,DashBoard_Navigation_T16_Logout-1,200,OK,DashBoard_Navigation 1-4,text,true,,10000,1080,6,6,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,267,0,0
+1704290610202,570,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,63847,15408,5,5,null,0,1,0
+1704290610202,274,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-0,200,OK,DashBoard_Navigation 1-7,text,true,,31869,1094,7,7,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,272,0,0
+1704290610477,296,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-1,200,OK,DashBoard_Navigation 1-7,text,true,,31978,14314,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,294,0,0
+1704290610410,547,DashBoard_Navigation_T15_ClickOnFooter,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,45395,3565,5,5,null,0,2,0
+1704290610410,276,DashBoard_Navigation_T15_ClickOnFooter-0,200,OK,DashBoard_Navigation 1-6,text,true,,22658,1084,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,276,0,0
+1704290610687,271,DashBoard_Navigation_T15_ClickOnFooter-1,200,OK,DashBoard_Navigation 1-6,text,true,,22737,2481,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,270,0,0
+1704290610445,588,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,63847,15408,5,5,null,0,3,0
+1704290610446,296,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-0,200,OK,DashBoard_Navigation 1-9,text,true,,31869,1094,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,295,0,0
+1704290610743,292,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-1,200,OK,DashBoard_Navigation 1-9,text,true,,31978,14314,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,291,0,0
+1704290610463,583,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,63853,15400,5,5,null,0,2,0
+1704290610464,298,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-0,200,OK,DashBoard_Navigation 1-8,text,true,,31875,1090,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,293,0,0
+1704290610763,285,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-1,200,OK,DashBoard_Navigation 1-8,text,true,,31978,14310,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,278,0,0
+1704290610353,794,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,63779,15401,5,5,null,0,1,0
+1704290610353,266,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-0,200,OK,DashBoard_Navigation 1-10,text,true,,31808,1089,6,6,https://crownpharmacywebadmin.azurewebsites.net/Setup/PrivacyPolicies,264,0,0
+1704290610620,528,DashBoard_Navigation_T12_ClickOnPrivacyPolicy&Update-1,200,OK,DashBoard_Navigation 1-10,text,true,,31971,14312,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,526,0,0
+1704290610774,574,DashBoard_Navigation_T14_ClickOnAboutUs,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,39135,3397,5,5,null,0,1,0
+1704290610774,284,DashBoard_Navigation_T14_ClickOnAboutUs-0,200,OK,DashBoard_Navigation 1-7,text,true,,19516,1083,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,284,0,0
+1704290611059,290,DashBoard_Navigation_T14_ClickOnAboutUs-1,200,OK,DashBoard_Navigation 1-7,text,true,,19619,2314,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,289,0,0
+1704290611049,549,DashBoard_Navigation_T14_ClickOnAboutUs,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,39135,3389,5,5,null,0,1,0
+1704290611049,277,DashBoard_Navigation_T14_ClickOnAboutUs-0,200,OK,DashBoard_Navigation 1-8,text,true,,19516,1079,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,276,0,0
+1704290611327,272,DashBoard_Navigation_T14_ClickOnAboutUs-1,200,OK,DashBoard_Navigation 1-8,text,true,,19619,2310,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,271,0,0
+1704290611036,573,DashBoard_Navigation_T14_ClickOnAboutUs,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,39135,3397,5,5,null,0,2,0
+1704290611036,286,DashBoard_Navigation_T14_ClickOnAboutUs-0,200,OK,DashBoard_Navigation 1-9,text,true,,19516,1083,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,284,0,0
+1704290611323,287,DashBoard_Navigation_T14_ClickOnAboutUs-1,200,OK,DashBoard_Navigation 1-9,text,true,,19619,2314,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,287,0,0
+1704290611148,565,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,63840,15404,5,5,null,0,1,0
+1704290611148,264,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-0,200,OK,DashBoard_Navigation 1-10,text,true,,31869,1092,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,262,0,0
+1704290611413,301,DashBoard_Navigation_T13_ClickOnTerms&Condition&Update-1,200,OK,DashBoard_Navigation 1-10,text,true,,31971,14312,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/TermsAndConditions,299,0,0
+1704290610960,788,DashBoard_Navigation_T16_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-6,,true,,20396,3241,5,5,null,0,2,0
+1704290610960,526,DashBoard_Navigation_T16_Logout-0,200,OK,DashBoard_Navigation 1-6,text,true,,10396,2161,5,5,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,264,0,0
+1704290610960,264,DashBoard_Navigation_T16_Logout-0-0,302,Found,DashBoard_Navigation 1-6,,true,,396,1081,5,5,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Logout,264,0,0
+1704290611225,261,DashBoard_Navigation_T16_Logout-0-1,200,OK,DashBoard_Navigation 1-6,text,true,,10000,1080,5,5,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,261,0,0
+1704290611487,262,DashBoard_Navigation_T16_Logout-1,200,OK,DashBoard_Navigation 1-6,text,true,,10000,1080,5,5,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,262,0,0
+1704290611349,554,DashBoard_Navigation_T15_ClickOnFooter,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,45396,3573,4,4,null,0,3,0
+1704290611350,277,DashBoard_Navigation_T15_ClickOnFooter-0,200,OK,DashBoard_Navigation 1-7,text,true,,22658,1088,5,5,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,275,0,0
+1704290611628,277,DashBoard_Navigation_T15_ClickOnFooter-1,200,OK,DashBoard_Navigation 1-7,text,true,,22738,2485,4,4,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,272,0,0
+1704290611599,535,DashBoard_Navigation_T15_ClickOnFooter,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,45383,3565,4,4,null,0,2,0
+1704290611600,269,DashBoard_Navigation_T15_ClickOnFooter-0,200,OK,DashBoard_Navigation 1-8,text,true,,22652,1084,4,4,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,264,0,0
+1704290611870,266,DashBoard_Navigation_T15_ClickOnFooter-1,200,OK,DashBoard_Navigation 1-8,text,true,,22731,2481,4,4,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,264,0,0
+1704290611611,543,DashBoard_Navigation_T15_ClickOnFooter,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,45396,3573,4,4,null,0,4,0
+1704290611612,272,DashBoard_Navigation_T15_ClickOnFooter-0,200,OK,DashBoard_Navigation 1-9,text,true,,22659,1088,4,4,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,271,0,0
+1704290611886,271,DashBoard_Navigation_T15_ClickOnFooter-1,200,OK,DashBoard_Navigation 1-9,text,true,,22737,2485,4,4,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,270,0,0
+1704290611714,536,DashBoard_Navigation_T14_ClickOnAboutUs,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,39135,3393,4,4,null,0,2,0
+1704290611715,264,DashBoard_Navigation_T14_ClickOnAboutUs-0,200,OK,DashBoard_Navigation 1-10,text,true,,19516,1081,4,4,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,263,0,0
+1704290611980,272,DashBoard_Navigation_T14_ClickOnAboutUs-1,200,OK,DashBoard_Navigation 1-10,text,true,,19619,2312,4,4,https://crownpharmacywebadmin.azurewebsites.net/Setup/AboutUs,271,0,0
+1704290611906,815,DashBoard_Navigation_T16_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-7,,true,,20396,3253,4,4,null,0,3,0
+1704290611907,541,DashBoard_Navigation_T16_Logout-0,200,OK,DashBoard_Navigation 1-7,text,true,,10396,2169,4,4,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,268,0,0
+1704290611907,268,DashBoard_Navigation_T16_Logout-0-0,302,Found,DashBoard_Navigation 1-7,,true,,396,1085,4,4,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Logout,268,0,0
+1704290612175,273,DashBoard_Navigation_T16_Logout-0-1,200,OK,DashBoard_Navigation 1-7,text,true,,10000,1084,4,4,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,273,0,0
+1704290612449,274,DashBoard_Navigation_T16_Logout-1,200,OK,DashBoard_Navigation 1-7,text,true,,10000,1084,4,4,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,274,0,0
+1704290612252,534,DashBoard_Navigation_T15_ClickOnFooter,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,45383,3569,3,3,null,0,2,0
+1704290612253,267,DashBoard_Navigation_T15_ClickOnFooter-0,200,OK,DashBoard_Navigation 1-10,text,true,,22652,1086,4,4,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,266,0,0
+1704290612521,267,DashBoard_Navigation_T15_ClickOnFooter-1,200,OK,DashBoard_Navigation 1-10,text,true,,22731,2483,3,3,https://crownpharmacywebadmin.azurewebsites.net/Setup/FooterUpdate,263,0,0
+1704290612136,790,DashBoard_Navigation_T16_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-8,,true,,20396,3241,3,3,null,0,1,0
+1704290612136,526,DashBoard_Navigation_T16_Logout-0,200,OK,DashBoard_Navigation 1-8,text,true,,10396,2161,4,4,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,261,0,0
+1704290612136,261,DashBoard_Navigation_T16_Logout-0-0,302,Found,DashBoard_Navigation 1-8,,true,,396,1081,4,4,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Logout,261,0,0
+1704290612398,264,DashBoard_Navigation_T16_Logout-0-1,200,OK,DashBoard_Navigation 1-8,text,true,,10000,1080,4,4,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,264,0,0
+1704290612663,264,DashBoard_Navigation_T16_Logout-1,200,OK,DashBoard_Navigation 1-8,text,true,,10000,1080,3,3,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,264,0,0
+1704290612158,804,DashBoard_Navigation_T16_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-9,,true,,20396,3253,2,2,null,0,2,0
+1704290612158,535,DashBoard_Navigation_T16_Logout-0,200,OK,DashBoard_Navigation 1-9,text,true,,10396,2169,4,4,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,267,0,0
+1704290612158,267,DashBoard_Navigation_T16_Logout-0-0,302,Found,DashBoard_Navigation 1-9,,true,,396,1085,4,4,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Logout,267,0,0
+1704290612426,267,DashBoard_Navigation_T16_Logout-0-1,200,OK,DashBoard_Navigation 1-9,text,true,,10000,1084,4,4,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,266,0,0
+1704290612694,269,DashBoard_Navigation_T16_Logout-1,200,OK,DashBoard_Navigation 1-9,text,true,,10000,1084,2,2,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,269,0,0
+1704290612789,782,DashBoard_Navigation_T16_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",DashBoard_Navigation 1-10,,true,,20396,3247,1,1,null,0,2,0
+1704290612789,519,DashBoard_Navigation_T16_Logout-0,200,OK,DashBoard_Navigation 1-10,text,true,,10396,2165,1,1,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,259,0,0
+1704290612789,259,DashBoard_Navigation_T16_Logout-0-0,302,Found,DashBoard_Navigation 1-10,,true,,396,1083,1,1,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Logout,259,0,0
+1704290613049,259,DashBoard_Navigation_T16_Logout-0-1,200,OK,DashBoard_Navigation 1-10,text,true,,10000,1082,1,1,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,259,0,0
+1704290613309,263,DashBoard_Navigation_T16_Logout-1,200,OK,DashBoard_Navigation 1-10,text,true,,10000,1082,1,1,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,263,0,0
+1704290613595,1554,AddService_T01_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-1,,true,,114206,1250,4,4,null,0,2,538
+1704290613596,799,AddService_T01_Homepage-0,200,OK,AddService 2-1,text,true,,10269,503,2,2,https://crownpharmacywebadmin.azurewebsites.net/,799,0,538
+1704290614396,754,AddService_T01_Homepage-1,200,OK,AddService 2-1,text,true,,103273,747,4,4,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,263,0,0
+1704290615150,1,AddService_T01_Homepage-4,200,OK,AddService 2-1,text,true,,664,0,4,4,null,0,0,0
+1704290614081,1608,AddService_T01_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-2,,true,,114260,1250,5,5,null,0,4,547
+1704290614083,819,AddService_T01_Homepage-0,200,OK,AddService 2-2,text,true,,10269,503,3,3,https://crownpharmacywebadmin.azurewebsites.net/,819,0,547
+1704290614904,788,AddService_T01_Homepage-1,200,OK,AddService 2-2,text,true,,103273,747,5,5,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,266,0,0
+1704290615692,1,AddService_T01_Homepage-4,200,OK,AddService 2-2,text,true,,718,0,5,5,null,0,0,0
+1704290614583,1526,AddService_T01_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-3,,true,,114296,1250,6,6,null,0,5,519
+1704290614585,776,AddService_T01_Homepage-0,200,OK,AddService 2-3,text,true,,10269,503,4,4,https://crownpharmacywebadmin.azurewebsites.net/,776,0,519
+1704290615362,750,AddService_T01_Homepage-1,200,OK,AddService 2-3,text,true,,103273,747,6,6,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,258,0,0
+1704290616114,0,AddService_T01_Homepage-4,200,OK,AddService 2-3,text,true,,754,0,6,6,null,0,0,0
+1704290615151,1466,AddService_T02_EnterCredentialsckickOK,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-1,,true,,56269,2893,7,7,null,0,1,0
+1704290615151,863,AddService_T02_EnterCredentialsckickOK-1,200,OK,AddService 2-1,text,true,,28041,1966,5,5,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,531,0,0
+1704290615151,531,AddService_T02_EnterCredentialsckickOK-1-0,302,Found,AddService 2-1,,true,,509,1039,5,5,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,531,0,0
+1704290615682,332,AddService_T02_EnterCredentialsckickOK-1-1,200,OK,AddService 2-1,text,true,,27532,927,5,5,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,331,0,0
+1704290616015,602,AddService_T02_EnterCredentialsckickOK-2,200,OK,AddService 2-1,text,true,,27532,927,7,7,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,602,0,0
+1704290616617,1,Debug Sampler,200,OK,AddService 2-1,text,true,,696,0,7,7,null,0,0,0
+1704290615085,1569,AddService_T01_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-4,,true,,114211,1250,7,7,null,0,2,527
+1704290615086,796,AddService_T01_Homepage-0,200,OK,AddService 2-4,text,true,,10269,503,5,5,https://crownpharmacywebadmin.azurewebsites.net/,795,0,527
+1704290615883,773,AddService_T01_Homepage-1,200,OK,AddService 2-4,text,true,,103273,747,7,7,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,270,0,0
+1704290616656,0,AddService_T01_Homepage-4,200,OK,AddService 2-4,text,true,,669,0,7,7,null,0,0,0
+1704290616618,303,AddService_T03_ClickServices,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-1,,true,,51610,929,7,7,null,0,1,0
+1704290616618,303,AddService_T03_ClickServices-0,200,OK,AddService 2-1,text,true,,51610,929,7,7,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,300,0,0
+1704290615579,1371,AddService_T01_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-5,,true,,114314,1250,7,7,null,0,3,454
+1704290615581,715,AddService_T01_Homepage-0,200,OK,AddService 2-5,text,true,,10269,503,6,6,https://crownpharmacywebadmin.azurewebsites.net/,715,0,454
+1704290616297,655,AddService_T01_Homepage-1,200,OK,AddService 2-5,text,true,,103273,747,7,7,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,227,0,0
+1704290616952,1,AddService_T01_Homepage-4,200,OK,AddService 2-5,text,true,,772,0,7,7,null,0,0,0
+1704290616922,841,AddService_T04_ClickonAddService,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-1,,true,,20887,927,9,9,null,0,2,0
+1704290616923,841,AddService_T04_ClickonAddService-0,200,OK,AddService 2-1,text,true,,20887,927,9,9,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,837,0,0
+1704290615693,2296,AddService_T02_EnterCredentialsckickOK,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-2,,true,,56315,2881,9,9,null,0,1,0
+1704290615693,1403,AddService_T02_EnterCredentialsckickOK-1,200,OK,AddService 2-2,text,true,,28035,1960,8,8,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,796,0,0
+1704290615693,796,AddService_T02_EnterCredentialsckickOK-1-0,302,Found,AddService 2-2,,true,,503,1039,8,8,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,796,0,0
+1704290616489,607,AddService_T02_EnterCredentialsckickOK-1-1,200,OK,AddService 2-2,text,true,,27532,921,8,8,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,606,0,0
+1704290617097,892,AddService_T02_EnterCredentialsckickOK-2,200,OK,AddService 2-2,text,true,,27531,921,9,9,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,884,0,0
+1704290617989,1,Debug Sampler,200,OK,AddService 2-2,text,true,,749,0,9,9,null,0,0,0
+1704290616081,2181,AddService_T01_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-6,,true,,114203,1250,10,10,null,0,3,529
+1704290616082,820,AddService_T01_Homepage-0,200,OK,AddService 2-6,text,true,,10269,503,7,7,https://crownpharmacywebadmin.azurewebsites.net/,820,0,529
+1704290616903,1361,AddService_T01_Homepage-1,200,OK,AddService 2-6,text,true,,103273,747,10,10,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,858,0,0
+1704290618265,0,AddService_T01_Homepage-4,200,OK,AddService 2-6,text,true,,661,0,10,10,null,0,0,0
+1704290617990,307,AddService_T03_ClickServices,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-2,,true,,51617,923,10,10,null,0,0,0
+1704290617990,307,AddService_T03_ClickServices-0,200,OK,AddService 2-2,text,true,,51617,923,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,303,0,0
+1704290616114,2299,AddService_T02_EnterCredentialsckickOK,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-3,,true,,56356,2889,10,10,null,0,2,0
+1704290616115,1961,AddService_T02_EnterCredentialsckickOK-1,200,OK,AddService 2-3,text,true,,28039,1964,9,9,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,987,0,0
+1704290616115,987,AddService_T02_EnterCredentialsckickOK-1-0,302,Found,AddService 2-3,,true,,507,1039,9,9,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,987,0,0
+1704290617102,974,AddService_T02_EnterCredentialsckickOK-1-1,200,OK,AddService 2-3,text,true,,27532,925,9,9,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,973,0,0
+1704290618077,338,AddService_T02_EnterCredentialsckickOK-2,200,OK,AddService 2-3,text,true,,27532,925,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,336,0,0
+1704290618415,0,Debug Sampler,200,OK,AddService 2-3,text,true,,785,0,10,10,null,0,0,0
+1704290616580,2028,AddService_T01_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-7,,true,,114270,1250,10,10,null,0,1,443
+1704290616581,1388,AddService_T01_Homepage-0,200,OK,AddService 2-7,text,true,,10276,503,9,9,https://crownpharmacywebadmin.azurewebsites.net/,1383,0,443
+1704290617969,640,AddService_T01_Homepage-1,200,OK,AddService 2-7,text,true,,103273,747,10,10,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,222,0,0
+1704290618609,0,AddService_T01_Homepage-4,200,OK,AddService 2-7,text,true,,721,0,10,10,null,0,0,0
+1704290617081,1580,AddService_T01_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-8,,true,,114298,1250,10,10,null,0,2,459
+1704290617082,924,AddService_T01_Homepage-0,200,OK,AddService 2-8,text,true,,10269,503,9,9,https://crownpharmacywebadmin.azurewebsites.net/,920,0,459
+1704290618006,656,AddService_T01_Homepage-1,200,OK,AddService 2-8,text,true,,103273,747,10,10,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,221,0,0
+1704290618663,0,AddService_T01_Homepage-4,200,OK,AddService 2-8,text,true,,756,0,10,10,null,0,0,0
+1704290616656,2151,AddService_T02_EnterCredentialsckickOK,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-4,,true,,56272,2893,10,10,null,0,2,0
+1704290616657,1527,AddService_T02_EnterCredentialsckickOK-1,200,OK,AddService 2-4,text,true,,28041,1966,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1105,0,0
+1704290616657,1105,AddService_T02_EnterCredentialsckickOK-1-0,302,Found,AddService 2-4,,true,,509,1039,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1105,0,0
+1704290617763,421,AddService_T02_EnterCredentialsckickOK-1-1,200,OK,AddService 2-4,text,true,,27532,927,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,419,0,0
+1704290618185,624,AddService_T02_EnterCredentialsckickOK-2,200,OK,AddService 2-4,text,true,,27531,927,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,622,0,0
+1704290618809,0,Debug Sampler,200,OK,AddService 2-4,text,true,,700,0,10,10,null,0,0,0
+1704290618298,547,AddService_T04_ClickonAddService,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-2,,true,,20887,921,10,10,null,0,1,0
+1704290618298,547,AddService_T04_ClickonAddService-0,200,OK,AddService 2-2,text,true,,20887,921,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,546,0,0
+1704290618416,447,AddService_T03_ClickServices,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-3,,true,,51623,927,10,10,null,0,1,0
+1704290618416,447,AddService_T03_ClickServices-0,200,OK,AddService 2-3,text,true,,51623,927,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,442,0,0
+1704290618809,333,AddService_T03_ClickServices,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-4,,true,,53301,929,10,10,null,0,2,0
+1704290618810,333,AddService_T03_ClickServices-0,200,OK,AddService 2-4,text,true,,53301,929,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,326,0,0
+1704290618865,282,AddService_T04_ClickonAddService,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-3,,true,,20880,925,10,10,null,0,0,0
+1704290618865,282,AddService_T04_ClickonAddService-0,200,OK,AddService 2-3,text,true,,20880,925,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,281,0,0
+1704290616953,2280,AddService_T02_EnterCredentialsckickOK,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-5,,true,,56382,2905,10,10,null,0,2,0
+1704290616953,1370,AddService_T02_EnterCredentialsckickOK-1,200,OK,AddService 2-5,text,true,,28047,1972,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1026,0,0
+1704290616953,1026,AddService_T02_EnterCredentialsckickOK-1-0,302,Found,AddService 2-5,,true,,515,1039,10,10,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1026,0,0
+1704290617980,343,AddService_T02_EnterCredentialsckickOK-1-1,200,OK,AddService 2-5,text,true,,27532,933,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,342,0,0
+1704290618324,910,AddService_T02_EnterCredentialsckickOK-2,200,OK,AddService 2-5,text,true,,27532,933,10,10,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,909,0,0
+1704290619235,0,Debug Sampler,200,OK,AddService 2-5,text,true,,803,0,10,10,null,0,0,0
+1704290617580,1751,AddService_T01_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-9,,true,,114216,1250,10,10,null,0,1,517
+1704290617580,785,AddService_T01_Homepage-0,200,OK,AddService 2-9,text,true,,10269,503,10,10,https://crownpharmacywebadmin.azurewebsites.net/,785,0,517
+1704290618366,966,AddService_T01_Homepage-1,200,OK,AddService 2-9,text,true,,103273,747,10,10,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,461,0,0
+1704290619332,0,AddService_T01_Homepage-4,200,OK,AddService 2-9,text,true,,674,0,10,10,null,0,0,0
+1704290618080,1392,AddService_T01_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-10,,true,,114317,1250,10,10,null,0,4,439
+1704290618083,753,AddService_T01_Homepage-0,200,OK,AddService 2-10,text,true,,10269,503,10,10,https://crownpharmacywebadmin.azurewebsites.net/,752,0,439
+1704290618837,639,AddService_T01_Homepage-1,200,OK,AddService 2-10,text,true,,103273,747,10,10,https://crownpharmacywebadmin.azurewebsites.net/assets/vendor/fonts/boxicons/boxicons.woff2,222,0,0
+1704290619476,0,AddService_T01_Homepage-4,200,OK,AddService 2-10,text,true,,775,0,10,10,null,0,0,0
+1704290617765,2200,AddService_T05_FillDetailsClickOK,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-1,,true,,53899,97461,10,10,null,0,1,0
+1704290617765,2200,AddService_T05_FillDetailsClickOK-1,200,OK,AddService 2-1,text,true,,53899,97461,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,1293,0,0
+1704290617765,1293,AddService_T05_FillDetailsClickOK-1-0,302,Found,AddService 2-1,,true,,459,96315,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,1293,0,0
+1704290619058,907,AddService_T05_FillDetailsClickOK-1-1,200,OK,AddService 2-1,text,true,,53440,1146,10,10,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,902,0,0
+1704290619145,836,AddService_T04_ClickonAddService,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-4,,true,,20887,927,9,9,null,0,1,0
+1704290619145,836,AddService_T04_ClickonAddService-0,200,OK,AddService 2-4,text,true,,20887,927,9,9,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,836,0,0
+1704290619235,757,AddService_T03_ClickServices,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-5,,true,,55005,935,9,9,null,0,1,0
+1704290619235,757,AddService_T03_ClickServices-0,200,OK,AddService 2-5,text,true,,55005,935,9,9,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,753,0,0
+1704290619992,570,AddService_T04_ClickonAddService,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-5,,true,,20887,933,9,9,null,0,0,0
+1704290619992,570,AddService_T04_ClickonAddService-0,200,OK,AddService 2-5,text,true,,20887,933,9,9,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,569,0,0
+1704290618846,1739,AddService_T05_FillDetailsClickOK,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-2,,true,,57293,97472,9,9,null,0,3,0
+1704290618846,1739,AddService_T05_FillDetailsClickOK-1,200,OK,AddService 2-2,text,true,,57293,97472,9,9,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,1143,0,0
+1704290618846,1143,AddService_T05_FillDetailsClickOK-1-0,302,Found,AddService 2-2,,true,,459,96332,9,9,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,1143,0,0
+1704290619988,597,AddService_T05_FillDetailsClickOK-1-1,200,OK,AddService 2-2,text,true,,56834,1140,9,9,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,594,0,0
+1704290619148,1451,AddService_T05_FillDetailsClickOK,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-3,,true,,57282,97506,8,8,null,0,2,0
+1704290619148,1451,AddService_T05_FillDetailsClickOK-1,200,OK,AddService 2-3,text,true,,57282,97506,8,8,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,904,0,0
+1704290619148,904,AddService_T05_FillDetailsClickOK-1-0,302,Found,AddService 2-3,,true,,459,96362,8,8,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,904,0,0
+1704290620051,548,AddService_T05_FillDetailsClickOK-1-1,200,OK,AddService 2-3,text,true,,56823,1144,8,8,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,537,0,0
+1704290618266,2817,AddService_T02_EnterCredentialsckickOK,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-6,,true,,56276,2901,7,7,null,0,1,0
+1704290618266,2120,AddService_T02_EnterCredentialsckickOK-1,200,OK,AddService 2-6,text,true,,28052,1970,9,9,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1524,0,0
+1704290618266,1524,AddService_T02_EnterCredentialsckickOK-1-0,302,Found,AddService 2-6,,true,,513,1039,9,9,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1524,0,0
+1704290619791,595,AddService_T02_EnterCredentialsckickOK-1-1,200,OK,AddService 2-6,text,true,,27539,931,9,9,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,594,0,0
+1704290620386,697,AddService_T02_EnterCredentialsckickOK-2,200,OK,AddService 2-6,text,true,,27532,931,7,7,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,695,0,0
+1704290621083,0,Debug Sampler,200,OK,AddService 2-6,text,true,,692,0,7,7,null,0,0,0
+1704290618609,2669,AddService_T02_EnterCredentialsckickOK,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-7,,true,,56337,2917,7,7,null,0,3,0
+1704290618610,1970,AddService_T02_EnterCredentialsckickOK-1,200,OK,AddService 2-7,text,true,,28053,1978,9,9,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1354,0,0
+1704290618610,1354,AddService_T02_EnterCredentialsckickOK-1-0,302,Found,AddService 2-7,,true,,521,1039,9,9,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1354,0,0
+1704290619964,616,AddService_T02_EnterCredentialsckickOK-1-1,200,OK,AddService 2-7,text,true,,27532,939,9,9,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,611,0,0
+1704290620581,699,AddService_T02_EnterCredentialsckickOK-2,200,OK,AddService 2-7,text,true,,27532,939,7,7,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,697,0,0
+1704290621280,0,Debug Sampler,200,OK,AddService 2-7,text,true,,752,0,7,7,null,0,0,0
+1704290618663,2644,AddService_T02_EnterCredentialsckickOK,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-8,,true,,56358,2889,7,7,null,0,1,0
+1704290618663,1943,AddService_T02_EnterCredentialsckickOK-1,200,OK,AddService 2-8,text,true,,28039,1964,7,7,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1169,0,0
+1704290618663,1169,AddService_T02_EnterCredentialsckickOK-1-0,302,Found,AddService 2-8,,true,,507,1039,7,7,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1169,0,0
+1704290619832,774,AddService_T02_EnterCredentialsckickOK-1-1,200,OK,AddService 2-8,text,true,,27532,925,7,7,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,773,0,0
+1704290620606,700,AddService_T02_EnterCredentialsckickOK-2,200,OK,AddService 2-8,text,true,,27532,925,7,7,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,699,0,0
+1704290621306,1,Debug Sampler,200,OK,AddService 2-8,text,true,,787,0,7,7,null,0,0,0
+1704290619981,1458,AddService_T05_FillDetailsClickOK,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-4,,true,,60632,97505,7,7,null,0,1,0
+1704290619981,1458,AddService_T05_FillDetailsClickOK-1,200,OK,AddService 2-4,text,true,,60632,97505,7,7,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,1086,0,0
+1704290619981,1086,AddService_T05_FillDetailsClickOK-1-0,302,Found,AddService 2-4,,true,,459,96359,7,7,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,1086,0,0
+1704290621068,371,AddService_T05_FillDetailsClickOK-1-1,200,OK,AddService 2-4,text,true,,60173,1146,7,7,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,362,0,0
+1704290621084,377,AddService_T03_ClickServices,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-6,,true,,60047,933,6,6,null,0,1,0
+1704290621084,377,AddService_T03_ClickServices-0,200,OK,AddService 2-6,text,true,,60047,933,6,6,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,369,0,0
+1704290621281,251,AddService_T03_ClickServices,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-7,,true,,60033,941,6,6,null,0,1,0
+1704290621281,251,AddService_T03_ClickServices-0,200,OK,AddService 2-7,text,true,,60033,941,6,6,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,246,0,0
+1704290621307,252,AddService_T03_ClickServices,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-8,,true,,60040,927,6,6,null,0,1,0
+1704290621307,252,AddService_T03_ClickServices-0,200,OK,AddService 2-8,text,true,,60040,927,6,6,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,248,0,0
+1704290620562,1102,AddService_T05_FillDetailsClickOK,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-5,,true,,60639,97620,6,6,null,0,2,0
+1704290620563,1102,AddService_T05_FillDetailsClickOK-1,200,OK,AddService 2-5,text,true,,60639,97620,6,6,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,854,0,0
+1704290620563,854,AddService_T05_FillDetailsClickOK-1-0,302,Found,AddService 2-5,,true,,459,96468,6,6,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,854,0,0
+1704290621417,248,AddService_T05_FillDetailsClickOK-1-1,200,OK,AddService 2-5,text,true,,60180,1152,6,6,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,239,0,0
+1704290621462,265,AddService_T04_ClickonAddService,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-6,,true,,20880,931,5,5,null,0,1,0
+1704290621462,265,AddService_T04_ClickonAddService-0,200,OK,AddService 2-6,text,true,,20880,931,5,5,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,264,0,0
+1704290621533,232,AddService_T04_ClickonAddService,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-7,,true,,20880,939,5,5,null,0,0,0
+1704290621533,232,AddService_T04_ClickonAddService-0,200,OK,AddService 2-7,text,true,,20880,939,5,5,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,231,0,0
+1704290621561,220,AddService_T04_ClickonAddService,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-8,,true,,20880,925,5,5,null,0,1,0
+1704290621561,220,AddService_T04_ClickonAddService-0,200,OK,AddService 2-8,text,true,,20880,925,5,5,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,220,0,0
+1704290619476,2377,AddService_T02_EnterCredentialsckickOK,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-10,,true,,56378,2894,5,5,null,0,3,0
+1704290619477,1987,AddService_T02_EnterCredentialsckickOK-1,200,OK,AddService 2-10,text,true,,28040,1967,6,6,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1624,0,0
+1704290619477,1624,AddService_T02_EnterCredentialsckickOK-1-0,302,Found,AddService 2-10,,true,,509,1040,6,6,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1624,0,0
+1704290621100,364,AddService_T02_EnterCredentialsckickOK-1-1,200,OK,AddService 2-10,text,true,,27531,927,6,6,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,362,0,0
+1704290621465,390,AddService_T02_EnterCredentialsckickOK-2,200,OK,AddService 2-10,text,true,,27531,927,5,5,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,388,0,0
+1704290621855,0,Debug Sampler,200,OK,AddService 2-10,text,true,,807,0,5,5,null,0,0,0
+1704290619333,2625,AddService_T02_EnterCredentialsckickOK,200,"Number of samples in transaction : 3, number of failing samples : 0",AddService 2-9,,true,,56278,2893,5,5,null,0,1,0
+1704290619333,2229,AddService_T02_EnterCredentialsckickOK-1,200,OK,AddService 2-9,text,true,,28041,1966,6,6,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,1768,0,0
+1704290619333,1768,AddService_T02_EnterCredentialsckickOK-1-0,302,Found,AddService 2-9,,true,,509,1039,6,6,https://crownpharmacywebadmin.azurewebsites.net/Accounts/Login,1768,0,0
+1704290621100,462,AddService_T02_EnterCredentialsckickOK-1-1,200,OK,AddService 2-9,text,true,,27532,927,6,6,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,460,0,0
+1704290621562,395,AddService_T02_EnterCredentialsckickOK-2,200,OK,AddService 2-9,text,true,,27532,927,5,5,https://crownpharmacywebadmin.azurewebsites.net/Dashboard/Dashboard,393,0,0
+1704290621957,1,Debug Sampler,200,OK,AddService 2-9,text,true,,705,0,5,5,null,0,0,0
+1704290621855,231,AddService_T03_ClickServices,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-10,,true,,60047,929,5,5,null,0,1,0
+1704290621855,231,AddService_T03_ClickServices-0,200,OK,AddService 2-10,text,true,,60047,929,5,5,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,223,0,0
+1704290621958,268,AddService_T03_ClickServices,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-9,,true,,60040,929,5,5,null,0,1,0
+1704290621958,268,AddService_T03_ClickServices-0,200,OK,AddService 2-9,text,true,,60040,929,5,5,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,263,0,0
+1704290622088,221,AddService_T04_ClickonAddService,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-10,,true,,20880,927,5,5,null,0,1,0
+1704290622088,221,AddService_T04_ClickonAddService-0,200,OK,AddService 2-10,text,true,,20880,927,5,5,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,216,0,0
+1704290622227,271,AddService_T04_ClickonAddService,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-9,,true,,20880,927,5,5,null,0,2,0
+1704290622228,271,AddService_T04_ClickonAddService-0,200,OK,AddService 2-9,text,true,,20880,927,5,5,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,255,0,0
+1704290621766,955,AddService_T05_FillDetailsClickOK,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-7,,true,,65685,97501,5,5,null,0,1,0
+1704290621766,955,AddService_T05_FillDetailsClickOK-1,200,OK,AddService 2-7,text,true,,65685,97501,5,5,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,726,0,0
+1704290621766,726,AddService_T05_FillDetailsClickOK-1-0,302,Found,AddService 2-7,,true,,459,96343,5,5,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,726,0,0
+1704290622493,228,AddService_T05_FillDetailsClickOK-1-1,200,OK,AddService 2-7,text,true,,65226,1158,5,5,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,224,0,0
+1704290621782,981,AddService_T05_FillDetailsClickOK,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-8,,true,,65686,97498,4,4,null,0,1,0
+1704290621782,981,AddService_T05_FillDetailsClickOK-1,200,OK,AddService 2-8,text,true,,65686,97498,4,4,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,735,0,0
+1704290621782,735,AddService_T05_FillDetailsClickOK-1-0,302,Found,AddService 2-8,,true,,459,96354,4,4,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,735,0,0
+1704290622517,246,AddService_T05_FillDetailsClickOK-1-1,200,OK,AddService 2-8,text,true,,65227,1144,4,4,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,238,0,0
+1704290621728,1110,AddService_T05_FillDetailsClickOK,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-6,,true,,65679,97415,3,3,null,0,1,0
+1704290621728,1110,AddService_T05_FillDetailsClickOK-1,200,OK,AddService 2-6,text,true,,65679,97415,3,3,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,839,0,0
+1704290621728,839,AddService_T05_FillDetailsClickOK-1-0,302,Found,AddService 2-6,,true,,459,96265,3,3,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,839,0,0
+1704290622567,271,AddService_T05_FillDetailsClickOK-1-1,200,OK,AddService 2-6,text,true,,65220,1150,3,3,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,267,0,0
+1704290622310,926,AddService_T05_FillDetailsClickOK,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-10,,true,,67371,97570,2,2,null,0,1,0
+1704290622310,926,AddService_T05_FillDetailsClickOK-1,200,OK,AddService 2-10,text,true,,67371,97570,2,2,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,691,0,0
+1704290622310,691,AddService_T05_FillDetailsClickOK-1-0,302,Found,AddService 2-10,,true,,459,96424,2,2,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,691,0,0
+1704290623002,234,AddService_T05_FillDetailsClickOK-1-1,200,OK,AddService 2-10,text,true,,66912,1146,2,2,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,227,0,0
+1704290622500,1094,AddService_T05_FillDetailsClickOK,200,"Number of samples in transaction : 1, number of failing samples : 0",AddService 2-9,,true,,69054,97510,1,1,null,0,2,0
+1704290622500,1094,AddService_T05_FillDetailsClickOK-1,200,OK,AddService 2-9,text,true,,69054,97510,1,1,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,822,0,0
+1704290622500,822,AddService_T05_FillDetailsClickOK-1-0,302,Found,AddService 2-9,,true,,459,96364,1,1,https://crownpharmacywebadmin.azurewebsites.net/Services/AddService,822,0,0
+1704290623323,271,AddService_T05_FillDetailsClickOK-1-1,200,OK,AddService 2-9,text,true,,68595,1146,1,1,https://crownpharmacywebadmin.azurewebsites.net/Services/ServicesList,259,0,0

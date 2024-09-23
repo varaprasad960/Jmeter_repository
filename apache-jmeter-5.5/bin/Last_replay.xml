@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
+1703163311458,1334,Homepage,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,true,,532735,1,1,0,1,0,CIN_Varaprasad
+1703163312796,593,EntermailClickGO,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,10387,1,1,0,1,0,CIN_Varaprasad
+1703163313392,1764,OpenMail,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,50976,1,1,0,1,0,CIN_Varaprasad

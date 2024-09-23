@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
+1703232260901,4709,Homepage,200,"Number of samples in transaction : 12, number of failing samples : 0",Thread Group 1-1,true,,811234,1,1,0,1,0,CIN_Varaprasad
+1703232265629,227,ClickOnRegister,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,6352,1,1,0,1,0,CIN_Varaprasad
+1703232265858,1698,EnterDetaildClickRequestOTP,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,814,1,1,0,1,0,CIN_Varaprasad
+1703232267560,434,EnterOTPclickVerify,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,850,1,1,0,1,0,CIN_Varaprasad
+1703232267995,655,ClickOnLogin,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,true,,10406,1,1,0,1,0,CIN_Varaprasad
+1703232268654,228,EnterMailAndClickRequestOTP,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,521,1,1,0,1,0,CIN_Varaprasad
+1703232268884,2225,OpenMailCopyOTP,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,true,,45508,1,1,0,1,0,CIN_Varaprasad
+1703232271115,3699,EnterOTPclickOnVerify,200,"Number of samples in transaction : 17, number of failing samples : 0",Thread Group 1-1,true,,24213,1,1,0,1,0,CIN_Varaprasad
+1703232274840,1524,LogOff,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,true,,15344,1,1,0,1,0,CIN_Varaprasad

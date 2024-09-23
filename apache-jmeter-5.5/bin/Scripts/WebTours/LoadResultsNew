@@ -1,0 +1,152 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+2024/07/23 21:22:07,32,Homepage-0,200,OK,Thread Group 1-1,text,true,,664,396,1,1,http://192.168.2.109:1080/WebTours/,32,0,22
+2024/07/23 21:22:07,3,Homepage-1,200,OK,Thread Group 1-1,text,true,,1007,453,1,1,http://192.168.2.109:1080/WebTours/header.html,3,0,0
+2024/07/23 21:22:07,120,Homepage-2,200,OK,Thread Group 1-1,text,true,,1087,464,1,1,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,119,0,0
+2024/07/23 21:22:07,48,Homepage-3,200,OK,Thread Group 1-1,text,true,,1659,563,1,1,http://192.168.2.109:1080/WebTours/home.html,48,0,0
+2024/07/23 21:22:07,143,Homepage-4,200,OK,Thread Group 1-1,text,true,,3157,567,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,140,0,0
+2024/07/23 21:22:07,346,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,7574,2443,1,1,null,342,71,22
+2024/07/23 21:22:08,5,Homepage-0,200,OK,Thread Group 1-2,text,true,,664,396,2,2,http://192.168.2.109:1080/WebTours/,5,0,2
+2024/07/23 21:22:08,3,Homepage-1,200,OK,Thread Group 1-2,text,true,,1007,453,2,2,http://192.168.2.109:1080/WebTours/header.html,3,0,0
+2024/07/23 21:22:07,187,ClickOnSignUp-0,200,OK,Thread Group 1-1,text,true,,2669,581,2,2,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,185,0,0
+2024/07/23 21:22:07,187,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2669,581,2,2,null,185,1,0
+2024/07/23 21:22:08,118,Homepage-2,200,OK,Thread Group 1-2,text,true,,1087,464,2,2,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,115,0,0
+2024/07/23 21:22:08,57,Homepage-3,200,OK,Thread Group 1-2,text,true,,1659,563,2,2,http://192.168.2.109:1080/WebTours/home.html,57,0,0
+2024/07/23 21:22:08,160,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-1,text,false,"Test failed: text expected to contain /Thank you, <b>prasadM39</b>, for registering and welcome to the Web Tours family/",2969,805,2,2,http://192.168.2.109:1080/cgi-bin/login.pl,158,0,0
+2024/07/23 21:22:08,160,FillDetailsAndClickContinue,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,2969,805,2,2,null,158,2,0
+2024/07/23 21:22:08,103,Homepage-4,200,OK,Thread Group 1-2,text,true,,3154,567,2,2,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,100,0,0
+2024/07/23 21:22:08,286,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,7571,2443,2,2,null,280,8,2
+2024/07/23 21:22:08,167,ClickContinue-0,200,OK,Thread Group 1-1,text,true,,823,559,2,2,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,165,0,0
+2024/07/23 21:22:08,169,ClickOnSignUp-0,200,OK,Thread Group 1-2,text,true,,2669,581,2,2,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,167,0,0
+2024/07/23 21:22:08,169,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2669,581,2,2,null,167,1,0
+2024/07/23 21:22:08,4,Homepage-0,200,OK,Thread Group 1-3,text,true,,664,396,3,3,http://192.168.2.109:1080/WebTours/,4,0,1
+2024/07/23 21:22:08,1,Homepage-1,200,OK,Thread Group 1-3,text,true,,1007,453,3,3,http://192.168.2.109:1080/WebTours/header.html,1,0,0
+2024/07/23 21:22:08,168,ClickContinue-1,200,OK,Thread Group 1-1,text,false,"Test failed: text expected to contain /Welcome, <b>prasadM39</b>/",1154,570,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,165,0,0
+2024/07/23 21:22:08,118,Homepage-2,200,OK,Thread Group 1-3,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,116,0,0
+2024/07/23 21:22:08,171,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-2,text,false,"Test failed: text expected to contain /Thank you, <b>prasadM40</b>, for registering and welcome to the Web Tours family/",2969,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,169,0,0
+2024/07/23 21:22:08,171,FillDetailsAndClickContinue,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-2,,false,,2969,805,3,3,null,169,0,0
+2024/07/23 21:22:08,61,Homepage-3,200,OK,Thread Group 1-3,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,61,0,0
+2024/07/23 21:22:08,176,ClickContinue-2,200,OK,Thread Group 1-1,text,true,,1749,575,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,173,0,0
+2024/07/23 21:22:08,511,ClickContinue,,"Number of samples in transaction : 3, number of failing samples : 1",Thread Group 1-1,,false,,3726,1704,3,3,null,503,2,0
+2024/07/23 21:22:08,160,ClickContinue-0,200,OK,Thread Group 1-2,text,true,,823,559,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,157,0,0
+2024/07/23 21:22:08,123,Homepage-4,200,OK,Thread Group 1-3,text,true,,3154,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,120,0,0
+2024/07/23 21:22:08,307,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-3,,true,,7571,2443,3,3,null,302,6,1
+2024/07/23 21:22:08,177,SignOff-0,200,OK,Thread Group 1-1,text,true,,1087,574,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,175,0,0
+2024/07/23 21:22:08,185,ClickContinue-1,200,OK,Thread Group 1-2,text,false,"Test failed: text expected to contain /Welcome, <b>prasadM40</b>/",1154,570,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,182,0,0
+2024/07/23 21:22:08,186,ClickOnSignUp-0,200,OK,Thread Group 1-3,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,183,0,0
+2024/07/23 21:22:08,186,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,2669,581,3,3,null,183,0,0
+2024/07/23 21:22:09,3,Homepage-0,200,OK,Thread Group 1-4,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:22:09,2,Homepage-1,200,OK,Thread Group 1-4,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:22:09,135,Homepage-2,200,OK,Thread Group 1-4,text,true,,1087,464,4,4,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,132,0,0
+2024/07/23 21:22:09,177,ClickContinue-2,200,OK,Thread Group 1-2,text,true,,1749,575,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,174,0,0
+2024/07/23 21:22:08,522,ClickContinue,,"Number of samples in transaction : 3, number of failing samples : 1",Thread Group 1-2,,false,,3726,1704,4,4,null,513,2,0
+2024/07/23 21:22:08,205,SignOff-1,200,OK,Thread Group 1-1,text,true,,3154,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,202,0,0
+2024/07/23 21:22:08,382,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,4241,1138,4,4,null,377,3,0
+2024/07/23 21:22:09,189,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-3,text,false,"Test failed: text expected to contain /Thank you, <b>prasadM41</b>, for registering and welcome to the Web Tours family/",2969,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,186,0,0
+2024/07/23 21:22:09,189,FillDetailsAndClickContinue,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-3,,false,,2969,805,3,3,null,186,0,0
+2024/07/23 21:22:09,61,Homepage-3,200,OK,Thread Group 1-4,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,61,0,0
+2024/07/23 21:22:09,119,Homepage-4,200,OK,Thread Group 1-4,text,true,,3147,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,117,0,0
+2024/07/23 21:22:09,320,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-4,,true,,7564,2443,3,3,null,315,6,1
+2024/07/23 21:22:09,167,SignOff-0,200,OK,Thread Group 1-2,text,true,,1087,574,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,164,0,0
+2024/07/23 21:22:09,167,ClickContinue-0,200,OK,Thread Group 1-3,text,true,,823,559,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,164,0,0
+2024/07/23 21:22:09,173,ClickOnSignUp-0,200,OK,Thread Group 1-4,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,170,0,0
+2024/07/23 21:22:09,173,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,2669,581,3,3,null,170,1,0
+2024/07/23 21:22:09,4,Homepage-0,200,OK,Thread Group 1-5,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,4,0,1
+2024/07/23 21:22:09,171,SignOff-1,200,OK,Thread Group 1-2,text,true,,3147,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,166,0,0
+2024/07/23 21:22:09,338,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,4234,1138,4,4,null,330,1,0
+2024/07/23 21:22:09,2,Homepage-1,200,OK,Thread Group 1-5,text,true,,1007,453,3,3,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:22:09,160,ClickContinue-1,200,OK,Thread Group 1-3,text,false,"Test failed: text expected to contain /Welcome, <b>prasadM41</b>/",1154,570,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,158,0,0
+2024/07/23 21:22:09,111,Homepage-2,200,OK,Thread Group 1-5,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,109,0,0
+2024/07/23 21:22:09,160,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-4,text,false,"Test failed: text expected to contain /Thank you, <b>prasadM42</b>, for registering and welcome to the Web Tours family/",2969,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,157,0,0
+2024/07/23 21:22:09,160,FillDetailsAndClickContinue,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-4,,false,,2969,805,3,3,null,157,1,0
+2024/07/23 21:22:09,55,Homepage-3,200,OK,Thread Group 1-5,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,55,0,0
+2024/07/23 21:22:09,168,ClickContinue-2,200,OK,Thread Group 1-3,text,true,,1749,575,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,166,0,0
+2024/07/23 21:22:09,495,ClickContinue,,"Number of samples in transaction : 3, number of failing samples : 1",Thread Group 1-3,,false,,3726,1704,3,3,null,488,3,0
+2024/07/23 21:22:09,124,Homepage-4,200,OK,Thread Group 1-5,text,true,,3148,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,118,0,0
+2024/07/23 21:22:09,296,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-5,,true,,7565,2443,3,3,null,288,5,1
+2024/07/23 21:22:09,190,ClickContinue-0,200,OK,Thread Group 1-4,text,true,,823,559,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,187,0,0
+2024/07/23 21:22:09,177,SignOff-0,200,OK,Thread Group 1-3,text,true,,1087,574,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,175,0,0
+2024/07/23 21:22:09,188,ClickOnSignUp-0,200,OK,Thread Group 1-5,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,185,0,0
+2024/07/23 21:22:09,188,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,2669,581,3,3,null,185,0,0
+2024/07/23 21:22:10,3,Homepage-0,200,OK,Thread Group 1-6,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:22:10,2,Homepage-1,200,OK,Thread Group 1-6,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:22:09,182,ClickContinue-1,200,OK,Thread Group 1-4,text,false,"Test failed: text expected to contain /Welcome, <b>prasadM42</b>/",1154,570,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,178,0,0
+2024/07/23 21:22:09,180,SignOff-1,200,OK,Thread Group 1-3,text,true,,3148,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,177,0,0
+2024/07/23 21:22:09,357,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,4235,1138,4,4,null,352,1,0
+2024/07/23 21:22:10,124,Homepage-2,200,OK,Thread Group 1-6,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,118,0,0
+2024/07/23 21:22:10,173,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-5,text,false,"Test failed: text expected to contain /Thank you, <b>prasadM43</b>, for registering and welcome to the Web Tours family/",2969,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,170,0,0
+2024/07/23 21:22:10,173,FillDetailsAndClickContinue,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-5,,false,,2969,805,3,3,null,170,1,0
+2024/07/23 21:22:10,59,Homepage-3,200,OK,Thread Group 1-6,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,59,0,0
+2024/07/23 21:22:10,175,ClickContinue-2,200,OK,Thread Group 1-4,text,true,,1749,575,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,172,0,0
+2024/07/23 21:22:09,547,ClickContinue,,"Number of samples in transaction : 3, number of failing samples : 1",Thread Group 1-4,,false,,3726,1704,3,3,null,537,2,0
+2024/07/23 21:22:10,130,Homepage-4,200,OK,Thread Group 1-6,text,true,,3157,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,127,0,0
+2024/07/23 21:22:10,318,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-6,,true,,7574,2443,3,3,null,309,5,1
+2024/07/23 21:22:10,174,ClickContinue-0,200,OK,Thread Group 1-5,text,true,,823,559,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,171,0,0
+2024/07/23 21:22:10,174,SignOff-0,200,OK,Thread Group 1-4,text,true,,1087,574,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,171,0,0
+2024/07/23 21:22:10,166,ClickOnSignUp-0,200,OK,Thread Group 1-6,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,163,0,0
+2024/07/23 21:22:10,166,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,2669,581,3,3,null,163,1,0
+2024/07/23 21:22:10,4,Homepage-0,200,OK,Thread Group 1-7,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,4,0,1
+2024/07/23 21:22:10,164,ClickContinue-1,200,OK,Thread Group 1-5,text,false,"Test failed: text expected to contain /Welcome, <b>prasadM43</b>/",1154,570,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,161,0,0
+2024/07/23 21:22:10,2,Homepage-1,200,OK,Thread Group 1-7,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:22:10,161,SignOff-1,200,OK,Thread Group 1-4,text,true,,3157,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,158,0,0
+2024/07/23 21:22:10,335,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,4244,1138,4,4,null,329,1,0
+2024/07/23 21:22:10,117,Homepage-2,200,OK,Thread Group 1-7,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,115,0,0
+2024/07/23 21:22:10,171,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-6,text,false,"Test failed: text expected to contain /Thank you, <b>prasadM44</b>, for registering and welcome to the Web Tours family/",2969,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,168,0,0
+2024/07/23 21:22:10,171,FillDetailsAndClickContinue,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-6,,false,,2969,805,3,3,null,168,0,0
+2024/07/23 21:22:10,49,Homepage-3,200,OK,Thread Group 1-7,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,49,0,0
+2024/07/23 21:22:10,174,ClickContinue-2,200,OK,Thread Group 1-5,text,true,,1749,575,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,171,0,0
+2024/07/23 21:22:10,512,ClickContinue,,"Number of samples in transaction : 3, number of failing samples : 1",Thread Group 1-5,,false,,3726,1704,3,3,null,503,1,0
+2024/07/23 21:22:10,124,Homepage-4,200,OK,Thread Group 1-7,text,true,,3157,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,121,0,0
+2024/07/23 21:22:10,296,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-7,,true,,7574,2443,3,3,null,291,5,1
+2024/07/23 21:22:10,170,ClickContinue-0,200,OK,Thread Group 1-6,text,true,,823,559,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,168,0,0
+2024/07/23 21:22:10,174,SignOff-0,200,OK,Thread Group 1-5,text,true,,1087,574,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,171,0,0
+2024/07/23 21:22:10,165,ClickOnSignUp-0,200,OK,Thread Group 1-7,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,163,0,0
+2024/07/23 21:22:10,165,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,2669,581,3,3,null,163,2,0
+2024/07/23 21:22:11,3,Homepage-0,200,OK,Thread Group 1-8,text,true,,664,396,4,4,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:22:11,2,Homepage-1,200,OK,Thread Group 1-8,text,true,,1007,453,4,4,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:22:10,172,ClickContinue-1,200,OK,Thread Group 1-6,text,false,"Test failed: text expected to contain /Welcome, <b>prasadM44</b>/",1154,570,4,4,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,169,0,0
+2024/07/23 21:22:10,175,SignOff-1,200,OK,Thread Group 1-5,text,true,,3157,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,172,0,0
+2024/07/23 21:22:10,349,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,4244,1138,4,4,null,343,1,0
+2024/07/23 21:22:11,120,Homepage-2,200,OK,Thread Group 1-8,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,117,0,0
+2024/07/23 21:22:10,170,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-7,text,false,"Test failed: text expected to contain /Thank you, <b>prasadM45</b>, for registering and welcome to the Web Tours family/",2969,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,167,0,0
+2024/07/23 21:22:10,170,FillDetailsAndClickContinue,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-7,,false,,2969,805,3,3,null,167,1,0
+2024/07/23 21:22:11,165,ClickContinue-2,200,OK,Thread Group 1-6,text,true,,1749,575,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,163,0,0
+2024/07/23 21:22:10,507,ClickContinue,,"Number of samples in transaction : 3, number of failing samples : 1",Thread Group 1-6,,false,,3726,1704,3,3,null,500,2,0
+2024/07/23 21:22:11,50,Homepage-3,200,OK,Thread Group 1-8,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,50,0,0
+2024/07/23 21:22:11,113,Homepage-4,200,OK,Thread Group 1-8,text,true,,3160,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,110,0,0
+2024/07/23 21:22:11,288,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-8,,true,,7577,2443,3,3,null,282,3,1
+2024/07/23 21:22:11,160,ClickContinue-0,200,OK,Thread Group 1-7,text,true,,823,559,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,158,0,0
+2024/07/23 21:22:11,154,SignOff-0,200,OK,Thread Group 1-6,text,true,,1087,574,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,152,0,0
+2024/07/23 21:22:11,163,ClickContinue-1,200,OK,Thread Group 1-7,text,false,"Test failed: text expected to contain /Welcome, <b>prasadM45</b>/",1154,570,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,161,0,0
+2024/07/23 21:22:11,189,ClickOnSignUp-0,200,OK,Thread Group 1-8,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,187,0,0
+2024/07/23 21:22:11,189,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,2669,581,3,3,null,187,1,0
+2024/07/23 21:22:11,161,SignOff-1,200,OK,Thread Group 1-6,text,true,,3160,564,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,159,0,0
+2024/07/23 21:22:11,315,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-6,,true,,4247,1138,3,3,null,311,2,0
+2024/07/23 21:22:11,3,Homepage-0,200,OK,Thread Group 1-9,text,true,,664,396,3,3,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:22:11,2,Homepage-1,200,OK,Thread Group 1-9,text,true,,1007,453,3,3,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:22:11,109,Homepage-2,200,OK,Thread Group 1-9,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,106,0,0
+2024/07/23 21:22:11,163,ClickContinue-2,200,OK,Thread Group 1-7,text,true,,1749,575,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,160,0,0
+2024/07/23 21:22:11,486,ClickContinue,,"Number of samples in transaction : 3, number of failing samples : 1",Thread Group 1-7,,false,,3726,1704,3,3,null,479,3,0
+2024/07/23 21:22:11,165,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-8,text,false,"Test failed: text expected to contain /Thank you, <b>prasadM46</b>, for registering and welcome to the Web Tours family/",2969,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,162,0,0
+2024/07/23 21:22:11,165,FillDetailsAndClickContinue,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-8,,false,,2969,805,3,3,null,162,0,0
+2024/07/23 21:22:11,61,Homepage-3,200,OK,Thread Group 1-9,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,61,0,0
+2024/07/23 21:22:11,135,Homepage-4,200,OK,Thread Group 1-9,text,true,,3159,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,132,0,0
+2024/07/23 21:22:11,310,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-9,,true,,7576,2443,3,3,null,304,4,1
+2024/07/23 21:22:11,186,SignOff-0,200,OK,Thread Group 1-7,text,true,,1087,574,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,184,0,0
+2024/07/23 21:22:11,183,ClickContinue-0,200,OK,Thread Group 1-8,text,true,,823,559,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,180,0,0
+2024/07/23 21:22:11,162,ClickOnSignUp-0,200,OK,Thread Group 1-9,text,true,,2669,581,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?username=&password=&getInfo=true,159,0,0
+2024/07/23 21:22:11,162,ClickOnSignUp,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,2669,581,3,3,null,159,1,0
+2024/07/23 21:22:11,159,ClickContinue-1,200,OK,Thread Group 1-8,text,false,"Test failed: text expected to contain /Welcome, <b>prasadM46</b>/",1154,570,3,3,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,157,0,0
+2024/07/23 21:22:11,180,SignOff-1,200,OK,Thread Group 1-7,text,true,,3160,564,4,4,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,178,0,0
+2024/07/23 21:22:11,366,SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-7,,true,,4247,1138,4,4,null,362,2,0
+2024/07/23 21:22:12,3,Homepage-0,200,OK,Thread Group 1-10,text,true,,664,396,3,3,http://192.168.2.109:1080/WebTours/,3,0,1
+2024/07/23 21:22:12,2,Homepage-1,200,OK,Thread Group 1-10,text,true,,1007,453,3,3,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+2024/07/23 21:22:12,110,Homepage-2,200,OK,Thread Group 1-10,text,true,,1087,464,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,108,0,0
+2024/07/23 21:22:11,168,FillDetailsAndClickContinue-0,200,OK,Thread Group 1-9,text,false,"Test failed: text expected to contain /Thank you, <b>prasadM47</b>, for registering and welcome to the Web Tours family/",2969,805,3,3,http://192.168.2.109:1080/cgi-bin/login.pl,165,0,0
+2024/07/23 21:22:11,168,FillDetailsAndClickContinue,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-9,,false,,2969,805,3,3,null,165,0,0
+2024/07/23 21:22:11,168,ClickContinue-2,200,OK,Thread Group 1-8,text,true,,1749,575,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,166,0,0
+2024/07/23 21:22:11,510,ClickContinue,,"Number of samples in transaction : 3, number of failing samples : 1",Thread Group 1-8,,false,,3726,1704,3,3,null,503,1,0
+2024/07/23 21:22:12,56,Homepage-3,200,OK,Thread Group 1-10,text,true,,1659,563,3,3,http://192.168.2.109:1080/WebTours/home.html,56,0,0
+2024/07/23 21:22:12,123,Homepage-4,200,OK,Thread Group 1-10,text,true,,3136,567,3,3,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,120,0,0
+2024/07/23 21:22:12,294,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-10,,true,,7553,2443,3,3,null,289,4,1
+2024/07/23 21:22:12,171,ClickContinue-0,200,OK,Thread Group 1-9,text,true,,823,559,3,3,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=menus,168,0,0
+2024/07/23 21:22:12,183,SignOff-0,200,OK,Thread Group 1-8,text,true,,1087,574,3,3,http://192.168.2.109:1080

@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+2024/07/04 18:25:45,557,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,7573,2368,1,1,null,0,5,2
+2024/07/04 18:25:45,8,-8 /WebTours/,200,OK,Thread Group 1-1,text,true,,664,381,1,1,http://192.168.2.109:1080/WebTours/,8,0,2
+2024/07/04 18:25:45,3,-10 /WebTours/header.html,200,OK,Thread Group 1-1,text,true,,1007,438,1,1,http://192.168.2.109:1080/WebTours/header.html,3,0,0
+2024/07/04 18:25:45,260,-11 /cgi-bin/welcome.pl,200,OK,Thread Group 1-1,text,true,,1087,449,1,1,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,256,0,0
+2024/07/04 18:25:46,58,-17 /WebTours/home.html,200,OK,Thread Group 1-1,text,true,,1659,548,1,1,http://192.168.2.109:1080/WebTours/home.html,58,0,0
+2024/07/04 18:25:46,228,-18 /cgi-bin/nav.pl,200,OK,Thread Group 1-1,text,true,,3156,552,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,224,0,0
+2024/07/04 18:25:46,836,EnterDetailsClickLogin,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,3938,1857,1,1,null,0,2,0
+2024/07/04 18:25:46,288,-24 /cgi-bin/login.pl,200,OK,Thread Group 1-1,text,true,,1035,768,1,1,http://192.168.2.109:1080/cgi-bin/login.pl,285,0,0
+2024/07/04 18:25:46,290,-26 /cgi-bin/nav.pl,200,OK,Thread Group 1-1,text,true,,1749,547,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,285,0,0
+2024/07/04 18:25:46,258,-27 /cgi-bin/login.pl,200,OK,Thread Group 1-1,text,true,,1154,542,1,1,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,255,0,0
+2024/07/04 18:25:47,871,ClickFlights,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,11681,1690,1,1,null,0,3,0
+2024/07/04 18:25:47,296,-32 /cgi-bin/welcome.pl,200,OK,Thread Group 1-1,text,true,,843,561,1,1,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=search,293,0,0
+2024/07/04 18:25:47,254,-33 /cgi-bin/nav.pl,200,OK,Thread Group 1-1,text,true,,1749,564,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=flights,251,0,0
+2024/07/04 18:25:47,320,-34 /cgi-bin/reservations.pl,200,OK,Thread Group 1-1,text,true,,4520,565,1,1,http://192.168.2.109:1080/cgi-bin/reservations.pl?page=welcome,316,0,0
+2024/07/04 18:25:48,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,4569,0,1,1,null,0,0,0

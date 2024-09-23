@@ -1,0 +1,28 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1708328725777,265,Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,6112,2244,1,1,null,0,3,1
+1708328725778,3,-8 /WebTours/,200,OK,Thread Group 1-1,text,true,,664,381,1,1,http://192.168.2.109:1080/WebTours/,3,0,1
+1708328725782,2,-10 /WebTours/header.html,200,OK,Thread Group 1-1,text,true,,1007,438,1,1,http://192.168.2.109:1080/WebTours/header.html,2,0,0
+1708328725785,101,-11 /cgi-bin/welcome.pl,200,OK,Thread Group 1-1,text,true,,1025,449,1,1,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=true,98,0,0
+1708328725886,61,-17 /WebTours/home.html,200,OK,Thread Group 1-1,text,true,,1659,486,1,1,http://192.168.2.109:1080/WebTours/home.html,60,0,0
+1708328725947,98,-18 /cgi-bin/nav.pl,200,OK,Thread Group 1-1,text,true,,1757,490,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,96,0,0
+1708328726045,482,EnterDetailsClickLogin,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,3758,1889,1,1,null,0,4103,0
+1708328726046,165,-24 /cgi-bin/login.pl,200,OK,Thread Group 1-1,text,true,,851,704,1,1,http://192.168.2.109:1080/cgi-bin/login.pl,163,0,0
+1708328726211,169,-26 /cgi-bin/nav.pl,200,OK,Thread Group 1-1,text,true,,1749,595,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=home,167,0,0
+1708328726380,148,-27 /cgi-bin/login.pl,200,OK,Thread Group 1-1,text,true,,1158,590,1,1,http://192.168.2.109:1080/cgi-bin/login.pl?intro=true,145,0,0
+1708328730630,470,ClickFlights,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,7112,1834,1,1,null,0,4102,0
+1708328730630,95,-32 /cgi-bin/welcome.pl,200,OK,Thread Group 1-1,text,true,,843,609,1,1,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=search,93,0,0
+1708328730726,167,-33 /cgi-bin/nav.pl,200,OK,Thread Group 1-1,text,true,,1749,612,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=flights,165,0,0
+1708328730893,208,-34 /cgi-bin/reservations.pl,200,OK,Thread Group 1-1,text,true,,4520,613,1,1,http://192.168.2.109:1080/cgi-bin/reservations.pl?page=welcome,205,0,0
+1708328735204,112,SelectRandomDepatAndArrivalCitiesClkCont,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2719,961,1,1,null,0,4063,0
+1708328735204,112,-39 /cgi-bin/reservations.pl,200,OK,Thread Group 1-1,text,true,,2719,961,1,1,http://192.168.2.109:1080/cgi-bin/reservations.pl,110,0,0
+1708328739380,104,SelectRandomFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2965,842,1,1,null,0,4092,0
+1708328739380,104,-40 /cgi-bin/reservations.pl,200,OK,Thread Group 1-1,text,true,,2965,842,1,1,http://192.168.2.109:1080/cgi-bin/reservations.pl,102,0,0
+1708328743576,115,FillPaymentDetailsClkContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2843,1007,1,1,null,0,4014,0
+1708328743576,115,-46 /cgi-bin/reservations.pl,200,OK,Thread Group 1-1,text,true,,2843,1007,1,1,http://192.168.2.109:1080/cgi-bin/reservations.pl,113,0,0
+1708328747706,430,ClickItinerary,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,16742,1760,1,1,null,0,4010,0
+1708328747706,91,-48 /cgi-bin/welcome.pl,200,OK,Thread Group 1-1,text,true,,818,591,1,1,http://192.168.2.109:1080/cgi-bin/welcome.pl?page=itinerary,90,0,0
+1708328747798,171,-49 /cgi-bin/nav.pl,200,OK,Thread Group 1-1,text,true,,1749,593,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?page=menu&in=itinerary,169,0,0
+1708328747970,168,-50 /cgi-bin/itinerary.pl,200,OK,Thread Group 1-1,text,true,,14175,576,1,1,http://192.168.2.109:1080/cgi-bin/itinerary.pl,165,0,0
+1708328752146,281,LogOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,2780,1075,1,1,null,0,4032,0
+1708328752147,113,-54 /cgi-bin/welcome.pl,200,OK,Thread Group 1-1,text,true,,1025,588,1,1,http://192.168.2.109:1080/cgi-bin/welcome.pl?signOff=1,111,0,0
+1708328752261,168,-55 /cgi-bin/nav.pl,200,OK,Thread Group 1-1,text,true,,1755,487,1,1,http://192.168.2.109:1080/cgi-bin/nav.pl?in=home,166,0,0

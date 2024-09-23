@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="430" it="0" lt="427" ct="161" ts="1702637593903" s="true" lb="-4 /v1/tiles" rc="200" rm="OK" tn="" dt="text" de="" by="1752" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 15 Dec 2023 10:53:13 GMT
+Content-Type: application/json
+Vary: Accept-Encoding
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+access-control-expose-headers: content-type, cache-control
+cache-control: private, max-age=635, stale-if-error=11531
+access-control-allow-credentials: true
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.5
+Host: contile.services.mozilla.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;tiles&quot;:[{&quot;id&quot;:74357,&quot;name&quot;:&quot;Amazon&quot;,&quot;url&quot;:&quot;https://www.amazon.in/?tag=admpdesktopin-21&amp;ref=pd_sl_6f0c512be0e7b92c2c35ce3423ee3031a482db2f8428620cfb76ad58&amp;mfadid=adm&quot;,&quot;click_url&quot;:&quot;https://bridge.sfo1.ap01.net/ctp?version=16.0.0&amp;key=1702635341400800000.1&amp;ci=1702635341015.12791&amp;ctag=pd_sl_6f0c512be0e7b92c2c35ce3423ee3031a482db2f8428620cfb76ad58&quot;,&quot;image_url&quot;:&quot;https://contile-images.services.mozilla.com/obgoOYObjIFea_bXuT6L4LbBJ8j425AD87S1HMD3BWg.9991.jpg&quot;,&quot;image_size&quot;:200,&quot;impression_url&quot;:&quot;https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4ZbY4QfdfZ2X4pbW1pbWfpbW7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4Z2Z4CxnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4Z2Z4CxnHmcux%3DcvImauiF2zfQlXfplZ7ncqIr7VjGbuiF2zfCfdfC2X4QDnj9wWIBdvIpkY7R4TJr2uJREuHnEYgClnHr7wHG3vjnDuiF2z4Z2Z7ReTHF4wJFEUjtdvIpkXfpbr&quot;},{&quot;id&quot;:74343,&quot;name&quot;:&quot;AliExpress&quot;,&quot;url&quot;:&quot;https://s.click.aliexpress.com/e/byrlillA?af=amp1250&amp;dp=1702635341400800000&amp;mfadid=adm&quot;,&quot;click_url&quot;:&quot;https://bridge.sfo1.ap01.net/ctp?version=16.0.0&amp;key=1702635341400800000.2&amp;ci=1702635341015.12791&amp;ctag=1702635341400800000&quot;,&quot;image_url&quot;:&quot;https://contile-images.services.mozilla.com/Lbtwp8lOwiYh9vxiwPInJ_U7mlWtWHU5_yHpcziM01U.10324.jpg&quot;,&quot;image_size&quot;:200,&quot;impression_url&quot;:&quot;https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4ZbY4QfdfZ2X4pbW1pbWfpbW7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4Z2Z4pfnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4Z2Z4pfnHmcux%3DcvImauiF2zfQl%2B4QqX7ncqIr7VjGbuiF2zfCDkfCHXfQDnj9wWIBdvIpkY7R4TJr2uJREuHnEYgC8nHr7wHG3vjnDuiF2zfCbYfYIWJ%3DcQIFdwJR2uiF2zfCbW4Wyy&quot;}],&quot;sov&quot;:&quot;eyJuYW1lIjoiU09WLTIwMjMxMDI3MTk0NTI4IiwiYWxsb2NhdGlvbnMiOlt7InBvc2l0aW9uIjoxLCJhbGxvY2F0aW9uIjpbeyJwYXJ0bmVyIjoiYW1wIiwicGVyY2VudGFnZSI6MTAwfSx7InBhcnRuZXIiOiJtb3otc2FsZXMiLCJwZXJjZW50YWdlIjowfV19LHsicG9zaXRpb24iOjIsImFsbG9jYXRpb24iOlt7InBhcnRuZXIiOiJhbXAiLCJwZXJjZW50YWdlIjo5MH0seyJwYXJ0bmVyIjoibW96LXNhbGVzIiwicGVyY2VudGFnZSI6MTB9XX0seyJwb3NpdGlvbiI6MywiYWxsb2NhdGlvbiI6W3sicGFydG5lciI6ImFtcCIsInBlcmNlbnRhZ2UiOjEwMH0seyJwYXJ0bmVyIjoibW96LXNhbGVzIiwicGVyY2VudGFnZSI6MH1dfV19&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://contile.services.mozilla.com/v1/tiles</java.net.URL>
+</httpSample>
+<httpSample t="417" it="0" lt="417" ct="93" ts="1702637594252" s="true" lb="-5 /submit/messaging-system/undesired-events/1/92c43b80-8ca8-44c7-8bb7-f04715e87caa" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="756" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 15 Dec 2023 10:53:14 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Date: Fri, 15 Dec 2023 10:53:13 GMT
+Accept-Language: en-US,en;q=0.5
+Content-Encoding: gzip
+Host: incoming.telemetry.mozilla.org
+Content-Type: application/json; charset=UTF-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: */*
+Content-Length: 809
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+�R�n�0&#xc;�&#x17;��.v�&#xc;ɭ���m@��&#xd;Jbb&#x1;��I��6ȿ�J�f&#x18;Z�&amp;P�=���h�Sr&#x1d;&#x5;�j}P�&#x18;,mq�&#xc;��B��zJ���q�&#x2;�	�i�Z�&#x18;X��x�,��&#x10;tn��]&#xc;�g&#x1;���ݮ=&#xb;&#x7f;�8&#x11;r�&#x7;X�&amp;��&gt;&amp;�D�0ӧ�(��&#x4;Wt�iO`�&#x1f;}Q(�=S�2R�g:&#x17;.=&apos;���BU-o��)��&#x16;X����-��K;KW&#x1f;&gt;%|�Q(h-`�&#xd;w&#x4;&#x1c;O	L�[@��e�[=߿!n!���&lt;�X���T&amp;	9&amp;�%b�&#x1d;S&#x16;��	=���W�]|s�#&#x1a;&#x13;&#x7;�&#x13;aG�1�&#x1e;���˽�.;��W�����&#xe;&#x6;����E�G��N	�S#�&#x12;�T�zv?����~&#x19;��s&#xc;�K����X�[���K�i~�j~&lt;m6��OE�������n*|�&#xb;�)ۉ�R�Z��&#x2;M�c�&gt;�&#x10;Cs�����W�Ã&lt;&#x5; �#��߳�A�߫�&amp;&#x4;=73X�U&#xd;��&#xd;�^iZ.����:�&#x5;�&#x14;&#x17;dn&#x3;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/92c43b80-8ca8-44c7-8bb7-f04715e87caa</java.net.URL>
+</httpSample>
+<httpSample t="117" it="0" lt="116" ct="94" ts="1702637594665" s="true" lb="-7 /v1/" rc="200" rm="OK" tn="" dt="text" de="" by="1449" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 939
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Backoff, Content-Type, Retry-After, Alert, Content-Length
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src &apos;none&apos;; frame-ancestors &apos;none&apos;; base-uri &apos;none&apos;;
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+Date: Fri, 15 Dec 2023 10:15:46 GMT
+Age: 2248
+Content-Type: application/json
+Cache-Control: public,max-age=3600
+Alt-Svc: clear
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.5
+Host: firefox.settings.services.mozilla.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;project_name&quot;:&quot;Remote Settings PROD&quot;,&quot;project_version&quot;:&quot;16.2.1&quot;,&quot;http_api_version&quot;:&quot;1.22&quot;,&quot;project_docs&quot;:&quot;https://remote-settings.readthedocs.io&quot;,&quot;url&quot;:&quot;https://firefox.settings.services.mozilla.com/v1/&quot;,&quot;settings&quot;:{&quot;explicit_permissions&quot;:false,&quot;batch_max_requests&quot;:25,&quot;readonly&quot;:true},&quot;capabilities&quot;:{&quot;changes&quot;:{&quot;description&quot;:&quot;Track modifications of records in Kinto and store the collection timestamps into a specific bucket and collection.&quot;,&quot;url&quot;:&quot;http://kinto.readthedocs.io/en/latest/tutorials/synchronisation.html#polling-for-remote-changes&quot;,&quot;version&quot;:&quot;31.2.3&quot;,&quot;collections&quot;:[&quot;/buckets/blocklists&quot;,&quot;/buckets/blocklists-preview&quot;,&quot;/buckets/main&quot;,&quot;/buckets/main-preview&quot;,&quot;/buckets/security-state&quot;,&quot;/buckets/security-state-preview&quot;]},&quot;attachments&quot;:{&quot;description&quot;:&quot;Add file attachments to records&quot;,&quot;url&quot;:&quot;https://github.com/Kinto/kinto-attachment/&quot;,&quot;version&quot;:&quot;6.3.2&quot;,&quot;base_url&quot;:&quot;https://firefox-settings-attachments.cdn.mozilla.net/&quot;}}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://firefox.settings.services.mozilla.com/v1/</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="2" ts="1702637594925" s="true" lb="-8 /WebTours/" rc="200" rm="OK" tn="" dt="text" de="" by="627" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:14 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Thu, 10 Aug 2023 08:05:26 GMT
+ETag: &quot;9000000028892-16e-6028d0f152c8f&quot;
+Accept-Ranges: bytes
+Content-Length: 366
+Connection: close
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;title&gt;Web Tours&lt;/title&gt;
+&lt;frameset rows = &quot;65,*&quot; border=&quot;1&quot; bordercolor=&quot;#E0E7F1&quot;&gt;
+&lt;frame name=&quot;header&quot; src=&quot;header.html&quot; scrolling=&quot;no&quot; noresize=&quot;noresize&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot;/&gt;
+&lt;frame name=&quot;body&quot; src=&quot;/cgi-bin/welcome.pl?signOff=true&quot; scrolling=&quot;auto&quot; noresize=&quot;noresize&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot; /&gt;
+&lt;/frameset&gt;
+&lt;/HEAD&gt;
+&lt;/HTML&gt;
+
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/WebTours/</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="7" ts="1702637594996" s="true" lb="-10 /WebTours/header.html" rc="200" rm="OK" tn="" dt="text" de="" by="971" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:15 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Thu, 10 Aug 2023 08:05:26 GMT
+ETag: &quot;900000002888c-2c6-6028d0f14dc8a&quot;
+Accept-Ranges: bytes
+Content-Length: 710
+Connection: close
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/WebTours/
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;HTML xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;HEAD&gt;&lt;/HEAD&gt;
+&lt;BODY bgcolor=&quot;#003366&quot; leftmargin=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; topmargin=&quot;0&quot;&gt;
+		&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+		&lt;table width=&quot;100%&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+			&lt;tr&gt;
+				&lt;td align=&quot;left&quot; valign=&quot;middle&quot; width=&quot;50%&quot;&gt;&lt;img src=&quot;images/hp_logo.png&quot; alt=&quot;&quot; height=&quot;45&quot; width=&quot;69&quot; align=&quot;absmiddle&quot; border=&quot;0&quot;/&gt;&lt;img src=&quot;images/webtours.png&quot; alt=&quot;&quot; height=&quot;45&quot; width=&quot;130&quot; align=&quot;absmiddle&quot; border=&quot;0&quot;/&gt;&lt;/td&gt;
+				&lt;td align=&quot;right&quot;&gt;&lt;/td&gt;
+				&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/table&gt;
+	&lt;/BODY&gt;
+&lt;/HTML&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/WebTours/header.html</java.net.URL>
+</httpSample>
+<httpSample t="380" it="0" lt="378" ct="76" ts="1702637594649" s="true" lb="-6 /submit/firefox-desktop/events/1/d9566489-af5c-4186-b767-07a0faa79649" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="932" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 15 Dec 2023 10:53:14 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 15 Dec 2023 10:53:14 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/54.0.0 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Sec-Fetch-Dest: empty
+Content-Length: 2092
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;��VMo�6&#x10;�/�n&amp; )J&quot;}��n�CQ&#x8;#rd&#x13;�%-E9�.��;��|m&#x1a;t&#x17;&#x5;�D����͛&#x19;~+�0��0�S��V,���U�X&#x12;�Ԧp�bW(�J�
+d�YV���$�])���F��M�S�6�p�F��B�sv��)�ۘ����&#x1;�4&#xc;0�)&#x7f;�&quot;���&#x1e;�0�e�&#x14;q�&#x1d;�av�ճ�1���!TF6���&#x1;��P�N�JHDl�==�&#x19;�&#x18;�ݺ�5���&#x16;��%L�&#x2;ǰ���&#x11;&#x2;&#x7f;��&#x14;&#x13;܅�&#x18;=HY?y�&#x4;�1��&#x7;&#x0;���&#x1b;votI��:0��`;��k���&#xf;&#x1;�3��&#x4;�&lt;�!�&#xf;�] �YN9�&#x7;Pj��1�br�&#x12;��+��1W(��$����P�{�L&#xd;�	�&#x4;�t&#x0;&#x1c;&#x12;$N�_9z?��[��B��6�t�&#x3;-PC�*&#xb;֩^�eS+&apos;6`��k&#x18;&#x6;D禕5�ئ��&#x8;ݚ&#x12;��S�+C&lt;�%ta&#x8;�&#x1;�&gt;,��&#xf;�B�}&amp;&#x1;&#x7f;&#x2;�����z�L.��r�,�ו���d��&#xd;2��&#x1;=�6БR|�����z�&#x15;���&#x19;H��u&apos;&#x8;HT�&amp;C�l�&#x6;�-���#c���EB#v&#x3;���O`����U��UF���&#x3;#�&#x1c;�+m�����BNz*Z&#x16;�&#x1;G?P��&#x16;4���0 }�ASV�q&#x4;�)&#x1b;ku�9����߆��)���x����q�q�\B&#x7f;G&#xf;O&#x8;&#x5c8;ނj��m�8m&#x3;5��;����&#xd;Ѕ&#x6;�zX&#xe;&#x18;)?�����b�6.S$��4/!&#x11;W����n���A�J�4Z&#x1e;������&#x14;X�&#x2;d�hՙ&#x1e;�F~056�&#xd;��=�&apos;ɷ����&#x590;1&#x15;��&#x15;�y_�&lt;�&gt;,�&#xf;�b�&#x379;�&#x14;������&#x15;1ҐW�Y�|&gt;q)�?�觻e����&#x12;:�&#x3;&#x13;��&#x1a;3�{S����ar8Цr���K�+��ؤTVV&#x15;?���E�1e&#xf;i&#x1b;&#x1;B��&#x10;���i�ˆ}�Kj�:^��;���O���&#xc;���&#x1d;�c��R����e&#x18;�y%|C�V�0t&#x1e;��9&#x2;Ւ[�R���ȳ��&#xd;n�庆��&#x3;��=�&gt;�~�2n��r�:Ъ�`���H&#x16;��ި�2��q��8&amp;&#x1e;�[�����&#x1c;�o�x߲��U9�&#x14;l���%&#x1c;�&#x1a;.�~�:lG��U�Ů�a��w&#xd;��-v)��b��b�Xm\ԭ�&#x1f;�{�u[���%�O�%_H��r���`�b�)��-�i&#x7f;{�!����f#n7��&#x19;��qxh�P�ԫH|9y&#x15;��&#x1f;�%��P&#x1c;��1&#xc;&#xc;�EC�&lt;S&#x382;�&#x5;G�u����@�.S9~��{&#x1a;�2�^y&#x0;��0&#x12;��&#x1d;{��[\$�&lt;&#xf;-ϭ��&#x16;�&#xd;&#x12;\s?&gt;���&#xf;�&#x15;&#xf;�+
+&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/d9566489-af5c-4186-b767-07a0faa79649</java.net.URL>
+</httpSample>
+<httpSample t="278" it="0" lt="275" ct="2" ts="1702637595035" s="true" lb="-11 /cgi-bin/welcome.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="989" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:15 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&amp;1702637595; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Thu, 14-Dec-2023 10:53:15 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/WebTours/
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ ---&gt;
+
+&lt;html&gt;
+&lt;title&gt;Web Tours&lt;/title&gt;
+   &lt;!-- Frame Set --&gt;
+   &lt;frameset cols=&quot;160,*&quot; border=&quot;1&quot; frameborder=&quot;1&quot;&gt;
+      &lt;!-- Navigation Frame --&gt;
+      &lt;frame src=&quot;nav.pl?in=home&quot; name=&quot;navbar&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot; 
+            noresize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+      &lt;!-- Home Frame --&gt;
+      &lt;frame src=&quot;/WebTours/home.html&quot; name=&quot;info&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot; 
+            noresize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+   &lt;/frameset&gt;
+&lt;/html&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/welcome.pl?signOff=true</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="7" ct="2" ts="1702637595362" s="true" lb="-17 /WebTours/home.html" rc="200" rm="OK" tn="" dt="text" de="" by="1623" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:15 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Thu, 10 Aug 2023 08:05:26 GMT
+ETag: &quot;a000000028891-551-6028d0f1505cc&quot;
+Accept-Ranges: bytes
+Content-Length: 1361
+Connection: close
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/welcome.pl?signOff=true
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;HTML&gt;
+&lt;HEAD&gt;
+	&lt;title&gt;Web Tours&lt;/title&gt;
+&lt;/HEAD&gt;
+&lt;style&gt;
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #003366}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+&lt;/style&gt;
+&lt;body bgcolor=&quot;#e0e7f1&quot;&gt;
+&lt;BR/&gt;
+&lt;BR/&gt;
+&lt;BR/&gt;
+&lt;br/&gt;
+&lt;table border=&quot;0&quot;&gt;
+&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;TR&gt;&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD&gt;
+&lt;blockquote&gt;
+&lt;H1&gt;&lt;b&gt;Web Tours&lt;/b&gt;&lt;/H1&gt;
+Welcome to the Web Tours site.
+&lt;br/&gt;
+To make reservations,please enter your account information to the left.
+&lt;br/&gt;
+If you haven&apos;t registered yet, &lt;A href=&quot;/cgi-bin/login.pl?username=&amp;amp;password=&amp;amp;getInfo=true&quot; &gt;&lt;B&gt;sign up now&lt;/B&gt;&lt;/A&gt; to get access to all our resources.
+&lt;br/&gt;
+To configure the server options, use &lt;A href=&quot;/cgi-bin/admin.pl&quot; target=&quot;body&quot; &gt;&lt;b&gt;administration&lt;/b&gt;&lt;/A&gt; link.
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;small&gt;
+This product uses parts of the SMT Kernel, Copyright (c) 1991-99 &lt;A href=&quot;http://www.imatix.com&quot; target=&quot;new&quot;&gt;&lt;B&gt;&lt;small&gt;iMatix Corporation&lt;/small&gt;&lt;/B&gt;&lt;/A&gt; 
+&lt;/small&gt;
+&lt;/blockquote&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/HTML&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/WebTours/home.html</java.net.URL>
+</httpSample>
+<httpSample t="249" it="0" lt="245" ct="3" ts="1702637595380" s="true" lb="-18 /cgi-bin/nav.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="1717" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:15 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 14 Dec 2023 10:53:15 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/welcome.pl?signOff=true
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Web Tours Navigation Bar&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+&lt;style&gt;
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+&lt;/style&gt;
+&lt;form method=&quot;post&quot; action=&quot;/cgi-bin/login.pl&quot; target=&quot;body&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;userSession&quot; value=&quot;137921.230862697HAQtDcDpDVcftcfzfpQDQiHf&quot;/&gt;
+&lt;table border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;small&gt;&amp;nbsp;Username&lt;/small&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;username&quot; value=&quot;&quot; size=&quot;14&quot; maxlength=&quot;14&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;small&gt;&amp;nbsp;Password&lt;/small&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;password&quot; name=&quot;password&quot; value=&quot;&quot; size=&quot;14&quot; maxlength=&quot;14&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;image&quot; name=&quot;login&quot; value=&quot;Login&quot; alt=&quot;Login&quot; border=&quot;1&quot; 
+src=&quot;/WebTours/images/mer_login.gif&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;input type=&quot;hidden&quot; name=&quot;JSFormSubmit&quot; value=&quot;off&quot;/&gt;
+&lt;/form&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/nav.pl?in=home</java.net.URL>
+</httpSample>
+<httpSample t="312" it="0" lt="312" ct="75" ts="1702637595340" s="true" lb="-16 /update/6/Firefox/120.0.1/20231129155202/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.2715%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16163/default/default/update.xml" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="484" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 42
+Rule-ID: 145
+Rule-Data-Version: 545
+Strict-Transport-Security: max-age=31536000;
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src &apos;none&apos;; frame-ancestors &apos;none&apos;
+X-Proxy-Cache-Status: EXPIRED
+Via: 1.1 google
+Date: Fri, 15 Dec 2023 10:52:10 GMT
+Content-Type: text/xml; charset=utf-8
+Age: 65
+Cache-Control: public,max-age=90
+Alt-Svc: clear
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.5
+Host: aus5.mozilla.org
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+Pragma: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;updates&gt;
+&lt;/updates&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">_ga_MQ7767QQQW=GS1.1.1701244798.1.1.1701246022.0.0.0; _ga=GA1.2.855629304.1701244799; _ga_2VC139B3XV=GS1.1.1701421893.1.0.1701421893.0.0.0</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://aus5.mozilla.org/update/6/Firefox/120.0.1/20231129155202/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.2715%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16163/default/default/update.xml?force=1</java.net.URL>
+</httpSample>
+<httpSample t="338" it="0" lt="336" ct="62" ts="1702637595342" s="true" lb="-15 /submit/firefox-desktop/pageload/1/073c323f-ff92-4137-9759-dd1a0ad9eb7d" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="842" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 15 Dec 2023 10:53:15 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 15 Dec 2023 10:53:15 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/54.0.0 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Sec-Fetch-Dest: empty
+Content-Length: 936
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;��R]o� &#x14;�/�6�&#x0;&#x1b;&#x7f;��qZ�I[�=L&#x13;�6IX&#x1d;`��D���.v�%�ת&#x12;��s&#xf;��s.��*��J�&#xd;����&#x7f;PE�&#x5;�A����IT!�i�$tI�=a&#x15;Kn0�&#x12;�&#x16;H�f��U�&#x1f;�I�&#x6;�в��_��UR��� [���&#x1d;�o&#x1e;�C��&#x6;�,]�U� ���&#x15;G��Ϋ�&#x1d;�P]&#x11;�?)ݘ&apos;?^��=H&#x7;.hF�&#x2;�`#B&#x14;I�&#x1c;/1�s�q5���&#xb;]����]�&apos;��&#x8;/Iy�&#x12;�L�b�&#x10;Z&#x12;��&#x17;��&#x3;�c��­�Bk�&#x2;����&#x12;��Ԣ���^~�&#x16;��ު �й&#x8;&#x1f;��g����m�&#x2;��{&#x8;&#xe;&#x6;��� x�tgQ�!R&#x10;�1�&#x8;\+�&#x1a;�k1,Ɗ��&#x11;M��!8&#x11;&#x13;_�vZ&#x1c;)h&#x6;�m&#x8;6&#x38b;Ȱ�F9��k���&#x2;6�C&apos;�&#x61d;.�P~{.&#xf;�� V��K&#x1;O�h#r����&#xf;�CSo��r�����#��yy&gt;}&quot;�&#x1c;����s�����,Z&#xc;;=Wz����u&#x16;�/&quot;L
+@&lt;&#xc;�Ʃ��\�=&#x14;���ov�&#x1a;Iɕ�&quot;ai�^�o�1yM蕨lf&#x19;IZ&#x16;�]l&#x12;��2�4��0&#x12;�����������C/�&#x4;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/073c323f-ff92-4137-9759-dd1a0ad9eb7d</java.net.URL>
+</httpSample>
+<httpSample t="361" it="0" lt="360" ct="69" ts="1702637595718" s="true" lb="-20 /submit/firefox-desktop/newtab/1/e09adb8c-2d1e-428b-a37a-1943698624ca" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="951" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 15 Dec 2023 10:53:15 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 15 Dec 2023 10:53:15 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/54.0.0 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Sec-Fetch-Dest: empty
+Content-Length: 845
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�uR&#x139b;0&#xc;~�����&#x14;�+����c��@�6:H�8��N��&#x1c;�J��I&#x11;��g&#x7f;��&#x7ba;����Y��&#x10;�X%�ņa�!�h;`&#x15;�\n3!3Q���*�O����m&#x18;8�&#x8;���	��;B4��&#x3;&#x17;��F6nX��ٜ�#��A&#xc;W��UՃm&#xd;��E��TH��l#4q&#x8;����N�
+��m�˾&#x7f;#�G2~Xg�&#x5;&apos;S���v&#x12;!�Z}&#x7f;#Hʅ�&#x7;Q�t]��Y;&#x7;-�&#x3;��&#x8;��X�[}��(�d.(~�&#x1;�
+�SF�u&amp;&lt;&#x13;��4&amp;ҏ�8�y�&#x5;�&#x17;Ϋ�&lt;M_&#x2;^f��J冮��*)wR��K�yc$7{���Y�&#x18;��b�3؉r[��Y��4�4Y��f���[�1�&#xe;.Q�yM�|&#x5;����&gt;&#x10;��q���p�O5��ɇ�4x]�`H�&#x2;����&#x7f;�&#x1d;��&#x4;����m�.�x�&#x1e;��yH[�&#x4;�k�i&#x15;�N
+Bz&#x14;�G�*�&#x1;6�O}�|�#u&#x14;}���?܍�+�Z�1�E���(nI�Q�����&#x18;��/@���j&#x3;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/e09adb8c-2d1e-428b-a37a-1943698624ca</java.net.URL>
+</httpSample>
+<httpSample t="1451" it="0" lt="0" ct="1451" ts="1702637594976" s="false" lb="-9 /" rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Connection reset" tn="" dt="text" de="" by="2777" sc="1" ec="1" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: websocket
+Sec-WebSocket-Protocol: push-notification
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: push.services.mozilla.com
+Sec-WebSocket-Key: gZimrP2nML6Ugkok/JRPnw==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">java.net.SocketException: Connection reset&#xd;
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)&#xd;
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)&#xd;
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)&#xd;
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)&#xd;
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:484)&#xd;
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478)&#xd;
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)&#xd;
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)&#xd;
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506)&#xd;
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421)&#xd;
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)&#xd;
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)&#xd;
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436)&#xd;
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LazyLayeredConnectionSocketFactory.connectSocket(LazyLayeredConnectionSocketFactory.java:87)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:408)&#xd;
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:939)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:650)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1301)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://push.services.mozilla.com/</java.net.URL>
+</httpSample>
+<httpSample t="369" it="0" lt="368" ct="67" ts="1702637596118" s="true" lb="-21 /submit/firefox-desktop/messaging-system/1/02993376-bcc6-4cd3-86a6-49a2e035e68a" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="757" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 15 Dec 2023 10:53:15 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 15 Dec 2023 10:53:16 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/54.0.0 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Sec-Fetch-Dest: empty
+Content-Length: 1794
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;��VMo�6&#x10;�/���&#x14;E�{�!(zh&#xb;�)z	 �c�%��&#x14;���	��;�:�&#x11;/&#x16;�&#x1;aW&quot;�3Oo���K5��c?U�/U�OՎ��J�.���ծ&#x12;L��&#x5;��&#x3;ovM��5��UW&#x15;�&#x170d;ډg6�3.d3�TB���b&#x3;B��&lt;��}�e&#x1a;�i�e�-v�{�&#x17;����&#x1c;�Ŗ]&#x1c;�iY�#��&#x12;V��	hX[��&#x1;���Ʋ&#x10;&#x2;2썢��a.��xpkz
+���Uu�&gt;�a���i%t��ipv&#x1;��&lt;�&#x10;����.���&#x10;�&#x3;�}L�&#x8;�5�r&#x1e;0�&#xb;�9G�7&amp;@O�@Z�@#�!�ƨ�&#x1b;���&quot;�w�#&#x1c;&quot;��#��$�3�^����oYo@��&#x5;)MO$�&#x16;T�T�&gt;�/&#x10;��6@��&#xc;6@�&#x1;&#xf;������Әi�&#x2;&#xe;c���!&#x8;�&apos;fz��5C@�x�&#x1a;C��̐c&#x1c;&#x13;Q���&#x13;�:�Ӓ�&#x18;?�%&#x0;��g&#x1;�&#xf;u�#pς&#xe;��&#x12;�H)EJ�n$&#x18;&apos;�&#x8;�r&#x1e;�&#x6;��&#x3;L=��]���M%����$�iZ����&#x14;3RHL��qZ���t�AHkx&#xb;��&#x1;$C&#x1;&#x6;9&#x3;^�R8�[���t���&#xc;?2���_dJke&#xc;�&#x16;&#x1a;M���=X&#x1b;�^���a�Z�&gt;j*?&#x15;�&#x1c;z��1&#xc;��RY^K&#x15;&#x1c;���� �1�M �n�����]R�Ow�D���m³@p�n@�n�
+�\�L��&#x12;|�&#x5;H�&lt;hN��Fj�Q&#x5;�6L6&#x4;�E��&#x16;I0&#x1b;Kǘ�`��La_�U�z�Bih&#x1d;w$&#x1b;+��B�&#x17;�&#xf;�V	�.�f�k���i�&lt;��.��:��&quot;媑��x��gU��1LǴ=vw��*.��d2L�&#xe;�1&#xc;��Ђ��Γ&amp;F&#x1c;�&#x1e;O9y\&#xf;1̓}x�E��k���&#xd;@�V�&#xb;Û�n����Tu&gt;�K�u�U�$��qI�[ֱ&#xb;6&#x7f;�sTI�i�mN��s�2`��&#xf;�����K��Ӌ�Pt�zpe�&#x8;�&#x4;/�h�&gt;�X��Rw���m���!e&lt;\�]!�$r��&gt;Vǽ��5�&#x11;fK�|�����N&#xb;�����o�*UF��۳Q^P~&#x1e;&#x7;&#x19;��y߽������������ߝ�&amp;�N㳜�`�ŉ��Qf�&#x18;0��&#x1a;����_�&#x18;�B�ڣ�Y�^։�K�&#x16;\�&#x19;�`&#x4;�P{��8TJI�]Q��O�`�		&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/02993376-bcc6-4cd3-86a6-49a2e035e68a</java.net.URL>
+</httpSample>
+<httpSample t="373" it="0" lt="372" ct="69" ts="1702637596522" s="true" lb="-22 /submit/firefox-desktop/baseline/1/07d7f97d-cc47-4d52-b20f-889e86ed4bc1" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="884" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 15 Dec 2023 10:53:16 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 15 Dec 2023 10:53:16 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/54.0.0 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Sec-Fetch-Dest: empty
+Content-Length: 1861
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;��Vێ�8&#xc;�&#x17;�v&#x18;H�$K��}�.�1�%9&#x11;�ة$g:-�ߗ����`�&#x1d;&#x14;0&#x12;G�ȣ�C2?�K���8&#xd;s������k{�䂩&#x1c;J&lt;�f�&#x8;&amp;Z�&#x2;����^���ڷ��i��߲�{�l�&#x2;�y&quot;&#xb;t%^C=��&#x12;&#x12;��J�1}�F&#x17;�&#x1c;�	K�&apos;�*!_�2��i��&#x13;N�D.
+9+� ��$����R!L��/&#x19;��&#x15;]�Ǳ���i�����`At؁�v&#x0;kl&#x7;z`�;������_��)&#x13;��&#x2;T��|�S���&#x1d;�&#x7;�5T��R~�����K|��8�7t�&#x10;&#x5;�&#x18;z0FI��@�%r�-&#x1d;��V��*@�&#x1e;���c�2��&#xf;���&#x0;�&#x2;���.��C�&#x9c;&apos;nPh&#x3;]�{�&#xc;%�NY�N&#x10;wm��c&#x1b;s�z�ױ_�������2��&#xc;��Y7&#x0;�נX/�b&#x1c;&#x11;�5�r�T��,�7IxR�;��&#x2;egzA1�&#x16;$&#x5ca;��($2�}`a�������q&#x1c;&#x11;��&#x17;&#x12;9�h&#x1e;{L�/���|&#x18;p�L]c�}&#x1c;c���-�B�&#x8;K&#xe;�w$�
+2�A&#xc;�z&#x18;&#x8;&#x1b;Iʑ�&#x2;o�ke��w�&#x7f;&#x17;2��&#x0;zR�&#x18;Ρ��&#xf;j��0HT�)&gt;&#x10;�A&#x4;�6&#xb;&#x10;�r:���μ&#xb;���c�%&#x82;9��$L؏&#x1;��? ����Z	N&#x19;&#x1;R3&#x7;�&#x13;i\*i�	��M�&#xf;&#x1e;`&#x1e; �0��r�k�&#x1a;�T&#x5;7�9&#x5;&quot;o��X&#x2;�&#xc;y������P&#x11;�^H�T&#x3;�垊0&#x8;��3�m&apos;Eo&#x6;�&#x1d;&#x7f;Hey�X�&#xc;&apos;��&#x18;�G������&#x0;�Z�&#xc;��&#xd;ݜwmg�l{��/	}h���kF�HΞF̓�&#xe;�&#x7f;9�K�&#xc;5J�خ���8��6o&#x1b;�i9�� �Ђ�4ۢ�Rcq�1`��ό�����I^��r9�ez4��&#x13;�e�&#x6;&#x13;^.&#x7;G�La�&#x1d;j&#x13;���#�z�sa�R����c��xw��T�D�&quot;&#x8;�����N$&#x1;W�T�~3��%����1�&#x85;&#x7f;����&amp;[��v���Kw&#x1b;&#x15;��U �y�|&#x17;&#x0;-�&#x16;�&lt;&#x2;5)��9)X	C5���C�F�N�&#x11;{��?�Mh�*G�㴻�&#x18;�:�vu��C^�s,%lR%&#x16;�8&#x11;V&quot;&lt;\�)ͫ��X{T��%���)�&#x16;�&#x7f;}��0&#x1a;g$&#x1f;|��s�&gt;�&#x1d;Cڅ�H6UY��&#x0;�wp_Ȼ`7o&#x19;-)n����&#xd;~�+�1&#x1c;���t�{�S�F9n&#x1d;H�RﶆS#�8�|)�&#x11;�2LW]�&#x7;=ڲ��&#x8;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/07d7f97d-cc47-4d52-b20f-889e86ed4bc1</java.net.URL>
+</httpSample>
+<httpSample t="68" it="0" lt="67" ct="50" ts="1702637601753" s="false" lb="-23 /" rc="400" rm="Bad Request" tn="" dt="text" de="UTF-8" by="468" sc="1" ec="1" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 273
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: websocket
+Sec-WebSocket-Protocol: push-notification
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: push.services.mozilla.com
+Sec-WebSocket-Key: lETZiiuSF48zKR2WhxzySQ==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">
+&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;
+&lt;title&gt;400 Bad Request&lt;/title&gt;
+&lt;/head&gt;
+&lt;body text=#000000 bgcolor=#ffffff&gt;
+&lt;h1&gt;Error: Bad Request&lt;/h1&gt;
+&lt;h2&gt;Your client has issued a malformed or illegal request.&lt;/h2&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;/body&gt;&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://push.services.mozilla.com/</java.net.URL>
+</httpSample>
+<httpSample t="96" it="0" lt="95" ct="71" ts="1702637611876" s="false" lb="-25 /" rc="400" rm="Bad Request" tn="" dt="text" de="UTF-8" by="468" sc="1" ec="1" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 273
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: websocket
+Sec-WebSocket-Protocol: push-notification
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: push.services.mozilla.com
+Sec-WebSocket-Key: Dz9bl78x0M9fscdO5bkZZA==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">
+&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;
+&lt;title&gt;400 Bad Request&lt;/title&gt;
+&lt;/head&gt;
+&lt;body text=#000000 bgcolor=#ffffff&gt;
+&lt;h1&gt;Error: Bad Request&lt;/h1&gt;
+&lt;h2&gt;Your client has issued a malformed or illegal request.&lt;/h2&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;/body&gt;&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://push.services.mozilla.com/</java.net.URL>
+</httpSample>
+<httpSample t="314" it="0" lt="308" ct="3" ts="1702637611853" s="true" lb="-24 /cgi-bin/login.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="815" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:31 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A; path=/
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://192.168.2.82:1080/cgi-bin/nav.pl?in=home
+Accept-Language: en-US,en;q=0.5
+Origin: http://192.168.2.82:1080
+DNT: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Sec-GPC: 1
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Content-Length: 119
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!--
+User password was correct - added a cookie with the user&apos;s default
+information.  Set the user up to make reservations...
+
+---&gt;
+
+&lt;html&gt;
+&lt;title&gt;Web Tours&lt;/title&gt;
+&lt;frameset cols=&quot;160,*&quot; border=1 frameborder=1&gt;
+&lt;frame src=&quot;nav.pl?page=menu&amp;in=home&quot; name=&quot;navbar&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot; noresize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+&lt;frame src=&quot;login.pl?intro=true&quot; name=&quot;info&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot; noresize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+&lt;/frameset&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">userSession=137921.230862697HAQtDcDpDVcftcfzfpQDQiHf&amp;username=jojo&amp;password=bean&amp;login.x=34&amp;login.y=11&amp;JSFormSubmit=off</queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/login.pl</java.net.URL>
+</httpSample>
+<httpSample t="331" it="0" lt="325" ct="6" ts="1702637612210" s="true" lb="-26 /cgi-bin/nav.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="1713" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:32 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 14 Dec 2023 10:53:32 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/login.pl
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Web Tours Navigation Bar&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+
+&lt;style&gt;
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+&lt;/style&gt;
+
+&lt;BR&gt;&lt;BR&gt;&lt;center&gt;
+
+&lt;br clear=&quot;both&quot;/&gt;&lt;center&gt;&lt;A HREF=&quot;welcome.pl?page=search&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/flights.gif&quot; 
+ALT=&quot;Search Flights Button&quot;/&gt;&lt;/A&gt;
+&lt;br clear=&quot;both&quot;/&gt;&lt;A HREF=&quot;welcome.pl?page=itinerary&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/itinerary.gif&quot; 
+ALT=&quot;Itinerary Button&quot;/&gt;&lt;/A&gt;
+&lt;br clear=&quot;both&quot;/&gt;&lt;A HREF=&quot;welcome.pl?page=menus&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/in_home.gif&quot; 
+ALT=&quot;Home Button&quot;/&gt;&lt;/A&gt;
+&lt;br clear&gt;&lt;A HREF=&quot;welcome.pl?signOff=1&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/signoff.gif&quot; 
+ALT=&quot;SignOff Button&quot;/&gt;&lt;/A&gt;&lt;/center&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/nav.pl?page=menu&amp;in=home</java.net.URL>
+</httpSample>
+<httpSample t="343" it="0" lt="337" ct="4" ts="1702637612215" s="true" lb="-27 /cgi-bin/login.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="1122" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:32 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/login.pl
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to Web Tours&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+&lt;p /&gt;&lt;style&gt;blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}&lt;/style&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;blockquote&gt;Welcome, &lt;b&gt;jojo&lt;/b&gt;, to the Web Tours reservation pages.&lt;BR/&gt;Using the menu to the left, you can search for new flights to book, 
+or review/edit the flights already booked.  Don&apos;t forget to sign off when
+you&apos;re done!
+&lt;/blockquote&gt;
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/login.pl?intro=true</java.net.URL>
+</httpSample>
+<httpSample t="287" it="0" lt="282" ct="3" ts="1702637621107" s="true" lb="-32 /cgi-bin/welcome.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="807" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:41 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/nav.pl?page=menu&amp;in=home
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!-- 
+ User has returned to the search page.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ ---&gt;
+
+&lt;html&gt;
+&lt;title&gt;Web Tours&lt;/title&gt;
+   &lt;!-- Frame Set --&gt;
+   &lt;frameset cols=&quot;160,*&quot; border=&quot;1&quot; frameborder=&quot;1&quot;&gt;
+      &lt;!-- Navigation Frame --&gt;
+      &lt;frame src=&quot;nav.pl?page=menu&amp;in=flights&quot; name=&quot;navbar&quot; 
+            marginheight=&quot;2&quot; marginwidth=&quot;2&quot; norseize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+      &lt;!-- Reservation Frame --&gt;
+      &lt;frame src=&quot;reservations.pl?page=welcome&quot; name=&quot;info&quot; 
+            marginheight=&quot;2&quot; marginwidth=&quot;2&quot; norseize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+   &lt;/frameset&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/welcome.pl?page=search</java.net.URL>
+</httpSample>
+<httpSample t="301" it="0" lt="296" ct="2" ts="1702637621424" s="true" lb="-33 /cgi-bin/nav.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="1713" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:41 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 14 Dec 2023 10:53:41 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/welcome.pl?page=search
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Web Tours Navigation Bar&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+
+&lt;style&gt;
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+&lt;/style&gt;
+
+&lt;BR&gt;&lt;BR&gt;&lt;center&gt;
+
+&lt;br clear=&quot;both&quot;/&gt;&lt;center&gt;&lt;A HREF=&quot;welcome.pl?page=search&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/in_flights.gif&quot; 
+ALT=&quot;Search Flights Button&quot;/&gt;&lt;/A&gt;
+&lt;br clear=&quot;both&quot;/&gt;&lt;A HREF=&quot;welcome.pl?page=itinerary&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/itinerary.gif&quot; 
+ALT=&quot;Itinerary Button&quot;/&gt;&lt;/A&gt;
+&lt;br clear=&quot;both&quot;/&gt;&lt;A HREF=&quot;welcome.pl?page=menus&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/home.gif&quot; 
+ALT=&quot;Home Button&quot;/&gt;&lt;/A&gt;
+&lt;br clear&gt;&lt;A HREF=&quot;welcome.pl?signOff=1&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/signoff.gif&quot; 
+ALT=&quot;SignOff Button&quot;/&gt;&lt;/A&gt;&lt;/center&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/nav.pl?page=menu&amp;in=flights</java.net.URL>
+</httpSample>
+<httpSample t="306" it="0" lt="300" ct="1" ts="1702637621425" s="true" lb="-34 /cgi-bin/reservations.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="4484" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:41 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 14 Dec 2023 10:53:41 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/welcome.pl?page=search
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Flight Selections&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+&lt;style&gt;blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}&lt;/style&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;h1&gt;&lt;font color=&quot;#003366&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;Find Flight&lt;/font&gt;&lt;/b&gt;&lt;/h1&gt;&lt;blockquote&gt;
+&lt;form method=&quot;post&quot; action=&quot;reservations.pl&quot; enctype=&quot;application/x-www-form-urlencoded&quot; onsubmit=&quot;&quot; name=&quot;DestForm&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;advanceDiscount&quot; value=&quot;0&quot;  /&gt;&lt;table border=&quot;0&quot; cellspacing=&quot;5&quot;&gt;&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Departure City :&lt;/td&gt; &lt;td&gt;&lt;select name=&quot;depart&quot; &gt;
+&lt;option selected=&quot;selected&quot; value=&quot;Denver&quot;&gt;Denver&lt;/option&gt;
+&lt;option value=&quot;Frankfurt&quot;&gt;Frankfurt&lt;/option&gt;
+&lt;option value=&quot;London&quot;&gt;London&lt;/option&gt;
+&lt;option value=&quot;Los Angeles&quot;&gt;Los Angeles&lt;/option&gt;
+&lt;option value=&quot;Paris&quot;&gt;Paris&lt;/option&gt;
+&lt;option value=&quot;Portland&quot;&gt;Portland&lt;/option&gt;
+&lt;option value=&quot;San Francisco&quot;&gt;San Francisco&lt;/option&gt;
+&lt;option value=&quot;Seattle&quot;&gt;Seattle&lt;/option&gt;
+&lt;option value=&quot;Sydney&quot;&gt;Sydney&lt;/option&gt;
+&lt;option value=&quot;Zurich&quot;&gt;Zurich&lt;/option&gt;
+&lt;/select&gt;&lt;/td&gt; &lt;td align=&quot;left&quot;&gt;Departure Date :&lt;/td&gt; &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;departDate&quot; value=&quot;12/16/2023&quot; size=&quot;10&quot; maxlength=&quot;10&quot; /&gt; 
+&lt;!-- Departure Date Applet --&gt;
+&lt;APPLET CODEBASE=&quot;/WebTours/classes/&quot; CODE=&quot;FormDateUpdate.class&quot; MAYSCRIPT Width=26 Height=28 BORDER=0&gt;
+   &lt;PARAM NAME=CalenderTitle  VALUE=&quot;Select Departure Date&quot;&gt;
+   &lt;PARAM NAME=HtmlFormIndex  VALUE=0&gt;
+   &lt;PARAM NAME=HtmlEditIndex  VALUE=2&gt;
+   &lt;PARAM NAME=AutoClose      VALUE=1&gt;
+   &lt;PARAM NAME=Label          VALUE=&quot;...&quot;&gt;
+&lt;/APPLET&gt;
+&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Arrival City :&lt;/td&gt; &lt;td&gt;&lt;select name=&quot;arrive&quot; &gt;
+&lt;option selected=&quot;selected&quot; value=&quot;Denver&quot;&gt;Denver&lt;/option&gt;
+&lt;option value=&quot;Frankfurt&quot;&gt;Frankfurt&lt;/option&gt;
+&lt;option value=&quot;London&quot;&gt;London&lt;/option&gt;
+&lt;option value=&quot;Los Angeles&quot;&gt;Los Angeles&lt;/option&gt;
+&lt;option value=&quot;Paris&quot;&gt;Paris&lt;/option&gt;
+&lt;option value=&quot;Portland&quot;&gt;Portland&lt;/option&gt;
+&lt;option value=&quot;San Francisco&quot;&gt;San Francisco&lt;/option&gt;
+&lt;option value=&quot;Seattle&quot;&gt;Seattle&lt;/option&gt;
+&lt;option value=&quot;Sydney&quot;&gt;Sydney&lt;/option&gt;
+&lt;option value=&quot;Zurich&quot;&gt;Zurich&lt;/option&gt;
+&lt;/select&gt;&lt;/td&gt; &lt;td align=&quot;left&quot;&gt;Return Date :&lt;/td&gt; &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;returnDate&quot; value=&quot;12/17/2023&quot; size=&quot;10&quot; maxlength=&quot;10&quot; /&gt; 
+&lt;!-- Return Date Applet --&gt;
+&lt;APPLET CODEBASE=&quot;/WebTours/classes/&quot; CODE=&quot;FormDateUpdate.class&quot; MAYSCRIPT Width=26 Height=28 BORDER=0&gt;
+   &lt;PARAM NAME=CalenderTitle  VALUE=&quot;Select Return Date&quot;&gt;
+   &lt;PARAM NAME=HtmlFormIndex  VALUE=0&gt;
+   &lt;PARAM NAME=HtmlEditIndex  VALUE=4&gt;
+   &lt;PARAM NAME=AutoClose      VALUE=1&gt;
+   &lt;PARAM NAME=Label          VALUE=&quot;...&quot;&gt;
+&lt;/APPLET&gt;
+&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;No. of Passengers : &lt;/td&gt; &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;numPassengers&quot; value=&quot;1&quot; size=&quot;3&quot; maxlength=&quot;8&quot; /&gt;&lt;/td&gt; &lt;td colspan=&quot;2&quot;&gt;&lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;roundtrip&quot; value=&quot;on&quot; /&gt;Roundtrip ticket&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;Seating Preference&lt;/td&gt; &lt;td /&gt; &lt;td&gt;Type of Seat&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;seatPref&quot; value=&quot;Aisle&quot; /&gt;Aisle&lt;/label&gt;&lt;br /&gt; &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;seatPref&quot; value=&quot;Window&quot; /&gt;Window&lt;/label&gt;&lt;br /&gt; &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;seatPref&quot; value=&quot;None&quot; checked=&quot;checked&quot; /&gt;None&lt;/label&gt;&lt;br /&gt;&lt;/td&gt; &lt;td /&gt; &lt;td&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;seatType&quot; value=&quot;First&quot; /&gt;First&lt;/label&gt;&lt;br /&gt; &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;seatType&quot; value=&quot;Business&quot; /&gt;Business&lt;/label&gt;&lt;br /&gt; &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;seatType&quot; value=&quot;Coach&quot; checked=&quot;checked&quot; /&gt;Coach&lt;/label&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td height=&quot;10&quot; /&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td align=&quot;center&quot; colspan=&quot;4&quot;&gt;&lt;input type=&quot;image&quot; name=&quot;findFlights&quot; src=&quot;/WebTours/images/button_next.gif&quot; border=&quot;0&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;div&gt;&lt;input type=&quot;hidden&quot; name=&quot;.cgifields&quot; value=&quot;roundtrip&quot;  /&gt;&lt;input type=&quot;hidden&quot; name=&quot;.cgifields&quot; value=&quot;seatType&quot;  /&gt;&lt;input type=&quot;hidden&quot; name=&quot;.cgifields&quot; value=&quot;seatPref&quot;  /&gt;&lt;/div&gt;&lt;/form&gt;
+&lt;/blockquote&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/reservations.pl?page=welcome</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="location.services.mozilla.com:443" rc="" rm="Connection reset by peer&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2259" sc="1" ec="1" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT location.services.mozilla.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="111" it="0" lt="110" ct="86" ts="1702637632330" s="false" lb="-38 /" rc="400" rm="Bad Request" tn="" dt="text" de="UTF-8" by="468" sc="1" ec="1" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 273
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: websocket
+Sec-WebSocket-Protocol: push-notification
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: push.services.mozilla.com
+Sec-WebSocket-Key: qqhdjLdde7rorzD4AL3PJA==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">
+&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;
+&lt;title&gt;400 Bad Request&lt;/title&gt;
+&lt;/head&gt;
+&lt;body text=#000000 bgcolor=#ffffff&gt;
+&lt;h1&gt;Error: Bad Request&lt;/h1&gt;
+&lt;h2&gt;Your client has issued a malformed or illegal request.&lt;/h2&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;/body&gt;&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://push.services.mozilla.com/</java.net.URL>
+</httpSample>
+<httpSample t="378" it="0" lt="371" ct="3" ts="1702637638206" s="true" lb="-39 /cgi-bin/reservations.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="2667" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:53:58 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 14 Dec 2023 10:53:58 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://192.168.2.82:1080/cgi-bin/reservations.pl?page=welcome
+Accept-Language: en-US,en;q=0.5
+Origin: http://192.168.2.82:1080
+DNT: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Sec-GPC: 1
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Content-Length: 237
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Flight Selections&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+&lt;style&gt;blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}&lt;/style&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;h1&gt;&lt;font color=&quot;#003366&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;Find Flight&lt;/font&gt;&lt;/b&gt;&lt;/h1&gt;&lt;blockquote&gt;
+&lt;form method=&quot;post&quot; action=&quot;reservations.pl&quot; enctype=&quot;application/x-www-form-urlencoded&quot;&gt;
+
+&lt;center&gt;
+&lt;!-- From Paris (4) To Seattle (7) --&gt;
+&lt;table cellspacing=&quot;2&quot; border=&quot;0&quot; width=&quot;50%&quot;&gt;
+&lt;blockquote&gt;Flight departing from &lt;B&gt;Paris&lt;/B&gt; to &lt;B&gt;Seattle&lt;/B&gt; on &lt;B&gt;12/16/2023&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;tr bgcolor=&quot;#5E7884&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;white&quot;&gt;&lt;B&gt;Flight&lt;/B&gt;&lt;/font&gt;
+      		&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;white&quot;&gt;&lt;B&gt;Departure time&lt;/B&gt;
+      		&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;white&quot;&gt;&lt;B&gt;Cost&lt;/B&gt;
+&lt;tr bgcolor=&quot;#EFF2F7&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;outboundFlight&quot; value=&quot;470;598;12/16/2023&quot; checked=&quot;checked&quot; &gt;Blue Sky Air 470&lt;td align=&quot;center&quot;&gt;8am&lt;td align=&quot;center&quot;&gt;$ 598&lt;/TD&gt;&lt;/TR&gt;&lt;tr bgcolor=&quot;#EFF2F7&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;outboundFlight&quot; value=&quot;471;533;12/16/2023&quot;&gt;Blue Sky Air 471&lt;td align=&quot;center&quot;&gt;1pm&lt;td align=&quot;center&quot;&gt;$ 533&lt;/TD&gt;&lt;/TR&gt;&lt;tr bgcolor=&quot;#EFF2F7&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;outboundFlight&quot; value=&quot;472;565;12/16/2023&quot;&gt;Blue Sky Air 472&lt;td align=&quot;center&quot;&gt;5pm&lt;td align=&quot;center&quot;&gt;$ 565&lt;/TD&gt;&lt;/TR&gt;&lt;tr bgcolor=&quot;#EFF2F7&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;outboundFlight&quot; value=&quot;473;489;12/16/2023&quot;&gt;Blue Sky Air 473&lt;td align=&quot;center&quot;&gt;11pm&lt;td align=&quot;center&quot;&gt;$ 489&lt;/TD&gt;&lt;/TR&gt;&lt;/table&gt;
+
+&lt;input type=&quot;hidden&quot; name=&quot;numPassengers&quot; value=&quot;1&quot;  /&gt;&lt;input type=&quot;hidden&quot; name=&quot;advanceDiscount&quot; value=&quot;0&quot;  /&gt;&lt;input type=&quot;hidden&quot; name=&quot;seatType&quot; value=&quot;Coach&quot;  /&gt;&lt;input type=&quot;hidden&quot; name=&quot;seatPref&quot; value=&quot;None&quot;  /&gt;
+&lt;P&gt;&lt;center&gt;&lt;table width=80% cellspacing=1&gt;&lt;tr&gt;&lt;td align=center&gt;
+&lt;input type=&quot;image&quot; name=&quot;reserveFlights&quot; src=&quot;/WebTours/images/button_next.gif&quot; border=&quot;0&quot; /&gt;
+&lt;td&gt;&amp;nbsp;&lt;td align=center&gt;&lt;/table&gt;&lt;/center&gt;&lt;/form&gt;&lt;/center&gt;
+&lt;/blockquote&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">advanceDiscount=0&amp;depart=Paris&amp;departDate=12%2F16%2F2023&amp;arrive=Seattle&amp;returnDate=12%2F17%2F2023&amp;numPassengers=1&amp;seatPref=None&amp;seatType=Coach&amp;findFlights.x=38&amp;findFlights.y=11&amp;.cgifields=roundtrip&amp;.cgifields=seatType&amp;.cgifields=seatPref</queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/reservations.pl</java.net.URL>
+</httpSample>
+<httpSample t="300" it="0" lt="294" ct="2" ts="1702637647249" s="true" lb="-40 /cgi-bin/reservations.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="2929" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:54:07 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 14 Dec 2023 10:54:07 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://192.168.2.82:1080/cgi-bin/reservations.pl
+Accept-Language: en-US,en;q=0.5
+Origin: http://192.168.2.82:1080
+DNT: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Sec-GPC: 1
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Content-Length: 143
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Flight Reservation&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+&lt;style&gt;blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}&lt;/style&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;h1&gt;&lt;font color=&quot;#003366&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;Payment Details&lt;/font&gt;&lt;/b&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;form method=&quot;post&quot; action=&quot;reservations.pl&quot; enctype=&quot;application/x-www-form-urlencoded&quot; onsubmit=&quot;return true ;&quot;&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td align=&quot;right&quot;&gt;First Name : &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;firstName&quot; value=&quot;Jojo&quot; size=&quot;15&quot; /&gt;&lt;tr&gt;&lt;td align=&quot;right&quot;&gt;Last Name : &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;lastName&quot; value=&quot;Bean&amp;#10;&quot; size=&quot;15&quot; /&gt;&lt;tr&gt;&lt;td align=&quot;right&quot;&gt;Street Address : &lt;td colspan=&quot;3&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;address1&quot;  size=&quot;30&quot; /&gt;&lt;tr&gt;&lt;td align=&quot;right&quot;&gt;City/State/Zip : &lt;td colspan=&quot;3&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;address2&quot;  size=&quot;30&quot; /&gt;&lt;tr&gt;&lt;td align=&quot;right&quot;&gt;Passenger Names : &lt;td colspan=&quot;3&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;pass1&quot; value=&quot;Jojo Bean&amp;#10;&quot; size=&quot;30&quot; /&gt;&lt;tr&gt;&lt;td height=&quot;10&quot;&gt;&lt;tr&gt;&lt;td height=&quot;10&quot; align=&quot;center&quot; colspan=&quot;4&quot;&gt;Total for 1 ticket(s) is = $ 533&lt;tr&gt;&lt;td align=&quot;right&quot;&gt;Credit Card : &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;creditCard&quot;  size=&quot;20&quot; maxlength=&quot;20&quot; /&gt;&lt;td align=&quot;right&quot;&gt;Exp Date : &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;expDate&quot; value=&quot;&amp;#10;&quot; size=&quot;5&quot; maxlength=&quot;5&quot; /&gt;&lt;tr&gt;&lt;TD&gt;&lt;td colspan=&quot;3&quot; align=&quot;left&quot;&gt;&lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;saveCC&quot; value=&quot;on&quot; /&gt;Save this Credit Card Information&lt;/label&gt;&lt;input type=&quot;hidden&quot; name=&quot;oldCCOption&quot; value=&quot;&quot;  /&gt;&lt;/table&gt;&lt;input type=&quot;hidden&quot; name=&quot;numPassengers&quot; value=&quot;1&quot;  /&gt;&lt;input type=&quot;hidden&quot; name=&quot;seatType&quot; value=&quot;Coach&quot;  /&gt;&lt;input type=&quot;hidden&quot; name=&quot;seatPref&quot; value=&quot;None&quot;  /&gt;&lt;input type=&quot;hidden&quot; name=&quot;outboundFlight&quot; value=&quot;471;533;12/16/2023&quot;  /&gt;&lt;input type=&quot;hidden&quot; name=&quot;advanceDiscount&quot; value=&quot;0&quot;  /&gt;&lt;input type=&quot;hidden&quot; name=&quot;returnFlight&quot; value=&quot;&quot;  /&gt;&lt;input type=&quot;hidden&quot; name=&quot;JSFormSubmit&quot; value=&quot;off&quot;  /&gt;&lt;center&gt;&lt;table width=80% cellspacing=1&gt;&lt;tr&gt;&lt;td align=center&gt;
+&lt;input type=&quot;image&quot; name=&quot;buyFlights&quot; src=&quot;/WebTours/images/button_next.gif&quot; border=&quot;0&quot; /&gt;&lt;div&gt;&lt;input type=&quot;hidden&quot; name=&quot;.cgifields&quot; value=&quot;saveCC&quot;  /&gt;&lt;/div&gt;&lt;/form&gt;
+&lt;td&gt;&amp;nbsp;&lt;td align=center&gt;&lt;form method=&quot;post&quot; action=&quot;reservations.pl&quot; enctype=&quot;application/x-www-form-urlencoded&quot; onsubmit=&quot;void(0);&quot;&gt;
+&lt;/form&gt;&lt;/table&gt;&lt;/center&gt;&lt;/blockquote&gt;
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">outboundFlight=471%3B533%3B12%2F16%2F2023&amp;numPassengers=1&amp;advanceDiscount=0&amp;seatType=Coach&amp;seatPref=None&amp;reserveFlights.x=56&amp;reserveFlights.y=9</queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/reservations.pl</java.net.URL>
+</httpSample>
+<httpSample t="260" it="0" lt="258" ct="172" ts="1702637661134" s="true" lb="-44 /v4/threatListUpdates:fetch" rc="200" rm="OK" tn="" dt="text" de="" by="2732" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Content-Type: application/x-protobuf
+Content-Disposition: attachment
+Date: Fri, 15 Dec 2023 10:54:20 GMT
+Server: scaffolding on HTTPServer2
+Content-Length: 2365
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+X-HTTP-Method-Override: POST
+Pragma: no-cache
+Accept: */*
+Host: safebrowsing.googleapis.com
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">
+&#x96;&#xe;&#x8;&#x5;&#x10;&#x1;&#x18;&#x1; &#x1;*¸&#xb;&#x8;&#x2;&quot;³&#xb;&#x8;&#x89;À±&#x2;&#x10;&#x17;&#x18;Õ&#x3;&quot;¦&#xb;î_qÎw]Èìæ9&#x19;-Æ*¸¼Wp&#x83;ýÁ&#x94;ÜéN&#x9b;ï&#x1e;/õÛ&#xd;É&#x91;8&#x8a;
+Y&#x95;&#x14;èÆ5èë&#x93;&#x98;Â&#xd;	&#x96;/°&#x1c;ëÏ&#xc;&#x7;a&gt;/·PÓMê&#x86;;|Kÿ0!ÙÌ/½&#x4;Ä&#x8c;&#x17;&#x8f;úà³#´vô&#x93;Ù\&#x81;åiÅwoân&#x93;&#x13;½&#x98;Éz&#x99;&#x86;&#x92;Ä&#x1;2ø|&quot;´&#x0;&#x96;44ÊúþÛíÈ&#x80;Ï]&#x1f;ö¡«{8&#x0;·&#x93;ÄýÒór?+ö&#xd;ù½&#x5;;&#xb;ãúF&#x96;sùa#µVrº	ÑSØ?¶í&#x1a;&#x80;­&#x4;Eý&amp;&#x1c;!}&gt;?êN? &#x11;&#x1f;Fü&#x8e;1	ò8&#x81;1&#x8a;á&#xb;&#x82;ê&#x17;&#xd;&#x9d;&#xd;8&#x13;Y ¢M&#xb;[F,éíÂÔiµqTzéGµ´&#x84;wckÎW&quot;ä&#x4;ó&#x1a;ç&#x16;l&#xc;L·&#x4;þ&#x15;&#x90;Ö&#x94;*&#x92;÷&#x81;&#x4;ç&#xe;&#x11;
+jà¢ãõZÏrûT&#x0;H¿&#xb;\VÜ,TÐîbóÒç&#x93;&#x90;&#x19;¶­IxäÏ
+&#xb;À&#xe;§ujîõ&#xb;cR¯¦¢Y¤¨p ×QËÈ&#x7;&#x2;Eëôo&#x11;û&#x86;Hïù&#x1c;º¡&#x3;5$ö?&#x95; &#x11;±­&#xe;&#x9b;dKÈ¡yÞ:Òñ¸«¼&#x87;&#x2;-L$~&quot;&amp;&#x84;$LÀ
+½ç&#x5;&#x93;Ó¹(&#x1d;Oê
+ú*\&#x91;5&#x91;&#x84;Õ&#x12;·&#x84;¿Þ&#x14;&#x10; &#x88;é&#x1a;Aß&#x16;e&#x16;o&#x9c;27¼||&#x7f;mI&#x97;C(&#x18;Wq2&#x1;h&#x14;ÜÁ|Ð-rÍhs[fºÃõÕV£KYsßNÀ+&#x1;%È&#x9b;ûÏf&#x11;&#x90;&#x91;*ëåä &#x81;TË&#x7f;¢&#x97;&#x3;Ö&#x1b;&amp;&#x7;}{Ù&#x94; &#x10;ØãÌ!H£ßË&#x85;&#xd;Ä&#x10;äÑª&#x19;°&#x0;èî¢ã}&#x7f;&#xb;&#x3;
+£&#x8;&#x93;¨&#x9f;~©,&#x89;pþ&amp;`_x&#x9d;Ã­S&#x1a;ø8º&#x5;9+4&quot;«&#xf; áéÝ(AFqÃçZü½÷&#x8c;óu&#x7f;È$ê&#x1e;&#x89;çôÒÆò2´E·°k&#x81;GÏ¯K &#x13;&#x12;&#x92;&#x0;Å&#x81;§&#x13;i]&#x8;vûæ&#x9f;_§Ù÷&#xf;ãq/È&#x8b;x&#x8d;°&#x0;&#x95;EV&apos;&lt;ÒýI&#x1d;&#x3;Î9&#x18;Ö&#x97;&amp;@§§õ,&#x10;ç#c&#x89;WÈÃ&#x8a;&apos;­c&#x9a;ð&#x7;èeñ{&#x10;fªx&apos;&#x8b;n &#x86;ïØ&#x10;&#x10;V&#x9c;y­ÁG&#x17;­Èx$»&#x13;&#x7f;7°ä&#x3;xë&#x5;«é&#x1a; Ï÷°Äÿà\.Rê×Úvu&#x80;&#x81;&#xd;&#x90;4eå5Å¹ &#x9c;&apos;SÖ5P~&#x5;¾#&#x8;ÓË&#x99;ðÁI3×&#x13;Þ¨&#x92;&#x80;Ý5]&#x10;K&#x94;&#x9f;s9ÖW&#x4;5=rB&#x7f;X&#x0;&#x85;kä#
+¾&#x91;&#x10;|&#x1f;&#x0;èüWi&#x1d;&#x2;s&#x91;TB_4,&#x13;ä&#x8f;&#x8b;&#x90;&#x19;¸ûh:EÙ0&#x13;ÛW&#x18;&#x8d;&#x89;2C&#x8a;*J&#x98; ´&#x5;¨øØÝë&#x18;*&#xf;x^¸L9Ù&#x98;J®Ó&#x1;$7UU&#x11;&#xf;,7wOn;¯í&#x95;&#x15;&#x97;&#xb;&#x89;Ò ÏYÒÃÕ+o&#x85;Ó½Ë&amp;&#x8a;&#x13;U&#x88;RÍ4Ü&#x5;ó&#xd;&amp;³&#x8d;h-&#x1;@½*&#x5;&#x93;&#x93;K&#x4;&#x82;g	F&#x8a;|u&#x1;?3¤&#x93;&#x99;&#x12;&#x8;ùx(&#x9e;tV&#x11;r&#x11;&#x92;&#x9c;lá§uÖwì&#x89;&#x91;Û_(Î(&#x2;ßcRp&#x1b;KìÅ[%pHÍÍ¯¤&amp;Y`!Ø&#x10;&#x99;L3Öpi~&#x16;*S&#x89;÷ê*wÉµÇ&#x16;&amp;Ï&#xd;}£&#xe;M&#x88;¬°¬&#x6;(È&#x89;#gcê&#x19;&#xd;W&#x9c;ÒZ¯¼Ó&#xe;Dqi&#x15;ä¼w£â¼zSdÓOÆ
+&#x11;¿Ö&#x1f;&#xd;ö(&#x16;E&#x1d;mví¼¬dC¦öMÑx»i&#x99;5
+£Þ&#xf;ATâ³Ær\dg&#xf;IÅò¢Hf×;&#x91;ÁÂ¯&#x8c;XÍÔQ&#x81;gk&#x96;&#x8c;&#x86;&#x91;QTÈQÛ{Ri.&#x83;@Á*&#x95;e,Zº-C¯eÞJK_ä%&#x4;ö!ï¤&#x1a;&#x1c;&#x1a;è&#x8f;¦&#x85;&#x19;ÅP,&#x8c;³G&#x9e;nè&#x87;Ý&#x9b;ß&#x9e;&#x15;ôÖk&#x8b;|&#x8;&#xb;2&#x80;3&#x8c;&#x93;&#x1d;Æå©&#x84;òS@ï&#x0;&#x1d;&#xb;&#x11;½&#x18;Q+¶çª@&#x98;ð^3ä`&#x1f;¾¹y&#x6;&#x96;&#xf;&#x19;&#x5;UÏì&#x97;R[-&#x80;¹â&#x8d;V&#x0;µFÂß&#x1b;toG¡Þ&#x91;mâph³~Óð&#x9d;&#x8;i=M©+°Ûár­&#x80; &#x9f;Ì&#x8;&#x1f;÷&#x1a;ú&#x89;&#xf;t+¨°Bëª
+gv1È(¿&#xd;Ì=&#x90;&#x93;&#x0;p;ì9û&#x95;&#x4;&#x0;N&#x18;&#x7f;®r=&#x7f;&#x8b;%&#xe;=CÞ&#x93;Gò&#xe;»&#x4;^®µ&#xd;#&#x98;qIhWQÏ
+fY&#x1a;8`&#x99;8&#x1a;&#xe;@U¿&#x10;}fðø&#x14;¼ù&#x1f;M¨.&#x19;&#xd;&#x8b;ré&#x93;Ï`ü¥&gt;&#x90;&lt;Ã&#x89;¸¢¿go@&#x8f;_&#x11;ÂX2sº#W&#x4;SlÝW&#x90;&#x91;&lt;äþÏQáÌ &#x1c;ü&#x8c;ý&amp;&#x80;T*&#x88;&#x8;,&lt;pk&#xc;µ&#x19;&#x89;éÑÀb&#x12;&#x11;t&#x15;9¦&#x12;&#x0;a&#x8a;ê»:!^&#x87;ðb&amp;&#x19;M&#x81;À­&#x15;g&gt;N&#x4;c&#x84;Á&#x9b;Ò&#x9b;&#x1;cHÊ~N²3È)\B&#x14;&#x94;&#x96;f=¬ÑY¡Õ&#x81;42&#x8f;&#x2;&#x8;&#x2;*&#x8a;&#x2;&#x8;&#x81;é&#x5;&#x10;&#xf;&#x18;w&quot;ÿ&#x1;Í£&#x8d;*Tí7&#x8e;i¸©þ4&#x2;L­&#xc;1®&#x1;/í(N&#x1a;&#x15;O2d:ØLZ²&#x81;&#x18;;¡|&#xe;£.&#x99;BÍ
+¿ó,E&#x1a;&#x82;&#x1d; ³&#x0;?&#x9f;S&#x6;F=Üêì2&#x99;&#x97;;¼U`¤u¸yÉÕ·²&#x85;¢Ê²4Ä=f&#x8e;o¦&#x83;Ü¹­x¥&#x96;	&#x93;Î&#xd;&#x16;$âCMôp2æ&amp;ä&#x8f;AÈk÷²HM¯&#x1f;&#x9e;H&#x82;&#x0;&#x95;#É×Ó4&#x8;&#x3;½	&#x5;Z&#x86;åÌzl&#x0;8uÖÆ9&#xc;&#x1;HM2gÿWÉg&#x87;&#xe;Ï::®£;&#x88;&#x4;5Mp¦Q&#x12;Ux²d&#x81;´&#x82;¥è&#x83;p	Þ&#x82;Ç¯A `&gt;Äy½V+&#x80;á&#x85;&#x8e;ÈäÝ½ÅT*&#x83;&#x9a;ìÕv&#x11;£Ï|%@Ï´ÁQ&#x8a;½!Ðä&amp;Z&quot;±&#x8;l&#x8;*3ão#=&#x90;-&#x99;Xx\*×d&#x97;:&#x1b;
+&#xd;&#x8;&#x5;&#x10;&#x6;&#x18;&#x1;&quot;&#x3;0010&#x1;&#x10;ü&#x9f;&#x14;&#x1a;&#x2;&#x18;&#x7;½æ&#x87;ÜB&quot;
+ ùiõìp&#x1;)j·r0µ5&#xc;&#x1c;L&#x1c;koôÑÎ²â&#x12;Ñ%_Rv&#x5;&#xf;
+·&#x1;&#x8;&#x1;&#x10;&#x1;&#x18;&#x1; &#x1;*A&#x8;&#x2;&quot;=&#x8;Ã&#x93;¾¡&#x1;&#x10;&#x1c;&#x18;&#xd;&quot;1­&#x8;&#x19;*&#x7f;¼Ó.NÁ&#x4;ô&amp;&#x94;&#x17;{¨&#x7f;÷o[&#x8;íê÷f»ðï&#x1;Äó9v»ãR&#x4;Ë«gµl+`}&#x81;Ý&#x0;2)&#x8;&#x2;*%&#x8;ù&#x2;&#x10;&#xb;&#x18;&#x11;&quot;&#x1c;U&#x9a;ê&#x8;pÚ1Wlé9îÃúÖÿ&#x89;,Ô&#x9f;EÖT&#x12;­ÁM&#x16;:&#x1b;
+&#xd;&#x8;&#x1;&#x10;&#x6;&#x18;&#x1;&quot;&#x3;0010&#x1;&#x10;ïÁ&#xd;&#x1a;&#x2;&#x18;&#x7;&#x0;&#x95;&#x1e;HB&quot;
+ Y&#x5;&#x93;ðà&#x90;zI&#x93;¯FmP.ù&#x9d;¾&#x1f;&#x1e;&#x15;&#x83;íø@&#x16;¡&#x6;7[9ÊA
+&#x9d;&#x1;&#x8;&#x3;&#x10;&#x1;&#x18;&#x1; &#x1;*.&#x8;&#x2;&quot;*&#x8;Üæ&#x9f;M&#x10;&#x1c;&#x18;&#x8;&quot;&#x1f;&#x93;Än¨&#x13;ñ&#x8e;&#x15;ÿ¶&#x85;&#x10;	(Ð¹Ôê&#x93;váßã9°ü+w	U&#x0;2&quot;&#x8;&#x2;*&#x1e;&#x8;¹
+&#x10;&#xb;&#x18;&#xd;&quot;&#x15;ðéú
+-&#x1c; &#x8c;&#x10;&#x1d;}&#x8a;ã&#x97;&#x1e;2&#x8b;&#x19;p&#x8e;&#x2;:&#x1b;
+&#xd;&#x8;&#x3;&#x10;&#x6;&#x18;&#x1;&quot;&#x3;0010&#x1;&#x10;&#x9e;¹&#xd;&#x1a;&#x2;&#x18;&#x7;&#x17;¦BÆB&quot;
+ dµc&#x14;©&#x1e;&#x7;ïuqY&quot;£&#x91;UÅÍs&#x88;&#x1b;ûß|&#x15;&#x1f;5Ì@;ù¥%
+t&#x8;&#x7;&#x10;&#x1;&#x18;&#x1; &#x1;*&#x1f;&#x8;&#x2;&quot;&#x1b;&#x8;ú&#x98;É&#x16;&#x10;&#x1c;&#x18;&#x4;&quot;&#x10;£û&#x1b;_ôh´5&#x97;º~^&#x9d;è&#xc;&#x3;2&#x8;&#x8;&#x2;*&#x4;&#x8;&#x9b;í&#x4;:&#x1b;
+&#xd;&#x8;&#x7;&#x10;&#x6;&#x18;&#x1;&quot;&#x3;0010&#x1;&#x10;ª&#x88;&#xe;&#x1a;&#x2;&#x18;&#x7;b¤mËB&quot;
+ £&#x1c;&#x92;µµåkñ7fTòv&#x83;&#x18;&#x8a;&#x13;ªpX%ñé©!µ&#x8d;/ewcò
+G&#x8;	&#x10;&#x1;&#x18;&#x1; &#x1;:&#x19;
+&#xd;&#x8;	&#x10;&#x6;&#x18;&#x1;&quot;&#x3;0010&#x1;&#x10;#&#x1a;&#x2;&#x18;&#x7;÷&#x3;]&#x94;B&quot;
+ ¤ã®bm©&#x8;nC&#x1f;{PL&#x83;&#x14;Ç&#x18;¾&#x91;à&#x9f;Í^¯&#xb;}[&#x10;Â&#x5;9&#x11;&#x12;	&#x8;&#x8b;&#xe;&#x10;&#x80;°õ¡&#x2;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?%24ct=application%2Fx-protobuf&amp;key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&amp;%24httpMethod=POST&amp;%24req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARD1nxQaAhgHtHwKuiICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEOzBDRoCGAcwT_k2IgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQnLkNGgIYB0CCCCwiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARCoiA4aAhgHm74BxiICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgH9wNdlCICIAIoAQ%3D%3D</java.net.URL>
+</httpSample>
+<httpSample t="81" it="0" lt="80" ct="60" ts="1702637672619" s="false" lb="-45 /" rc="400" rm="Bad Request" tn="" dt="text" de="UTF-8" by="468" sc="1" ec="1" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 273
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: websocket
+Sec-WebSocket-Protocol: push-notification
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: push.services.mozilla.com
+Sec-WebSocket-Key: dHD4fVdpJs6C8bDJjrpD+g==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">
+&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;
+&lt;title&gt;400 Bad Request&lt;/title&gt;
+&lt;/head&gt;
+&lt;body text=#000000 bgcolor=#ffffff&gt;
+&lt;h1&gt;Error: Bad Request&lt;/h1&gt;
+&lt;h2&gt;Your client has issued a malformed or illegal request.&lt;/h2&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;/body&gt;&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://push.services.mozilla.com/</java.net.URL>
+</httpSample>
+<httpSample t="310" it="0" lt="305" ct="3" ts="1702637674877" s="true" lb="-46 /cgi-bin/reservations.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="2807" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:54:34 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 14 Dec 2023 10:54:35 GMT
+Set-Cookie: MTUserInfo=firstName&amp;Jojo&amp;username&amp;jojo&amp;address2&amp;&amp;hash&amp;47&amp;address1&amp;&amp;lastName&amp;Bean%0A; path=/
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://192.168.2.82:1080/cgi-bin/reservations.pl
+Accept-Language: en-US,en;q=0.5
+Origin: http://192.168.2.82:1080
+DNT: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Sec-GPC: 1
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Content-Length: 308
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Reservation Made!&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+&lt;style&gt;blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}&lt;/style&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;h1&gt;&lt;font color=&quot;#003366&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;Invoice&lt;/font&gt;&lt;/b&gt;&lt;/h1&gt;&lt;blockquote&gt;
+&lt;CENTER&gt;
+&lt;small&gt;&lt;B&gt;Thank you for booking through Web Tours.&lt;/B&gt;&lt;/small&gt;
+&lt;BR/&gt;
+&lt;BR/&gt;
+&lt;!-- Customer Name header --&gt;
+&lt;Table width=&quot;85%&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; &gt;
+  &lt;TR bgcolor=&quot;#5E7884&quot;&gt;
+     &lt;TD colspan=&quot;2&quot; align=&quot;center&quot;&gt;
+        &lt;font color=&quot;white&quot;&gt;&lt;b&gt;JojoBean&apos;s Flight Invoice&lt;/b&gt;&lt;/font&gt;
+     &lt;/TD&gt;
+     &lt;TD width=&quot;160&quot; align=&quot;right&quot;&gt;
+         &lt;font color=&quot;white&quot;&gt;&lt;small&gt;Fri Dec 15 16:24:35 2023
+&lt;/small&gt;
+     &lt;/TD&gt;
+  &lt;/TR&gt;
+&lt;/Table&gt;
+
+&lt;Table width=&quot;85%&quot; border=&quot;0&quot; cellspacing=&quot;1&quot; &gt;
+&lt;!-- Flight Item header --&gt;
+  &lt;TR bgcolor=&quot;#EFF2F7&quot;&gt;
+     &lt;TD colspan=&quot;2&quot; align=&quot;left&quot;&gt;
+         Flights Reservation Requests:
+    &lt;/TD&gt;
+    &lt;TD align=&quot;center&quot;&gt;Cost
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+&lt;!-- Flight reserved --&gt;
+&lt;TR bgcolor=&quot;#EFF2F7&quot;&gt;
+    &lt;TD valign=&quot;top&quot;&gt;1.&lt;/TD&gt;
+    &lt;TD align=&quot;left&quot;&gt;
+       A Coach Class ticket
+ from Paris to Seattle.&lt;/u&gt;&lt;/b&gt;
+&lt;br/&gt;
+&lt;center&gt;
+       &lt;i&gt;
+          12/16/2023 :  1pm : Flight 471 leaves Paris  for Seattle.&lt;br&gt;
+       &lt;br/&gt;
+    &lt;/TD&gt;
+    &lt;TD valign=&quot;top&quot;&gt;
+         $533
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+&lt;!-- Total Cost --&gt;
+  &lt;TR bgcolor=&quot;#EFF2F7&quot;&gt;
+    &lt;TD&gt;*
+    &lt;/TD&gt;
+    &lt;TD &gt; Total Cost
+    &lt;/TD&gt;
+    &lt;TD&gt;
+       &lt;b&gt; $533 &lt;/b&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR bgcolor=&quot;#EFF2F7&quot;&gt;
+    &lt;TD&gt;-
+    &lt;/TD&gt;
+    &lt;TD &gt;
+       Total Charged to Credit Card # 987654321
+    &lt;/TD&gt;
+    &lt;TD&gt;
+       &lt;b&gt; $533 &lt;/b&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR bgcolor=&quot;#EFF2F7&quot;&gt;
+    &lt;TD&gt;*
+    &lt;/TD&gt;
+    &lt;TD &gt;
+        Credit Account Balance
+    &lt;/TD&gt;
+    &lt;TD&gt;
+       &lt;b&gt; $0.00 &lt;/b&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;&lt;/Table&gt;
+&lt;BR/&gt;
+&lt;Table width=&quot;85%&quot; border=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td align=right&gt;
+&lt;form method=&quot;post&quot; action=&quot;&quot; enctype=&quot;application/x-www-form-urlencoded&quot;&gt;
+&lt;input type=&quot;image&quot; name=&quot;Book Another&quot; src=&quot;/WebTours/images/bookanother.gif&quot; border=&quot;0&quot; /&gt;&lt;/form&gt;    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/Table&gt;
+
+&lt;/Center&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">firstName=Jojo&amp;lastName=Bean&amp;address1=hyderabad&amp;address2=TS&amp;pass1=Jojo+Bean&amp;creditCard=987654321&amp;expDate=1234&amp;oldCCOption=&amp;numPassengers=1&amp;seatType=Coach&amp;seatPref=None&amp;outboundFlight=471%3B533%3B12%2F16%2F2023&amp;advanceDiscount=0&amp;returnFlight=&amp;JSFormSubmit=off&amp;buyFlights.x=65&amp;buyFlights.y=12&amp;.cgifields=saveCC</queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/reservations.pl</java.net.URL>
+</httpSample>
+<httpSample t="253" it="0" lt="249" ct="1" ts="1702637684656" s="true" lb="-48 /cgi-bin/welcome.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="782" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:54:44 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/nav.pl?page=menu&amp;in=flights
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!-- 
+ User wants the intineraries.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ ---&gt;
+
+&lt;html&gt;
+&lt;title&gt;Web Tours&lt;/title&gt;
+   &lt;!-- Frame Set --&gt;
+   &lt;frameset cols=&quot;160,*&quot; border=&quot;1&quot; frameborder=&quot;1&quot;&gt;
+      &lt;!-- Navigation Frame --&gt;
+      &lt;frame src=&quot;nav.pl?page=menu&amp;in=itinerary&quot; name=&quot;navbar&quot; 
+            marginheight=&quot;2&quot; marginwidth=&quot;2&quot; noresize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+      &lt;!-- Itinerary Frame --&gt;
+      &lt;frame src=&quot;itinerary.pl&quot; name=&quot;info&quot; 
+            marginheight=&quot;2&quot; marginwidth=&quot;2&quot; noresize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+   &lt;/frameset&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;username&amp;jojo&amp;address2&amp;&amp;hash&amp;47&amp;address1&amp;&amp;lastName&amp;Bean%0A</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/welcome.pl?page=itinerary</java.net.URL>
+</httpSample>
+<httpSample t="241" it="0" lt="238" ct="1" ts="1702637684930" s="true" lb="-49 /cgi-bin/nav.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="1713" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:54:44 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 14 Dec 2023 10:54:45 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/welcome.pl?page=itinerary
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Web Tours Navigation Bar&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+
+&lt;style&gt;
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+&lt;/style&gt;
+
+&lt;BR&gt;&lt;BR&gt;&lt;center&gt;
+
+&lt;br clear=&quot;both&quot;/&gt;&lt;center&gt;&lt;A HREF=&quot;welcome.pl?page=search&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/flights.gif&quot; 
+ALT=&quot;Search Flights Button&quot;/&gt;&lt;/A&gt;
+&lt;br clear=&quot;both&quot;/&gt;&lt;A HREF=&quot;welcome.pl?page=itinerary&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/in_itinerary.gif&quot; 
+ALT=&quot;Itinerary Button&quot;/&gt;&lt;/A&gt;
+&lt;br clear=&quot;both&quot;/&gt;&lt;A HREF=&quot;welcome.pl?page=menus&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/home.gif&quot; 
+ALT=&quot;Home Button&quot;/&gt;&lt;/A&gt;
+&lt;br clear&gt;&lt;A HREF=&quot;welcome.pl?signOff=1&quot; TARGET=&quot;body&quot;&gt;&lt;IMG BORDER=&quot;0&quot; SRC=&quot;/WebTours/images/signoff.gif&quot; 
+ALT=&quot;SignOff Button&quot;/&gt;&lt;/A&gt;&lt;/center&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;username&amp;jojo&amp;address2&amp;&amp;hash&amp;47&amp;address1&amp;&amp;lastName&amp;Bean%0A</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/nav.pl?page=menu&amp;in=itinerary</java.net.URL>
+</httpSample>
+<httpSample t="264" it="0" lt="261" ct="1" ts="1702637684933" s="true" lb="-50 /cgi-bin/itinerary.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="2849" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:54:44 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 14 Dec 2023 10:54:45 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/welcome.pl?page=itinerary
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Flights List&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+&lt;style&gt;blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}&lt;/style&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;h1&gt;&lt;font color=&quot;#003366&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;Itinerary&lt;/font&gt;&lt;/b&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;form method=&quot;post&quot; action=&quot;itinerary.pl&quot; enctype=&quot;application/x-www-form-urlencoded&quot;&gt;
+&lt;center&gt;
+&lt;TABLE BORDER=&quot;0&quot; WIDTH=&quot;85%&quot; CELLSPACING=&quot;0&quot;&gt;
+&lt;TR bgcolor=&quot;#5E7884&quot;&gt;
+  &lt;TD colspan=&quot;4&quot; align=&quot;center&quot;&gt;&lt;font color=&quot;white&quot;&gt;&lt;B&gt;Jojo Bean
+ &apos;s Flight Transaction Summary&lt;/B&gt;&lt;/color&gt;&lt;/TD&gt;&lt;/TR&gt;
+
+&lt;!-- Flight #1 --&gt;
+&lt;TR bgcolor=&quot;#EFF2F7&quot;&gt;
+  &lt;TD width=&quot;5%&quot; rowspan=&quot;2&quot; align=&quot;left&quot; valign=&quot;top&quot;&gt;
+&lt;b&gt;
+&lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;1&quot; value=&quot;on&quot; /&gt;&lt;/label&gt;&lt;/font&gt;&lt;/b&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;flightID&quot; value=&quot;160054501-810-JB&quot;  /&gt;
+  &lt;/TD&gt;
+  &lt;TD width=&quot;45%&quot; valign=&quot;top&quot;&gt;
+      &lt;b&gt;&amp;nbsp;&amp;nbsp;A Coach class ticket for :&lt;/b&gt;&lt;br/&gt;
+      &lt;center&gt;&lt;table border=&quot;0&quot; width=&quot;85%&quot;&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;li&gt;&lt;i&gt;Jojo Bean
+      &lt;li&gt;&lt;i&gt;&lt;/i&gt;
+      &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;
+  &lt;/TD&gt;
+  &lt;TD width=&quot;5%&quot; &gt;.&lt;br/&gt;.&lt;br/&gt;.&lt;br/&gt;.&lt;/TD&gt;
+  &lt;TD width=&quot;45%&quot; valign=top&gt;&lt;b&gt;Invoice sent to:&lt;/b&gt;&lt;br/&gt;
+      &lt;center&gt;
+      &lt;Table width=&quot;80%&quot; cellspacing=&quot;0&quot; &gt; &lt;tr&gt; &lt;td&gt;
+          Jojo Bean
+&lt;br/&gt;
+          hyderabad&lt;br/&gt;
+          TS&lt;br/&gt;
+          &lt;br/&gt;
+          Total Charge: $ 533 &lt;BR/&gt; (CC: x-4321)
+      &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;
+      &lt;/center&gt;
+  &lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR bgcolor=&quot;#EFF2F7&quot;&gt;
+  &lt;TD COLSPAN=&quot;3&quot;&gt;
+  &lt;b&gt;Flight Details:&lt;/b&gt;&lt;BR/&gt;  &lt;center&gt;
+  12/16/2023
+ :  1pm : Flight 471 leaves Paris  for Seattle.&lt;br&gt;  &lt;/center&gt;
+  &lt;/TD&gt;
+&lt;/TR&gt;
+
+&lt;TR bgcolor=&quot;#EFF2F7&quot;&gt;
+  &lt;TD COLSPAN=&quot;4&quot;&gt;
+  &lt;hr/&gt;
+  &lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR&gt;
+   &lt;TD align=&quot;center&quot; COLSPAN=&quot;4&quot;&gt;
+   &lt;b&gt;A total of 1 scheduled flights.&lt;/font&gt;&lt;/b&gt;
+   &lt;/TD&gt;
+&lt;/TR&gt;
+&lt;/TABLE&gt;
+
+&lt;TABLE WIDTH=&quot;87%&quot; BORDER=&quot;0&quot; CELLSPACING=&quot;0&quot;&gt;
+&lt;TR&gt;
+&lt;TD align=&quot;left&quot; width=&quot;50%&quot; &gt;
+&lt;input type=&quot;image&quot; name=&quot;removeFlights&quot; src=&quot;/WebTours/images/cancelreservation.gif&quot; border=&quot;0&quot; /&gt;&lt;/TD&gt;
+&lt;TD align=&quot;right&quot; width=&quot;50%&quot; &gt;
+&lt;input type=&quot;image&quot; name=&quot;removeAllFlights&quot; src=&quot;/WebTours/images/cancelallreservations.gif&quot; border=&quot;0&quot; /&gt;&lt;/TD&gt;
+&lt;/TABLE&gt;
+
+&lt;div&gt;&lt;input type=&quot;hidden&quot; name=&quot;.cgifields&quot; value=&quot;1&quot;  /&gt;&lt;/div&gt;&lt;/form&gt;
+
+&lt;/center&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;username&amp;jojo&amp;address2&amp;&amp;hash&amp;47&amp;address1&amp;&amp;lastName&amp;Bean%0A</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/itinerary.pl</java.net.URL>
+</httpSample>
+<httpSample t="294" it="0" lt="290" ct="2" ts="1702637695722" s="true" lb="-54 /cgi-bin/welcome.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="989" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:54:55 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&amp;1702637696; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Thu, 14-Dec-2023 10:54:56 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/nav.pl?page=menu&amp;in=itinerary
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ ---&gt;
+
+&lt;html&gt;
+&lt;title&gt;Web Tours&lt;/title&gt;
+   &lt;!-- Frame Set --&gt;
+   &lt;frameset cols=&quot;160,*&quot; border=&quot;1&quot; frameborder=&quot;1&quot;&gt;
+      &lt;!-- Navigation Frame --&gt;
+      &lt;frame src=&quot;nav.pl?in=home&quot; name=&quot;navbar&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot; 
+            noresize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+      &lt;!-- Home Frame --&gt;
+      &lt;frame src=&quot;/WebTours/home.html&quot; name=&quot;info&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot; 
+            noresize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+   &lt;/frameset&gt;
+&lt;/html&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637595; MTUserInfo=firstName&amp;Jojo&amp;username&amp;jojo&amp;address2&amp;&amp;hash&amp;47&amp;address1&amp;&amp;lastName&amp;Bean%0A</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/welcome.pl?signOff=1</java.net.URL>
+</httpSample>
+<httpSample t="296" it="0" lt="290" ct="2" ts="1702637696048" s="true" lb="-55 /cgi-bin/nav.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="1719" sc="1" ec="0" ng="0" na="0" hn="CIN_Varaprasad">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 10:54:56 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 14 Dec 2023 10:54:56 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-GPC: 1
+Referer: http://192.168.2.82:1080/cgi-bin/welcome.pl?signOff=1
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.2.82:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Web Tours Navigation Bar&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+&lt;style&gt;
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+&lt;/style&gt;
+&lt;form method=&quot;post&quot; action=&quot;/cgi-bin/login.pl&quot; target=&quot;body&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;userSession&quot; value=&quot;137921.239044147HAQtDcDpHDDDDDDDtcfzfpQtct&quot;/&gt;
+&lt;table border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;small&gt;&amp;nbsp;Username&lt;/small&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;username&quot; value=&quot;&quot; size=&quot;14&quot; maxlength=&quot;14&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;small&gt;&amp;nbsp;Password&lt;/small&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;password&quot; name=&quot;password&quot; value=&quot;&quot; size=&quot;14&quot; maxlength=&quot;14&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;image&quot; name=&quot;login&quot; value=&quot;Login&quot; alt=&quot;Login&quot; border=&quot;1&quot; 
+src=&quot;/WebTours/images/mer_login.gif&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;input type=&quot;hidden&quot; name=&quot;JSFormSubmit&quot; value=&quot;off&quot;/&gt;
+&lt;/form&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1702637696</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.2.82:1080/cgi-bin/nav.pl?in=home</java.net.URL>
+</httpSample>
+
+</testResults>
