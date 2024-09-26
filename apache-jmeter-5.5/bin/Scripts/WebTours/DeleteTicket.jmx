@@ -51,10 +51,10 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <longProp name="ThreadGroup.start_time">1370726934000</longProp>
         <longProp name="ThreadGroup.end_time">1370726934000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -63,7 +63,7 @@
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTout_T01_Homepage" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTour_T01_Homepage" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -412,7 +412,7 @@ fw.close();
           </DebugSampler>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTout_T02_Login" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTour_T02_Login" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -698,7 +698,7 @@ fw.close();
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTout_T03_ClickFlights" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTour_T03_ClickFlights" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -1184,7 +1184,7 @@ fw.close();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTout_T04_SelectRandomDeptArrCities" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTour_T04_SelectRandomDeptArrCities" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -1374,7 +1374,7 @@ fw.close();
           </DebugSampler>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTout_T05_SelectRandomFlight" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTour_T05_SelectRandomFlight" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -1505,7 +1505,7 @@ fw.close();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTout_T06_PaymentDetails" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTour_T06_PaymentDetails" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -1713,7 +1713,7 @@ fw.close();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTout_T07_ClickItinerary" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTour_T07_ClickItinerary" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -1923,7 +1923,7 @@ fw.close();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTout_T08_CanelTicket" enabled="false">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTour_T08_CanelTicket" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -2045,7 +2045,7 @@ fw.close();
           </SyncTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTout_T09_Logoff" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTour_T09_Logoff" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
